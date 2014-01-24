@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'HeyzapAds.framework'
   s.public_header_files = 'HeyzapAds.framework/Headers/*.{h}'
 
-  s.frameworks = 'QuartzCore', 'CoreGraphics', 'CoreTelephony'
+  s.frameworks = 'QuartzCore', 'CoreGraphics', 'CoreTelephony', 'MediaPlayer'
   s.weak_frameworks = 'StoreKit','AdSupport'
   
 end
