@@ -22,6 +22,8 @@
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
 
+#import <HeyzapAds/HeyzapAds.h>
+
 #pragma mark - GameLayer
 
 //Game Layer controls all the game objects and handles pausing and game over.
@@ -209,6 +211,10 @@
     //pass score to ingame menu layer for display
     InGameMenuLayer *menuLayer = [[InGameMenuLayer alloc] initForGameOverMenuWithScore:score];
     [[[CCDirector sharedDirector] runningScene] addChild:menuLayer z:1];
+    
+    [HZInterstitialAd showForTag:nil completion:^(BOOL result, NSError *error) {
+        [HZInterstitialAd fetch];
+    }];
 }
 
 //unpause the game.

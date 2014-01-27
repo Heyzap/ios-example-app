@@ -12,8 +12,7 @@
 #import "InGameMenuLayer.h"
 #import "GameConfig.h"
 
-//bugsnag added to track exceptions.
-#import "Bugsnag.h"
+#import <HeyzapAds/HeyzapAds.h>
 
 @implementation AppController
 
@@ -21,8 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //register with Bugsnag.
-    [Bugsnag startBugsnagWithApiKey:@"b8dad58d5ad6d115cb747e28bf9048d6"];
+    [HZLog setDebugLevel:HZDebugLevelVerbose];
+    [HZInterstitialAd fetch];
     
 	// Create the main window
     window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
