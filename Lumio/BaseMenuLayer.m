@@ -132,14 +132,14 @@
             [sae preloadEffect:@"levelUpSoundEfect.wav"];
             [sae preloadEffect:@"purpleSoundEfect.wav"];
             [sae preloadEffect:@"warningSoundEfect.wav"];
-            [sae preloadBackgroundMusic:@"music.mp3"];
+//            [sae preloadBackgroundMusic:@"music.mp3"];
             
             //load sound and music settings and set the volumes accordingly.
             sae.effectsVolume = self.soundEffectsOn ? SOUND_EFFECTS_VOLUME : 0;
             sae.backgroundMusicVolume = self.musicOn ? MUSIC_VOLUME : 0;
             
             //play the background music, it will automatically loop.
-            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"music.mp3"];
+//            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"music.mp3"];
         }
         
         //create the menu circle generator.

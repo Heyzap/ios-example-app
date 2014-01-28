@@ -157,7 +157,6 @@
 		B0DBC81C16D961D70050F9CF /* NewMainMenuButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC81B16D961D70050F9CF /* NewMainMenuButton-hd.png */; };
 		B0DBC81E16D961DC0050F9CF /* NewMainMenuButtonSelected-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC81D16D961DC0050F9CF /* NewMainMenuButtonSelected-hd.png */; };
 		B0DBC82E16DA71D80050F9CF /* SettingsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DBC82D16DA71D80050F9CF /* SettingsLayer.m */; };
-		B0DBC83E16DA7B480050F9CF /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC83D16DA7B480050F9CF /* music.mp3 */; };
 		B0DBC84016DA7B8B0050F9CF /* OffButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC83F16DA7B8B0050F9CF /* OffButton-hd.png */; };
 		B0DBC84216DA7B8E0050F9CF /* OffButtonSelected-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC84116DA7B8E0050F9CF /* OffButtonSelected-hd.png */; };
 		B0DBC84416DA7B940050F9CF /* OnButton-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DBC84316DA7B940050F9CF /* OnButton-hd.png */; };
@@ -371,7 +370,6 @@
 		B0DBC81D16D961DC0050F9CF /* NewMainMenuButtonSelected-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NewMainMenuButtonSelected-hd.png"; path = "Lumio/Resources/HD Images/Menu/NewMainMenuButtonSelected-hd.png"; sourceTree = SOURCE_ROOT; };
 		B0DBC82C16DA71D30050F9CF /* SettingsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsLayer.h; path = Lumio/SettingsLayer.h; sourceTree = SOURCE_ROOT; };
 		B0DBC82D16DA71D80050F9CF /* SettingsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsLayer.m; path = Lumio/SettingsLayer.m; sourceTree = SOURCE_ROOT; };
-		B0DBC83D16DA7B480050F9CF /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = Lumio/Resources/Sounds/music.mp3; sourceTree = SOURCE_ROOT; };
 		B0DBC83F16DA7B8B0050F9CF /* OffButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OffButton-hd.png"; path = "Lumio/Resources/HD Images/Menu/OffButton-hd.png"; sourceTree = SOURCE_ROOT; };
 		B0DBC84116DA7B8E0050F9CF /* OffButtonSelected-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OffButtonSelected-hd.png"; path = "Lumio/Resources/HD Images/Menu/OffButtonSelected-hd.png"; sourceTree = SOURCE_ROOT; };
 		B0DBC84316DA7B940050F9CF /* OnButton-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "OnButton-hd.png"; path = "Lumio/Resources/HD Images/Menu/OnButton-hd.png"; sourceTree = SOURCE_ROOT; };
@@ -602,7 +600,6 @@
 				B00ABEB716D8332500DC78F4 /* levelUpSoundEffect.wav */,
 				B00ABEB916D8332900DC78F4 /* purpleSoundEffect.wav */,
 				B00ABEBB16D8332E00DC78F4 /* warningSoundEffect.wav */,
-				B0DBC83D16DA7B480050F9CF /* music.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -873,7 +870,6 @@
 				B0DBC81A16D961D20050F9CF /* NewRestartButtonSelected-hd.png in Resources */,
 				B0DBC81C16D961D70050F9CF /* NewMainMenuButton-hd.png in Resources */,
 				B0DBC81E16D961DC0050F9CF /* NewMainMenuButtonSelected-hd.png in Resources */,
-				B0DBC83E16DA7B480050F9CF /* music.mp3 in Resources */,
 				B0DBC84016DA7B8B0050F9CF /* OffButton-hd.png in Resources */,
 				B0DBC84216DA7B8E0050F9CF /* OffButtonSelected-hd.png in Resources */,
 				B0DBC84416DA7B940050F9CF /* OnButton-hd.png in Resources */,

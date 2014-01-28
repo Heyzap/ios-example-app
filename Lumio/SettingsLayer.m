@@ -131,7 +131,7 @@
     [SimpleAudioEngine sharedEngine].backgroundMusicVolume = newSetting ? MUSIC_VOLUME : SILENT;
     
     //restart the music if it is turned back on.
-    if (newSetting) [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"music.mp3"];
+//    if (newSetting) [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"music.mp3"];
 }
 
 - (void)backwardsButtonTapped:(id)sender
