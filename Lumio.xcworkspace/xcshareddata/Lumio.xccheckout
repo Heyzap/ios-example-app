@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>410EC046-9E70-4AB6-A161-8B3D8F25BFD8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Lumio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6880DE1-4D74-4AE0-9CBF-929CBC5539BD</key>
+		<string>ssh://github.com/joannecdyer/lumio.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Lumio.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6880DE1-4D74-4AE0-9CBF-929CBC5539BD</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/joannecdyer/lumio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6880DE1-4D74-4AE0-9CBF-929CBC5539BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6880DE1-4D74-4AE0-9CBF-929CBC5539BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lumio</string>
+		</dict>
+	</array>
+</dict>
+</plist>
