@@ -1118,14 +1118,14 @@
 				GCC_PREFIX_HEADER = Lumio/Prefix.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Lumio/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
 				);
 				PRODUCT_NAME = Lumio;
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "arm64 armv7s";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1142,7 +1142,7 @@
 				GCC_PREFIX_HEADER = Lumio/Prefix.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Lumio/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -1150,7 +1150,7 @@
 				PRODUCT_NAME = Lumio;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = NO;
-				VALID_ARCHS = "arm64 armv7s";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1187,7 +1187,7 @@
 				GCC_PREFIX_HEADER = Lumio/Prefix.pch;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Lumio/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -1195,7 +1195,7 @@
 				PRODUCT_NAME = Lumio;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7s";
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AppStore;
