@@ -17,6 +17,8 @@
 	CCDirectorIOS	*director_;	// weak ref
 }
 
+extern const BOOL useVideo;
+
 @property (nonatomic, retain) UIWindow *window;
 @property (readonly) UINavigationController *navController;
 @property (readonly) CCDirectorIOS *director;

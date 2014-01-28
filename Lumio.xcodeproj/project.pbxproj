@@ -433,6 +433,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50EBAA70189854AB00336C1B /* Files Using Heyzap SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B00ABD9E16D826BD00DC78F4 /* AppDelegate.h */,
+				B00ABD9F16D826C200DC78F4 /* AppDelegate.m */,
+				B00ABDB016D827B000DC78F4 /* GameLayer.h */,
+				B00ABDB116D827B500DC78F4 /* GameLayer.m */,
+			);
+			name = "Files Using Heyzap SDK";
+			sourceTree = "<group>";
+		};
 		B00ABE0416D82C9800DC78F4 /* Game */ = {
 			isa = PBXGroup;
 			children = (
@@ -634,8 +645,7 @@
 		B01B28DF16AB2B5200CD538A /* Lumio */ = {
 			isa = PBXGroup;
 			children = (
-				B00ABD9E16D826BD00DC78F4 /* AppDelegate.h */,
-				B00ABD9F16D826C200DC78F4 /* AppDelegate.m */,
+				50EBAA70189854AB00336C1B /* Files Using Heyzap SDK */,
 				B00ABDA116D826DF00DC78F4 /* CCLayerWithTransparency.h */,
 				B00ABDA216D826E400DC78F4 /* CCLayerWithTransparency.m */,
 				B00ABDAA16D8278000DC78F4 /* IntroLayer.h */,
@@ -656,8 +666,6 @@
 				B0DBC8A916DC44580050F9CF /* HowToPlayMovementLayer.m */,
 				B0DBC8AB16DC445E0050F9CF /* HowToPlayPowerupLayer.h */,
 				B0DBC8AC16DC44620050F9CF /* HowToPlayPowerupLayer.m */,
-				B00ABDB016D827B000DC78F4 /* GameLayer.h */,
-				B00ABDB116D827B500DC78F4 /* GameLayer.m */,
 				B0DB62B116DE6B3100B25E19 /* ReadyLayer.h */,
 				B0DB62B216DE6B3600B25E19 /* ReadyLayer.m */,
 				B00ABDB316D827C100DC78F4 /* InGameMenuLayer.h */,

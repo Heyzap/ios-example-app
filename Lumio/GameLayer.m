@@ -212,9 +212,18 @@
     InGameMenuLayer *menuLayer = [[InGameMenuLayer alloc] initForGameOverMenuWithScore:score];
     [[[CCDirector sharedDirector] runningScene] addChild:menuLayer z:1];
     
-    [HZInterstitialAd showForTag:nil completion:^(BOOL result, NSError *error) {
-        [HZInterstitialAd fetch];
-    }];
+    
+    // Heyzap Ads
+    if (useVideo) {
+        [HZVideoAd showForTag:nil completion:^(BOOL result, NSError *error) {
+            [HZVideoAd fetch];
+        }];
+    } else {
+        [HZInterstitialAd showForTag:nil completion:^(BOOL result, NSError *error) {
+            [HZInterstitialAd fetch];
+        }];
+    }
+    
 }
 
 //unpause the game.

@@ -14,14 +14,22 @@
 
 #import <HeyzapAds/HeyzapAds.h>
 
+const BOOL useVideo = NO;
+
 @implementation AppController
 
 @synthesize window=window_, navController=navController_, director=director_;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Heyzap Ads
     [HZLog setDebugLevel:HZDebugLevelVerbose];
-    [HZInterstitialAd fetch];
+    
+    if (useVideo) {
+        [HZVideoAd fetch];
+    } else {
+        [HZInterstitialAd fetch];
+    }
     
 	// Create the main window
     window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
