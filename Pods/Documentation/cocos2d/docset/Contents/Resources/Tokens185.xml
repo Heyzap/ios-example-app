@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTouchDispatcher.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTouchDispatcher</TokenIdentifier>
+			<Abstract type="html">CCTouchDispatcher.
+Object that handles all the touch events.
+The dispatcher dispatches events to the registered TouchHandlers.
+There are 2 different type of touch handlers:
+   - Standard Touch Handlers
+   - Targeted Touch Handlers</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>
+			
+			<NodeRef refid="185"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/setDispatchEvents:</TokenIdentifier>
+			<Abstract type="html">Whether or not the events are going to be dispatched. Default: YES</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL dispatchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/dispatchEvents</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTouchDispatcher/dispatchEvents</TokenIdentifier>
+			<Abstract type="html">Whether or not the events are going to be dispatched. Default: YES</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL dispatchEvents</Declaration>
+			
+			
+			<Anchor>//api/name/dispatchEvents</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/addStandardDelegate:priority:</TokenIdentifier>
+			<Abstract type="html">Adds a standard touch delegate to the dispatcher&apos;s list.
+See StandardTouchDelegate description.
+IMPORTANT: The delegate will be retained.</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)addStandardDelegate:(id&lt;CCStandardTouchDelegate&gt;)delegate priority:(int)priority</Declaration>
+			
+			
+			<Anchor>//api/name/addStandardDelegate:priority:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/addTargetedDelegate:priority:swallowsTouches:</TokenIdentifier>
+			<Abstract type="html">Adds a targeted touch delegate to the dispatcher&apos;s list.
+See TargetedTouchDelegate description.
+IMPORTANT: The delegate will be retained.</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)addTargetedDelegate:(id&lt;CCTargetedTouchDelegate&gt;)delegate priority:(int)priority swallowsTouches:(BOOL)swallowsTouches</Declaration>
+			
+			
+			<Anchor>//api/name/addTargetedDelegate:priority:swallowsTouches:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/removeDelegate:</TokenIdentifier>
+			<Abstract type="html">Removes a touch delegate.
+The delegate will be released</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeDelegate:(id)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/removeDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/removeAllDelegates</TokenIdentifier>
+			<Abstract type="html">Removes all touch delegates, releasing all the delegates</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAllDelegates</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllDelegates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTouchDispatcher/setPriority:forDelegate:</TokenIdentifier>
+			<Abstract type="html">Changes the priority of a previously added delegate. The lower the number,
+the higher the priority</Abstract>
+			<DeclaredIn>CCTouchDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)setPriority:(int)priority forDelegate:(id)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/setPriority:forDelegate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTouchDispatcher/sharedDispatcher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (CCTouchDispatcher *)sharedDispatcher</Declaration>
+			
+			
+			<Anchor>//api/name/sharedDispatcher</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

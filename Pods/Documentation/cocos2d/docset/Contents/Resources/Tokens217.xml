@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionSplitCols.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionSplitCols</TokenIdentifier>
+			<Abstract type="html">CCTransitionSplitCols:
+The odd columns goes upwards while the even columns goes downwards.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="217"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionSplitCols/action</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>			
+			
+			<Declaration>- (CCActionInterval *)action</Declaration>
+			
+			
+			<Anchor>//api/name/action</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

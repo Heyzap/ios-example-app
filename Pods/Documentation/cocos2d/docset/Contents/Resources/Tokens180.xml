@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTiledGrid3DAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTiledGrid3DAction</TokenIdentifier>
+			<Abstract type="html">Base class for CCTiledGrid3D actions</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>
+			
+			<NodeRef refid="180"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3DAction/tile:</TokenIdentifier>
+			<Abstract type="html">returns the tile that belongs to a certain position of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccQuad3)tile:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/tile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3DAction/originalTile:</TokenIdentifier>
+			<Abstract type="html">returns the non-transformed tile that belongs to a certain position of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccQuad3)originalTile:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/originalTile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3DAction/setTile:coords:</TokenIdentifier>
+			<Abstract type="html">sets a new tile to a certain position of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTile:(ccGridSize)pos coords:(ccQuad3)coords</Declaration>
+			
+			
+			<Anchor>//api/name/setTile:coords:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionProgressVertical.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionProgressVertical</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTransitionProgress.h</DeclaredIn>
+			
+			<NodeRef refid="208"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

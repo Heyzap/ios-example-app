@@ -1,0 +1,686 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCEventDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">cocos2d 2.0 </a></h1>
+				<a id="developerHome" href="../index.html">Ricardo Quesada and Zynga Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCEventDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/flagsChanged:">&nbsp;&nbsp;&nbsp;&nbsp;- flagsChanged:</option>
+	
+	<option value="//api/name/keyDown:">&nbsp;&nbsp;&nbsp;&nbsp;- keyDown:</option>
+	
+	<option value="//api/name/keyUp:">&nbsp;&nbsp;&nbsp;&nbsp;- keyUp:</option>
+	
+	<option value="//api/name/mouseDown:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseDown:</option>
+	
+	<option value="//api/name/mouseDragged:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseDragged:</option>
+	
+	<option value="//api/name/mouseEntered:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseEntered:</option>
+	
+	<option value="//api/name/mouseExited:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseExited:</option>
+	
+	<option value="//api/name/mouseMoved:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseMoved:</option>
+	
+	<option value="//api/name/mouseUp:">&nbsp;&nbsp;&nbsp;&nbsp;- mouseUp:</option>
+	
+	<option value="//api/name/otherMouseDown:">&nbsp;&nbsp;&nbsp;&nbsp;- otherMouseDown:</option>
+	
+	<option value="//api/name/otherMouseDragged:">&nbsp;&nbsp;&nbsp;&nbsp;- otherMouseDragged:</option>
+	
+	<option value="//api/name/otherMouseUp:">&nbsp;&nbsp;&nbsp;&nbsp;- otherMouseUp:</option>
+	
+	<option value="//api/name/rightMouseDown:">&nbsp;&nbsp;&nbsp;&nbsp;- rightMouseDown:</option>
+	
+	<option value="//api/name/rightMouseDragged:">&nbsp;&nbsp;&nbsp;&nbsp;- rightMouseDragged:</option>
+	
+	<option value="//api/name/rightMouseUp:">&nbsp;&nbsp;&nbsp;&nbsp;- rightMouseUp:</option>
+	
+	<option value="//api/name/scrollWheel:">&nbsp;&nbsp;&nbsp;&nbsp;- scrollWheel:</option>
+	
+	<option value="//api/name/touchesBeganWithEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- touchesBeganWithEvent:</option>
+	
+	<option value="//api/name/touchesCancelledWithEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- touchesCancelledWithEvent:</option>
+	
+	<option value="//api/name/touchesEndedWithEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- touchesEndedWithEvent:</option>
+	
+	<option value="//api/name/touchesMovedWithEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- touchesMovedWithEvent:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/flagsChanged:">flagsChanged:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keyDown:">keyDown:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keyUp:">keyUp:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseDown:">mouseDown:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseDragged:">mouseDragged:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseEntered:">mouseEntered:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseExited:">mouseExited:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseMoved:">mouseMoved:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mouseUp:">mouseUp:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/otherMouseDown:">otherMouseDown:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/otherMouseDragged:">otherMouseDragged:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/otherMouseUp:">otherMouseUp:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rightMouseDown:">rightMouseDown:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rightMouseDragged:">rightMouseDragged:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rightMouseUp:">rightMouseUp:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scrollWheel:">scrollWheel:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/touchesBeganWithEvent:">touchesBeganWithEvent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/touchesCancelledWithEvent:">touchesCancelledWithEvent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/touchesEndedWithEvent:">touchesEndedWithEvent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/touchesMovedWithEvent:">touchesMovedWithEvent:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCEventDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCEventDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCGLView.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseDown:">&ndash;&nbsp;mouseDown:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseUp:">&ndash;&nbsp;mouseUp:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseMoved:">&ndash;&nbsp;mouseMoved:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseDragged:">&ndash;&nbsp;mouseDragged:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rightMouseDown:">&ndash;&nbsp;rightMouseDown:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rightMouseDragged:">&ndash;&nbsp;rightMouseDragged:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rightMouseUp:">&ndash;&nbsp;rightMouseUp:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/otherMouseDown:">&ndash;&nbsp;otherMouseDown:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/otherMouseDragged:">&ndash;&nbsp;otherMouseDragged:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/otherMouseUp:">&ndash;&nbsp;otherMouseUp:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scrollWheel:">&ndash;&nbsp;scrollWheel:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseEntered:">&ndash;&nbsp;mouseEntered:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mouseExited:">&ndash;&nbsp;mouseExited:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keyDown:">&ndash;&nbsp;keyDown:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keyUp:">&ndash;&nbsp;keyUp:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/flagsChanged:">&ndash;&nbsp;flagsChanged:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/touchesBeganWithEvent:">&ndash;&nbsp;touchesBeganWithEvent:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/touchesMovedWithEvent:">&ndash;&nbsp;touchesMovedWithEvent:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/touchesEndedWithEvent:">&ndash;&nbsp;touchesEndedWithEvent:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/touchesCancelledWithEvent:">&ndash;&nbsp;touchesCancelledWithEvent:</a></code>
+		
+	</span>
+	
+	<span class="task-item-suffix">required method</span>
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/flagsChanged:" title="flagsChanged:"></a>
+	<h3 class="subsubtitle method-title">flagsChanged:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)flagsChanged:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keyDown:" title="keyDown:"></a>
+	<h3 class="subsubtitle method-title">keyDown:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)keyDown:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keyUp:" title="keyUp:"></a>
+	<h3 class="subsubtitle method-title">keyUp:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)keyUp:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseDown:" title="mouseDown:"></a>
+	<h3 class="subsubtitle method-title">mouseDown:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseDown:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseDragged:" title="mouseDragged:"></a>
+	<h3 class="subsubtitle method-title">mouseDragged:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseDragged:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseEntered:" title="mouseEntered:"></a>
+	<h3 class="subsubtitle method-title">mouseEntered:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseEntered:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseExited:" title="mouseExited:"></a>
+	<h3 class="subsubtitle method-title">mouseExited:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseExited:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseMoved:" title="mouseMoved:"></a>
+	<h3 class="subsubtitle method-title">mouseMoved:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseMoved:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mouseUp:" title="mouseUp:"></a>
+	<h3 class="subsubtitle method-title">mouseUp:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mouseUp:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/otherMouseDown:" title="otherMouseDown:"></a>
+	<h3 class="subsubtitle method-title">otherMouseDown:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)otherMouseDown:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/otherMouseDragged:" title="otherMouseDragged:"></a>
+	<h3 class="subsubtitle method-title">otherMouseDragged:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)otherMouseDragged:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/otherMouseUp:" title="otherMouseUp:"></a>
+	<h3 class="subsubtitle method-title">otherMouseUp:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)otherMouseUp:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rightMouseDown:" title="rightMouseDown:"></a>
+	<h3 class="subsubtitle method-title">rightMouseDown:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)rightMouseDown:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rightMouseDragged:" title="rightMouseDragged:"></a>
+	<h3 class="subsubtitle method-title">rightMouseDragged:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)rightMouseDragged:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rightMouseUp:" title="rightMouseUp:"></a>
+	<h3 class="subsubtitle method-title">rightMouseUp:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)rightMouseUp:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scrollWheel:" title="scrollWheel:"></a>
+	<h3 class="subsubtitle method-title">scrollWheel:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scrollWheel:(NSEvent *)<em>theEvent</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/touchesBeganWithEvent:" title="touchesBeganWithEvent:"></a>
+	<h3 class="subsubtitle method-title">touchesBeganWithEvent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)touchesBeganWithEvent:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/touchesCancelledWithEvent:" title="touchesCancelledWithEvent:"></a>
+	<h3 class="subsubtitle method-title">touchesCancelledWithEvent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)touchesCancelledWithEvent:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/touchesEndedWithEvent:" title="touchesEndedWithEvent:"></a>
+	<h3 class="subsubtitle method-title">touchesEndedWithEvent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)touchesEndedWithEvent:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/touchesMovedWithEvent:" title="touchesMovedWithEvent:"></a>
+	<h3 class="subsubtitle method-title">touchesMovedWithEvent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)touchesMovedWithEvent:(NSEvent *)<em>event</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Ricardo Quesada and Zynga Inc.. All rights reserved. (Last updated: 2013-04-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

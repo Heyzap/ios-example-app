@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCJumpTo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCJumpTo</TokenIdentifier>
+			<Abstract type="html">Moves a CCNode object to a parabolic position simulating a jump movement by modifying its position attribute.</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<NodeRef refid="89"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

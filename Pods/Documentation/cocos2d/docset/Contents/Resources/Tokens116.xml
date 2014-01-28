@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCParticleFire.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCParticleFire</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCParticleExamples.h</DeclaredIn>
+			
+			<NodeRef refid="116"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCWindow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCWindow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCWindow.h</DeclaredIn>
+			
+			<NodeRef refid="228"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCWindow/initWithFrame:fullscreen:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCWindow.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(NSRect)frame fullscreen:(BOOL)fullscreen</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:fullscreen:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

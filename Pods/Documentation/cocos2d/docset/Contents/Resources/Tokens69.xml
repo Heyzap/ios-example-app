@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCFadeOutTRTiles.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCFadeOutTRTiles</TokenIdentifier>
+			<Abstract type="html">CCFadeOutTRTiles action
+Fades out the tiles in a Top-Right direction</Abstract>
+			<DeclaredIn>CCActionTiledGrid.h</DeclaredIn>
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

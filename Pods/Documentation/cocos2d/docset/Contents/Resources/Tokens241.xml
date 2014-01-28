@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CDSoundSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CDSoundSource</TokenIdentifier>
+			<Abstract type="html">CDSoundSource is a wrapper around an OpenAL sound source.
+It allows you to manipulate properties such as pitch, gain, pan and looping while the
+sound is playing. CDSoundSource is based on the old CDSourceWrapper class but with much
+added functionality.</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>
+			
+			<NodeRef refid="241"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setPitch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float pitch</Declaration>
+			
+			
+			<Anchor>//api/name/pitch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/pitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float pitch</Declaration>
+			
+			
+			<Anchor>//api/name/pitch</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setGain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float gain</Declaration>
+			
+			
+			<Anchor>//api/name/gain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/gain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float gain</Declaration>
+			
+			
+			<Anchor>//api/name/gain</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setPan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float pan</Declaration>
+			
+			
+			<Anchor>//api/name/pan</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/pan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float pan</Declaration>
+			
+			
+			<Anchor>//api/name/pan</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setLooping:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL looping</Declaration>
+			
+			
+			<Anchor>//api/name/looping</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/looping</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL looping</Declaration>
+			
+			
+			<Anchor>//api/name/looping</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setIsPlaying:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) BOOL isPlaying</Declaration>
+			
+			
+			<Anchor>//api/name/isPlaying</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/isPlaying</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) BOOL isPlaying</Declaration>
+			
+			
+			<Anchor>//api/name/isPlaying</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setSoundId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) int soundId</Declaration>
+			
+			
+			<Anchor>//api/name/soundId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/soundId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) int soundId</Declaration>
+			
+			
+			<Anchor>//api/name/soundId</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setDurationInSeconds:</TokenIdentifier>
+			<Abstract type="html">Returns the duration of the attached buffer in seconds or a negative value if the buffer is invalid</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) float durationInSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationInSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/durationInSeconds</TokenIdentifier>
+			<Abstract type="html">Returns the duration of the attached buffer in seconds or a negative value if the buffer is invalid</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) float durationInSeconds</Declaration>
+			
+			
+			<Anchor>//api/name/durationInSeconds</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/setLastError:</TokenIdentifier>
+			<Abstract type="html">Stores the last error code that occurred. Check against ALNOERROR</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) ALenum lastError</Declaration>
+			
+			
+			<Anchor>//api/name/lastError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDSoundSource/lastError</TokenIdentifier>
+			<Abstract type="html">Stores the last error code that occurred. Check against ALNOERROR</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) ALenum lastError</Declaration>
+			
+			
+			<Anchor>//api/name/lastError</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDSoundSource/init:sourceIndex:soundEngine:</TokenIdentifier>
+			<Abstract type="html">Do not init yourself, get an instance from the sourceForSound factory method on CDSoundEngine</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (id)init:(ALuint)theSourceId sourceIndex:(int)index soundEngine:(CDSoundEngine *)engine</Declaration>
+			
+			
+			<Anchor>//api/name/init:sourceIndex:soundEngine:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

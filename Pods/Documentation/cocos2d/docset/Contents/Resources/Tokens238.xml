@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CDPropertyModifier.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CDPropertyModifier</TokenIdentifier>
+			<Abstract type="html">Base class for classes that modify properties such as pitch, pan and gain</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>
+			
+			<NodeRef refid="238"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/setStopTargetWhenComplete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL stopTargetWhenComplete</Declaration>
+			
+			
+			<Anchor>//api/name/stopTargetWhenComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDPropertyModifier/stopTargetWhenComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL stopTargetWhenComplete</Declaration>
+			
+			
+			<Anchor>//api/name/stopTargetWhenComplete</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/setStartValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float startValue</Declaration>
+			
+			
+			<Anchor>//api/name/startValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDPropertyModifier/startValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float startValue</Declaration>
+			
+			
+			<Anchor>//api/name/startValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/setEndValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float endValue</Declaration>
+			
+			
+			<Anchor>//api/name/endValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDPropertyModifier/endValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float endValue</Declaration>
+			
+			
+			<Anchor>//api/name/endValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/setInterpolationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) tCDInterpolationType interpolationType</Declaration>
+			
+			
+			<Anchor>//api/name/interpolationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDPropertyModifier/interpolationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) tCDInterpolationType interpolationType</Declaration>
+			
+			
+			<Anchor>//api/name/interpolationType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/init:interpolationType:startVal:endVal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (id)init:(id)theTarget interpolationType:(tCDInterpolationType)type startVal:(float)startVal endVal:(float)endVal</Declaration>
+			
+			
+			<Anchor>//api/name/init:interpolationType:startVal:endVal:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/modify:</TokenIdentifier>
+			<Abstract type="html">Set to a fractional value between 0 and 1 where 0 equals the start and 1 equals the end</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)modify:(float)t</Declaration>
+			
+			
+			<Anchor>//api/name/modify:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/_setTargetProperty:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)_setTargetProperty:(float)newVal</Declaration>
+			
+			
+			<Anchor>//api/name/_setTargetProperty:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/_getTargetProperty</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (float)_getTargetProperty</Declaration>
+			
+			
+			<Anchor>//api/name/_getTargetProperty</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/_stopTarget</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)_stopTarget</Declaration>
+			
+			
+			<Anchor>//api/name/_stopTarget</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDPropertyModifier/_allowableType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (Class)_allowableType</Declaration>
+			
+			
+			<Anchor>//api/name/_allowableType</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

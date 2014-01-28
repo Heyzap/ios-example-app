@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CDAudioInterruptProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CDAudioInterruptProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>
+			
+			<NodeRef refid="267"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDAudioInterruptProtocol/mute</TokenIdentifier>
+			<Abstract type="html">Is audio mute</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)mute</Declaration>
+			
+			
+			<Anchor>//api/name/mute</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDAudioInterruptProtocol/setMute:</TokenIdentifier>
+			<Abstract type="html">If YES then audio is silenced but not stopped, calls to start new audio will proceed but silently</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)setMute:(BOOL)muteValue</Declaration>
+			
+			
+			<Anchor>//api/name/setMute:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDAudioInterruptProtocol/enabled</TokenIdentifier>
+			<Abstract type="html">Is audio enabled</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDAudioInterruptProtocol/setEnabled:</TokenIdentifier>
+			<Abstract type="html">If NO then all audio is stopped and any calls to start new audio will be ignored</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)setEnabled:(BOOL)enabledValue</Declaration>
+			
+			
+			<Anchor>//api/name/setEnabled:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

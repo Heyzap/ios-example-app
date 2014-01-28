@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCMenuItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCMenuItem</TokenIdentifier>
+			<Abstract type="html">CCMenuItem base class</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>
+			
+			<NodeRef refid="100"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/setIsSelected:</TokenIdentifier>
+			<Abstract type="html">returns whether or not the item is selected</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSelected</Declaration>
+			
+			
+			<Anchor>//api/name/isSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMenuItem/isSelected</TokenIdentifier>
+			<Abstract type="html">returns whether or not the item is selected</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isSelected</Declaration>
+			
+			
+			<Anchor>//api/name/isSelected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItem/itemWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Creates a CCMenuItem with a target/selector.
+target/selector will be implemented using blocks.
+&quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithTarget:(id)target selector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithTarget:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItem/itemWithBlock:</TokenIdentifier>
+			<Abstract type="html">Creates a CCMenuItem with the specified block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithBlock:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/initWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCMenuItem with a target/selector</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(id)target selector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTarget:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/initWithBlock:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCMenuItem with the specified block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithBlock:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/rect</TokenIdentifier>
+			<Abstract type="html">Returns the outside box in points</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/rect</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/activate</TokenIdentifier>
+			<Abstract type="html">Activate the item</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)activate</Declaration>
+			
+			
+			<Anchor>//api/name/activate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/selected</TokenIdentifier>
+			<Abstract type="html">The item was selected (not activated), similar to &quot;mouse-over&quot;</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)selected</Declaration>
+			
+			
+			<Anchor>//api/name/selected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/unselected</TokenIdentifier>
+			<Abstract type="html">The item was unselected</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)unselected</Declaration>
+			
+			
+			<Anchor>//api/name/unselected</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/setIsEnabled:</TokenIdentifier>
+			<Abstract type="html">Enable or disabled the CCMenuItem</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setIsEnabled:(BOOL)enabled</Declaration>
+			
+			
+			<Anchor>//api/name/setIsEnabled:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/isEnabled</TokenIdentifier>
+			<Abstract type="html">Returns whether or not the CCMenuItem is enabled</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/isEnabled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/setBlock:</TokenIdentifier>
+			<Abstract type="html">Sets the block that is called when the item is tapped.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setBlock:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/setBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/setTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Sets the target and selector that is called when the item is tapped.
+target/selector will be implemented using blocks.
+&quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTarget:(id)target selector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/setTarget:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItem/cleanup</TokenIdentifier>
+			<Abstract type="html">cleanup event. It will release the block and call [super cleanup]</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)cleanup</Declaration>
+			
+			
+			<Anchor>//api/name/cleanup</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

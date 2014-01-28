@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCJumpBy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCJumpBy</TokenIdentifier>
+			<Abstract type="html">Moves a CCNode object simulating a parabolic jump movement by modifying its position attribute.</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCJumpBy/actionWithDuration:position:height:jumps:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithDuration:(ccTime)duration position:(CGPoint)position height:(ccTime)height jumps:(NSUInteger)jumps</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:position:height:jumps:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCJumpBy/initWithDuration:position:height:jumps:</TokenIdentifier>
+			<Abstract type="html">initializes the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDuration:(ccTime)duration position:(CGPoint)position height:(ccTime)height jumps:(NSUInteger)jumps</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:position:height:jumps:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

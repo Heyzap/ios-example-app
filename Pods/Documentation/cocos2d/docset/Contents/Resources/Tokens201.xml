@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionPageTurn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionPageTurn</TokenIdentifier>
+			<Abstract type="html">CCTransitionPageTurn transition.
+A transition which peels back the bottom right hand corner of a scene
+to transition to the scene beneath it simulating a page turn</Abstract>
+			<DeclaredIn>CCTransitionPageTurn.h</DeclaredIn>
+			
+			<NodeRef refid="201"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTransitionPageTurn/transitionWithDuration:scene:backwards:</TokenIdentifier>
+			<Abstract type="html">creates a base transition with duration and incoming scene
+if back is TRUE then the effect is reversed to appear as if the incoming
+scene is being turned from left over the outgoing scene</Abstract>
+			<DeclaredIn>CCTransitionPageTurn.h</DeclaredIn>			
+			
+			<Declaration>+ (id)transitionWithDuration:(ccTime)t scene:(CCScene *)s backwards:(BOOL)back</Declaration>
+			
+			
+			<Anchor>//api/name/transitionWithDuration:scene:backwards:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionPageTurn/initWithDuration:scene:backwards:</TokenIdentifier>
+			<Abstract type="html">creates a base transition with duration and incoming scene
+if back is TRUE then the effect is reversed to appear as if the incoming
+scene is being turned from left over the outgoing scene</Abstract>
+			<DeclaredIn>CCTransitionPageTurn.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDuration:(ccTime)t scene:(CCScene *)s backwards:(BOOL)back</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:scene:backwards:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionPageTurn/actionWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTransitionPageTurn.h</DeclaredIn>			
+			
+			<Declaration>- (CCActionInterval *)actionWithSize:(ccGridSize)vector</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithSize:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

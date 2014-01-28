@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CDLongAudioSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CDLongAudioSource</TokenIdentifier>
+			<Abstract type="html">CDLongAudioSource represents an audio source that has a long duration which makes
+it costly to load into memory for playback as an effect using CDSoundEngine. Examples
+include background music and narration tracks. The audio file may or may not be compressed.
+Bear in mind that current iDevices can only use hardware to decode a single compressed
+audio file at a time and playing multiple compressed files will result in a performance drop
+as software decompression will take place.</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>
+			
+			<NodeRef refid="236"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setAudioSourcePlayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) AVAudioPlayer *audioSourcePlayer</Declaration>
+			
+			
+			<Anchor>//api/name/audioSourcePlayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/audioSourcePlayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) AVAudioPlayer *audioSourcePlayer</Declaration>
+			
+			
+			<Anchor>//api/name/audioSourcePlayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setAudioSourceFilePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSString *audioSourceFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/audioSourceFilePath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/audioSourceFilePath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSString *audioSourceFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/audioSourceFilePath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setNumberOfLoops:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) NSInteger numberOfLoops</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfLoops</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/numberOfLoops</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) NSInteger numberOfLoops</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfLoops</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setVolume:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/volume</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) float volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) id&lt;CDLongAudioSourceDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (assign) id&lt;CDLongAudioSourceDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/setBackgroundMusic:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL backgroundMusic</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundMusic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CDLongAudioSource/backgroundMusic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, nonatomic) BOOL backgroundMusic</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundMusic</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/load:</TokenIdentifier>
+			<Abstract type="html">Loads the file into the audio source</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)load:(NSString *)filePath</Declaration>
+			
+			
+			<Anchor>//api/name/load:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/play</TokenIdentifier>
+			<Abstract type="html">Plays the audio source</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)play</Declaration>
+			
+			
+			<Anchor>//api/name/play</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/stop</TokenIdentifier>
+			<Abstract type="html">Stops playing the audio soruce</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/pause</TokenIdentifier>
+			<Abstract type="html">Pauses the audio source</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/rewind</TokenIdentifier>
+			<Abstract type="html">Rewinds the audio source</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)rewind</Declaration>
+			
+			
+			<Anchor>//api/name/rewind</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/resume</TokenIdentifier>
+			<Abstract type="html">Resumes playing the audio source if it was paused</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)resume</Declaration>
+			
+			
+			<Anchor>//api/name/resume</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDLongAudioSource/isPlaying</TokenIdentifier>
+			<Abstract type="html">Returns whether or not the audio source is playing</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isPlaying</Declaration>
+			
+			
+			<Anchor>//api/name/isPlaying</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

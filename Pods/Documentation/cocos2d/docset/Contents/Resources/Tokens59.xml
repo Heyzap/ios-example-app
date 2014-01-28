@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCEaseRateAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCEaseRateAction</TokenIdentifier>
+			<Abstract type="html">Base class for Easing actions with rate parameters</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEaseRateAction/setRate:</TokenIdentifier>
+			<Abstract type="html">rate value for the actions</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) float rate</Declaration>
+			
+			
+			<Anchor>//api/name/rate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCEaseRateAction/rate</TokenIdentifier>
+			<Abstract type="html">rate value for the actions</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) float rate</Declaration>
+			
+			
+			<Anchor>//api/name/rate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCEaseRateAction/actionWithAction:rate:</TokenIdentifier>
+			<Abstract type="html">Creates the action with the inner action and the rate parameter</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithAction:(CCActionInterval *)action rate:(float)rate</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithAction:rate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCEaseRateAction/initWithAction:rate:</TokenIdentifier>
+			<Abstract type="html">Initializes the action with the inner action and the rate parameter</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAction:(CCActionInterval *)action rate:(float)rate</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAction:rate:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

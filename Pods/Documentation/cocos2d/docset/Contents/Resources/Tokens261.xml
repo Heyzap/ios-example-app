@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCStandardTouchDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCStandardTouchDelegate</TokenIdentifier>
+			<Abstract type="html">CCStandardTouchDelegate.</Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="261"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCStandardTouchDelegate/ccTouchesBegan:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesBegan:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCStandardTouchDelegate/ccTouchesMoved:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchesMoved:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesMoved:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCStandardTouchDelegate/ccTouchesEnded:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesEnded:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCStandardTouchDelegate/ccTouchesCancelled:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesCancelled:withEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

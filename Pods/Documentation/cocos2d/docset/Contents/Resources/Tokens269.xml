@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CDLongAudioSourceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CDLongAudioSourceDelegate</TokenIdentifier>
+			<Abstract type="html">CDAudioManager supports two long audio source channels called left and right</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>
+			
+			<NodeRef refid="269"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDLongAudioSourceDelegate/cdAudioSourceDidFinishPlaying:</TokenIdentifier>
+			<Abstract type="html">The audio source completed playing</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cdAudioSourceDidFinishPlaying:(CDLongAudioSource *)audioSource</Declaration>
+			
+			
+			<Anchor>//api/name/cdAudioSourceDidFinishPlaying:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CDLongAudioSourceDelegate/cdAudioSourceFileDidChange:</TokenIdentifier>
+			<Abstract type="html">The file used to load the audio source has changed</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>			
+			
+			<Declaration>- (void)cdAudioSourceFileDidChange:(CDLongAudioSource *)audioSource</Declaration>
+			
+			
+			<Anchor>//api/name/cdAudioSourceFileDidChange:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

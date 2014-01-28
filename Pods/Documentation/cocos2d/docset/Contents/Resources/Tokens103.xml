@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCMenuItemImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCMenuItemImage</TokenIdentifier>
+			<Abstract type="html">CCMenuItemImage accepts images as items.
+The images has 3 different states:
+- unselected image
+- selected image
+- disabled image</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>
+			
+			<NodeRef refid="103"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemWithNormalImage:selectedImage:</TokenIdentifier>
+			<Abstract type="html">creates a menu item with a normal and selected image</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithNormalImage:(NSString *)value selectedImage:(NSString *)value2</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithNormalImage:selectedImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemWithNormalImage:selectedImage:target:selector:</TokenIdentifier>
+			<Abstract type="html">creates a menu item with a normal and selected image with target/selector</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithNormalImage:selectedImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemWithNormalImage:selectedImage:disabledImage:target:selector:</TokenIdentifier>
+			<Abstract type="html">creates a menu item with a normal,selected  and disabled image with target/selector.
+The &quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithNormalImage:selectedImage:disabledImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemWithNormalImage:selectedImage:block:</TokenIdentifier>
+			<Abstract type="html">creates a menu item with a normal and selected image with a block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithNormalImage:selectedImage:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemWithNormalImage:selectedImage:disabledImage:block:</TokenIdentifier>
+			<Abstract type="html">creates a menu item with a normal,selected  and disabled image with a block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithNormalImage:selectedImage:disabledImage:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/initWithNormalImage:selectedImage:disabledImage:target:selector:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item with a normal, selected  and disabled image with target/selector.
+The &quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNormalImage:selectedImage:disabledImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/initWithNormalImage:selectedImage:disabledImage:block:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item with a normal, selected  and disabled image with a block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNormalImage:selectedImage:disabledImage:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/setNormalSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">sets the sprite frame for the normal image</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setNormalSpriteFrame:(CCSpriteFrame *)frame</Declaration>
+			
+			
+			<Anchor>//api/name/setNormalSpriteFrame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/setSelectedSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">sets the sprite frame for the selected image</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setSelectedSpriteFrame:(CCSpriteFrame *)frame</Declaration>
+			
+			
+			<Anchor>//api/name/setSelectedSpriteFrame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/setDisabledSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">sets the sprite frame for the disabled image</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDisabledSpriteFrame:(CCSpriteFrame *)frame</Declaration>
+			
+			
+			<Anchor>//api/name/setDisabledSpriteFrame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemFromNormalImage:selectedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromNormalImage:(NSString *)value selectedImage:(NSString *)value2</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromNormalImage:selectedImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemFromNormalImage:selectedImage:target:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromNormalImage:selectedImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemFromNormalImage:selectedImage:disabledImage:target:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromNormalImage:selectedImage:disabledImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemFromNormalImage:selectedImage:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromNormalImage:selectedImage:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemImage/itemFromNormalImage:selectedImage:disabledImage:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromNormalImage:selectedImage:disabledImage:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/initFromNormalImage:selectedImage:disabledImage:target:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>- (id)initFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 target:(id)r selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/initFromNormalImage:selectedImage:disabledImage:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemImage/initFromNormalImage:selectedImage:disabledImage:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>- (id)initFromNormalImage:(NSString *)value selectedImage:(NSString *)value2 disabledImage:(NSString *)value3 block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initFromNormalImage:selectedImage:disabledImage:block:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

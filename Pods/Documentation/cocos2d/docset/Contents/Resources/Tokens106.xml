@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCMenuItemToggle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCMenuItemToggle</TokenIdentifier>
+			<Abstract type="html">A CCMenuItemToggle
+A simple container class that &quot;toggles&quot; its inner items
+The inner itmes can be any MenuItem</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>
+			
+			<NodeRef refid="106"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/setOpacity:</TokenIdentifier>
+			<Abstract type="html">conforms with CCRGBAProtocol protocol</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) GLubyte opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMenuItemToggle/opacity</TokenIdentifier>
+			<Abstract type="html">conforms with CCRGBAProtocol protocol</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) GLubyte opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/setColor:</TokenIdentifier>
+			<Abstract type="html">conforms with CCRGBAProtocol protocol</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) ccColor3B color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMenuItemToggle/color</TokenIdentifier>
+			<Abstract type="html">conforms with CCRGBAProtocol protocol</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) ccColor3B color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/setSelectedIndex:</TokenIdentifier>
+			<Abstract type="html">returns the selected item</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger selectedIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMenuItemToggle/selectedIndex</TokenIdentifier>
+			<Abstract type="html">returns the selected item</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSUInteger selectedIndex</Declaration>
+			
+			
+			<Anchor>//api/name/selectedIndex</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/setSubItems:</TokenIdentifier>
+			<Abstract type="html">NSMutableArray that contains the subitems. You can add/remove items in runtime, and you can replace the array with a new one.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *subItems</Declaration>
+			
+			
+			<Anchor>//api/name/subItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMenuItemToggle/subItems</TokenIdentifier>
+			<Abstract type="html">NSMutableArray that contains the subitems. You can add/remove items in runtime, and you can replace the array with a new one.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *subItems</Declaration>
+			
+			
+			<Anchor>//api/name/subItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemToggle/itemWithTarget:selector:items:</TokenIdentifier>
+			<Abstract type="html">creates a menu item from a list of items with a target/selector</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithTarget:(id)target selector:(SEL)selector items:(CCMenuItem *)item, ...</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithTarget:selector:items:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemToggle/itemWithItems:block:</TokenIdentifier>
+			<Abstract type="html">creates a menu item from a list of items and executes the given block when the item is selected.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithItems:(NSArray *)arrayOfItems block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithItems:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/initWithTarget:selector:items:vaList:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item from a list of items with a target selector</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(id)target selector:(SEL)selector items:(CCMenuItem *)item vaList:(va_list)args</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTarget:selector:items:vaList:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/initWithItems:block:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item from a list of items with a block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithItems:(NSArray *)arrayOfItems block:(void ( ^ ) ( id ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithItems:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemToggle/selectedItem</TokenIdentifier>
+			<Abstract type="html">return the selected item</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (CCMenuItem *)selectedItem</Declaration>
+			
+			
+			<Anchor>//api/name/selectedItem</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

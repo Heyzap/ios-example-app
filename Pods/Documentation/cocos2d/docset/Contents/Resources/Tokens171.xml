@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTMXTilesetInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTMXTilesetInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<NodeRef refid="171"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setFirstGid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int firstGid</Declaration>
+			
+			
+			<Anchor>//api/name/firstGid</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/firstGid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int firstGid</Declaration>
+			
+			
+			<Anchor>//api/name/firstGid</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize tileSize</Declaration>
+			
+			
+			<Anchor>//api/name/tileSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/tileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize tileSize</Declaration>
+			
+			
+			<Anchor>//api/name/tileSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setSpacing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int spacing</Declaration>
+			
+			
+			<Anchor>//api/name/spacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/spacing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int spacing</Declaration>
+			
+			
+			<Anchor>//api/name/spacing</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/margin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) unsigned int margin</Declaration>
+			
+			
+			<Anchor>//api/name/margin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setSourceImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *sourceImage</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/sourceImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *sourceImage</Declaration>
+			
+			
+			<Anchor>//api/name/sourceImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/setImageSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize imageSize</Declaration>
+			
+			
+			<Anchor>//api/name/imageSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXTilesetInfo/imageSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize imageSize</Declaration>
+			
+			
+			<Anchor>//api/name/imageSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXTilesetInfo/rectForGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>- (CGRect)rectForGID:(unsigned int)gid</Declaration>
+			
+			
+			<Anchor>//api/name/rectForGID:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

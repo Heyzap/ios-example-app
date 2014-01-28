@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionTurnOffTiles.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionTurnOffTiles</TokenIdentifier>
+			<Abstract type="html">CCTransitionTurnOffTiles:
+Turn off the tiles of the outgoing scene in random order</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="219"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

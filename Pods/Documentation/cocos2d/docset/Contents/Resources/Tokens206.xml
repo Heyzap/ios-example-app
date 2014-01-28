@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionProgressRadialCCW.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionProgressRadialCCW</TokenIdentifier>
+			<Abstract type="html">CCTransitionRadialCCW transition.
+A counter colock-wise radial transition to the next scene</Abstract>
+			<DeclaredIn>CCTransitionProgress.h</DeclaredIn>
+			
+			<NodeRef refid="206"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

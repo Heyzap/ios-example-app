@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTiledGrid3D.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTiledGrid3D</TokenIdentifier>
+			<Abstract type="html">CCTiledGrid3D is a 3D grid implementation. It differs from Grid3D in that
+the tiles can be separated from the grid.</Abstract>
+			<DeclaredIn>CCGrid.h</DeclaredIn>
+			
+			<NodeRef refid="179"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3D/tile:</TokenIdentifier>
+			<Abstract type="html">returns the tile at the given position</Abstract>
+			<DeclaredIn>CCGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccQuad3)tile:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/tile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3D/originalTile:</TokenIdentifier>
+			<Abstract type="html">returns the original tile (untransformed) at the given position</Abstract>
+			<DeclaredIn>CCGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccQuad3)originalTile:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/originalTile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledGrid3D/setTile:coords:</TokenIdentifier>
+			<Abstract type="html">sets a new tile</Abstract>
+			<DeclaredIn>CCGrid.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTile:(ccGridSize)pos coords:(ccQuad3)coords</Declaration>
+			
+			
+			<Anchor>//api/name/setTile:coords:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

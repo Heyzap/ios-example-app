@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/AVAudioPlayerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/AVAudioPlayerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>
+			
+			<NodeRef refid="251"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AVAudioPlayerDelegate/audioPlayerDidFinishPlaying:successfully:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerDidFinishPlaying:successfully:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AVAudioPlayerDelegate/audioPlayerDecodeErrorDidOccur:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerDecodeErrorDidOccur:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AVAudioPlayerDelegate/audioPlayerBeginInterruption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerBeginInterruption:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AVAudioPlayerDelegate/audioPlayerEndInterruption:withFlags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withFlags:(NSUInteger)flags</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerEndInterruption:withFlags:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/AVAudioPlayerDelegate/audioPlayerEndInterruption:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CDXMacOSXSupport.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerEndInterruption:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

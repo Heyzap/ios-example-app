@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCTouchDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCTouchDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<NodeRef refid="264"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchDelegate/touchesBegan:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesBegan:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchDelegate/touchesEnded:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesEnded:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchDelegate/touchesMoved:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesMoved:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchDelegate/touchesCancelled:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesCancelled:withEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

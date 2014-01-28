@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCCallBlockN.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCCallBlockN</TokenIdentifier>
+			<Abstract type="html">Executes a callback using a block with a single CCNode parameter.</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCCallBlockN/actionWithBlock:</TokenIdentifier>
+			<Abstract type="html">creates the action with the specified block, to be used as a callback.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithBlock:(void ( ^ ) ( CCNode *node ))block</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCallBlockN/initWithBlock:</TokenIdentifier>
+			<Abstract type="html">initialized the action with the specified block, to be used as a callback.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithBlock:(void ( ^ ) ( CCNode *node ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBlock:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCallBlockN/execute</TokenIdentifier>
+			<Abstract type="html">executes the callback</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>- (void)execute</Declaration>
+			
+			
+			<Anchor>//api/name/execute</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

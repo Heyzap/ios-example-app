@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/Max/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.AppXperience-1.0.3.docset
+Time: 2013-04-06 22:17:45 +0000

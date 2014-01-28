@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionSlideInT.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionSlideInT</TokenIdentifier>
+			<Abstract type="html">CCTransitionSlideInT:
+Slide in the incoming scene from the top border.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="216"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

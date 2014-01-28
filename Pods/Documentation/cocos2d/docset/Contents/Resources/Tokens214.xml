@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionSlideInL.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionSlideInL</TokenIdentifier>
+			<Abstract type="html">CCTransitionSlideInL:
+Slide in the incoming scene from the left border.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="214"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionSlideInL/initScenes</TokenIdentifier>
+			<Abstract type="html">initializes the scenes</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>			
+			
+			<Declaration>- (void)initScenes</Declaration>
+			
+			
+			<Anchor>//api/name/initScenes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionSlideInL/action</TokenIdentifier>
+			<Abstract type="html">returns the action that will be performed by the incomming and outgoing scene</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>			
+			
+			<Declaration>- (CCActionInterval *)action</Declaration>
+			
+			
+			<Anchor>//api/name/action</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

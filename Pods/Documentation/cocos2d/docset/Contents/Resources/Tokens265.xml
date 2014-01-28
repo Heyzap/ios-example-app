@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCTouchEventDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCTouchEventDelegate</TokenIdentifier>
+			<Abstract type="html">CCTouchEventDelegate protocol.
+Implement it in your node to receive any of touch events</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>
+			
+			<NodeRef refid="265"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchEventDelegate/ccTouchesBeganWithEvent:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;touchesBegan&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccTouchesBeganWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesBeganWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchEventDelegate/ccTouchesMovedWithEvent:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;touchesMoved&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccTouchesMovedWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesMovedWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchEventDelegate/ccTouchesEndedWithEvent:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;touchesEnded&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccTouchesEndedWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesEndedWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTouchEventDelegate/ccTouchesCancelledWithEvent:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;touchesCancelled&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccTouchesCancelledWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchesCancelledWithEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

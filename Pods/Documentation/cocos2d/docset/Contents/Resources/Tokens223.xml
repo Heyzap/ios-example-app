@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTurnOffTiles.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTurnOffTiles</TokenIdentifier>
+			<Abstract type="html">CCTurnOffTiles action.
+Turn off the files in random order</Abstract>
+			<DeclaredIn>CCActionTiledGrid.h</DeclaredIn>
+			
+			<NodeRef refid="223"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTurnOffTiles/actionWithSeed:grid:duration:</TokenIdentifier>
+			<Abstract type="html">creates the action with a random seed, the grid size and the duration</Abstract>
+			<DeclaredIn>CCActionTiledGrid.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithSeed:(int)s grid:(ccGridSize)gridSize duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithSeed:grid:duration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTurnOffTiles/initWithSeed:grid:duration:</TokenIdentifier>
+			<Abstract type="html">initializes the action with a random seed, the grid size and the duration</Abstract>
+			<DeclaredIn>CCActionTiledGrid.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSeed:(int)s grid:(ccGridSize)gridSize duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSeed:grid:duration:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

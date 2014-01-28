@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPageTurn3D.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPageTurn3D</TokenIdentifier>
+			<Abstract type="html">This action simulates a page turn from the bottom right hand corner of the screen
+It&apos;s not much use by itself but is used by the PageTurnTransition.</Abstract>
+			<DeclaredIn>CCActionPageTurn3D.h</DeclaredIn>
+			
+			<NodeRef refid="112"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

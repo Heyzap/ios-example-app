@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCCamera</TokenIdentifier>
+			<Abstract type="html">    A CCCamera is used in every CCNode.
+    Useful to look at the object from different views.
+    The OpenGL gluLookAt() function is used to locate the
+    camera.</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/setDirty:</TokenIdentifier>
+			<Abstract type="html">whether of not the camera is dirty</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL dirty</Declaration>
+			
+			
+			<Anchor>//api/name/dirty</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCCamera/dirty</TokenIdentifier>
+			<Abstract type="html">whether of not the camera is dirty</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL dirty</Declaration>
+			
+			
+			<Anchor>//api/name/dirty</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCCamera/getZEye</TokenIdentifier>
+			<Abstract type="html">returns the Z eye</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>+ (float)getZEye</Declaration>
+			
+			
+			<Anchor>//api/name/getZEye</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/restore</TokenIdentifier>
+			<Abstract type="html">sets the camera in the defaul position</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)restore</Declaration>
+			
+			
+			<Anchor>//api/name/restore</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/locate</TokenIdentifier>
+			<Abstract type="html">Sets the camera using gluLookAt using its eye, center and up_vector</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)locate</Declaration>
+			
+			
+			<Anchor>//api/name/locate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/setEyeX:eyeY:eyeZ:</TokenIdentifier>
+			<Abstract type="html">sets the eye values in points</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)setEyeX:(float)x eyeY:(float)y eyeZ:(float)z</Declaration>
+			
+			
+			<Anchor>//api/name/setEyeX:eyeY:eyeZ:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/setCenterX:centerY:centerZ:</TokenIdentifier>
+			<Abstract type="html">sets the center values in points</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)setCenterX:(float)x centerY:(float)y centerZ:(float)z</Declaration>
+			
+			
+			<Anchor>//api/name/setCenterX:centerY:centerZ:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/setUpX:upY:upZ:</TokenIdentifier>
+			<Abstract type="html">sets the up values</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)setUpX:(float)x upY:(float)y upZ:(float)z</Declaration>
+			
+			
+			<Anchor>//api/name/setUpX:upY:upZ:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/eyeX:eyeY:eyeZ:</TokenIdentifier>
+			<Abstract type="html">get the eye vector values in points</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)eyeX:(float *)x eyeY:(float *)y eyeZ:(float *)z</Declaration>
+			
+			
+			<Anchor>//api/name/eyeX:eyeY:eyeZ:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/centerX:centerY:centerZ:</TokenIdentifier>
+			<Abstract type="html">get the center vector values in points</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)centerX:(float *)x centerY:(float *)y centerZ:(float *)z</Declaration>
+			
+			
+			<Anchor>//api/name/centerX:centerY:centerZ:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCamera/upX:upY:upZ:</TokenIdentifier>
+			<Abstract type="html">get the up vector values</Abstract>
+			<DeclaredIn>CCCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)upX:(float *)x upY:(float *)y upZ:(float *)z</Declaration>
+			
+			
+			<Anchor>//api/name/upX:upY:upZ:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCEventDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCEventDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<NodeRef refid="256"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseDown:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseDown:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseUp:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseMoved:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseMoved:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseMoved:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseDragged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseDragged:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/rightMouseDown:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)rightMouseDown:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/rightMouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/rightMouseDragged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)rightMouseDragged:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/rightMouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/rightMouseUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)rightMouseUp:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/rightMouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/otherMouseDown:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)otherMouseDown:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/otherMouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/otherMouseDragged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)otherMouseDragged:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/otherMouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/otherMouseUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)otherMouseUp:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/otherMouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/scrollWheel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)scrollWheel:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/scrollWheel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseEntered:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseEntered:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseEntered:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/mouseExited:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)mouseExited:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/mouseExited:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/keyDown:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)keyDown:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/keyDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/keyUp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)keyUp:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/keyUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/flagsChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)flagsChanged:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/flagsChanged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/touchesBeganWithEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesBeganWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesBeganWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/touchesMovedWithEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesMovedWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesMovedWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/touchesEndedWithEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesEndedWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesEndedWithEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCEventDelegate/touchesCancelledWithEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>			
+			
+			<Declaration>- (void)touchesCancelledWithEvent:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/touchesCancelledWithEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

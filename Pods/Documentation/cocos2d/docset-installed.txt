@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/Max/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.cocos2d-2.0.docset
+Time: 2013-04-05 20:49:59 +0000

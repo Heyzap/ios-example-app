@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCDirectorMac.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCDirectorMac</TokenIdentifier>
+			<Abstract type="html">Base class of Mac directors</Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDirectorMac/setIsFullScreen:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/isFullScreen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCDirectorMac/isFullScreen</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/isFullScreen</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDirectorMac/setResizeMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int resizeMode</Declaration>
+			
+			
+			<Anchor>//api/name/resizeMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCDirectorMac/resizeMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) int resizeMode</Declaration>
+			
+			
+			<Anchor>//api/name/resizeMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDirectorMac/setOriginalWinSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalWinSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalWinSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCDirectorMac/originalWinSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalWinSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalWinSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDirectorMac/setFullScreen:</TokenIdentifier>
+			<Abstract type="html">Sets the view in fullscreen or window mode</Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>- (void)setFullScreen:(BOOL)fullscreen</Declaration>
+			
+			
+			<Anchor>//api/name/setFullScreen:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDirectorMac/convertToLogicalCoordinates:</TokenIdentifier>
+			<Abstract type="html">Converts window size coordiantes to logical coordinates.
+Useful only if resizeMode is kCCDirectorResize_Scale.
+If resizeMode is kCCDirectorResize_NoScale, then no conversion will be done.</Abstract>
+			<DeclaredIn>CCDirectorMac.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)convertToLogicalCoordinates:(CGPoint)coordinates</Declaration>
+			
+			
+			<Anchor>//api/name/convertToLogicalCoordinates:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

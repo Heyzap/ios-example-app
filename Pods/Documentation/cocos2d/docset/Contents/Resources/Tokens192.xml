@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionFadeUp.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionFadeUp</TokenIdentifier>
+			<Abstract type="html">CCTransitionFadeUp:
+Fade the tiles of the outgoing scene from the bottom to the top.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="192"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

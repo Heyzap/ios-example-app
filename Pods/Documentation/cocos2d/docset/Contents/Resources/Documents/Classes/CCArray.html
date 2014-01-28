@@ -1,0 +1,1275 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCArray Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">cocos2d 2.0 </a></h1>
+				<a id="developerHome" href="../index.html">Ricardo Quesada and Zynga Inc.</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCArray Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/array">&nbsp;&nbsp;&nbsp;&nbsp;+ array</option>
+	
+	<option value="//api/name/arrayWithArray:">&nbsp;&nbsp;&nbsp;&nbsp;+ arrayWithArray:</option>
+	
+	<option value="//api/name/arrayWithCapacity:">&nbsp;&nbsp;&nbsp;&nbsp;+ arrayWithCapacity:</option>
+	
+	<option value="//api/name/arrayWithNSArray:">&nbsp;&nbsp;&nbsp;&nbsp;+ arrayWithNSArray:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addObject:">&nbsp;&nbsp;&nbsp;&nbsp;- addObject:</option>
+	
+	<option value="//api/name/addObjectsFromArray:">&nbsp;&nbsp;&nbsp;&nbsp;- addObjectsFromArray:</option>
+	
+	<option value="//api/name/addObjectsFromNSArray:">&nbsp;&nbsp;&nbsp;&nbsp;- addObjectsFromNSArray:</option>
+	
+	<option value="//api/name/capacity">&nbsp;&nbsp;&nbsp;&nbsp;- capacity</option>
+	
+	<option value="//api/name/containsObject:">&nbsp;&nbsp;&nbsp;&nbsp;- containsObject:</option>
+	
+	<option value="//api/name/count">&nbsp;&nbsp;&nbsp;&nbsp;- count</option>
+	
+	<option value="//api/name/exchangeObject:withObject:">&nbsp;&nbsp;&nbsp;&nbsp;- exchangeObject:withObject:</option>
+	
+	<option value="//api/name/exchangeObjectAtIndex:withObjectAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- exchangeObjectAtIndex:withObjectAtIndex:</option>
+	
+	<option value="//api/name/fastRemoveObject:">&nbsp;&nbsp;&nbsp;&nbsp;- fastRemoveObject:</option>
+	
+	<option value="//api/name/fastRemoveObjectAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- fastRemoveObjectAtIndex:</option>
+	
+	<option value="//api/name/getNSArray">&nbsp;&nbsp;&nbsp;&nbsp;- getNSArray</option>
+	
+	<option value="//api/name/indexOfObject:">&nbsp;&nbsp;&nbsp;&nbsp;- indexOfObject:</option>
+	
+	<option value="//api/name/initWithArray:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithArray:</option>
+	
+	<option value="//api/name/initWithCapacity:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithCapacity:</option>
+	
+	<option value="//api/name/initWithNSArray:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithNSArray:</option>
+	
+	<option value="//api/name/insertObject:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- insertObject:atIndex:</option>
+	
+	<option value="//api/name/insertionSort:">&nbsp;&nbsp;&nbsp;&nbsp;- insertionSort:</option>
+	
+	<option value="//api/name/insertionSortUsingCFuncComparator:">&nbsp;&nbsp;&nbsp;&nbsp;- insertionSortUsingCFuncComparator:</option>
+	
+	<option value="//api/name/isEqualToArray:">&nbsp;&nbsp;&nbsp;&nbsp;- isEqualToArray:</option>
+	
+	<option value="//api/name/lastObject">&nbsp;&nbsp;&nbsp;&nbsp;- lastObject</option>
+	
+	<option value="//api/name/makeObjectPerformSelectorWithArrayObjects:selector:">&nbsp;&nbsp;&nbsp;&nbsp;- makeObjectPerformSelectorWithArrayObjects:selector:</option>
+	
+	<option value="//api/name/makeObjectsPerformSelector:">&nbsp;&nbsp;&nbsp;&nbsp;- makeObjectsPerformSelector:</option>
+	
+	<option value="//api/name/makeObjectsPerformSelector:withObject:">&nbsp;&nbsp;&nbsp;&nbsp;- makeObjectsPerformSelector:withObject:</option>
+	
+	<option value="//api/name/mergesortLUsingCFuncComparator:">&nbsp;&nbsp;&nbsp;&nbsp;- mergesortLUsingCFuncComparator:</option>
+	
+	<option value="//api/name/objectAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- objectAtIndex:</option>
+	
+	<option value="//api/name/qsortUsingCFuncComparator:">&nbsp;&nbsp;&nbsp;&nbsp;- qsortUsingCFuncComparator:</option>
+	
+	<option value="//api/name/randomObject">&nbsp;&nbsp;&nbsp;&nbsp;- randomObject</option>
+	
+	<option value="//api/name/reduceMemoryFootprint">&nbsp;&nbsp;&nbsp;&nbsp;- reduceMemoryFootprint</option>
+	
+	<option value="//api/name/removeAllObjects">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllObjects</option>
+	
+	<option value="//api/name/removeLastObject">&nbsp;&nbsp;&nbsp;&nbsp;- removeLastObject</option>
+	
+	<option value="//api/name/removeObject:">&nbsp;&nbsp;&nbsp;&nbsp;- removeObject:</option>
+	
+	<option value="//api/name/removeObjectAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- removeObjectAtIndex:</option>
+	
+	<option value="//api/name/removeObjectsInArray:">&nbsp;&nbsp;&nbsp;&nbsp;- removeObjectsInArray:</option>
+	
+	<option value="//api/name/replaceObjectAtIndex:withObject:">&nbsp;&nbsp;&nbsp;&nbsp;- replaceObjectAtIndex:withObject:</option>
+	
+	<option value="//api/name/reverseObjects">&nbsp;&nbsp;&nbsp;&nbsp;- reverseObjects</option>
+	
+	<option value="//api/name/sortUsingFunction:context:">&nbsp;&nbsp;&nbsp;&nbsp;- sortUsingFunction:context:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/array">array</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/arrayWithArray:">arrayWithArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/arrayWithCapacity:">arrayWithCapacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/arrayWithNSArray:">arrayWithNSArray:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addObject:">addObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addObjectsFromArray:">addObjectsFromArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addObjectsFromNSArray:">addObjectsFromNSArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/capacity">capacity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/containsObject:">containsObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/count">count</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exchangeObject:withObject:">exchangeObject:withObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exchangeObjectAtIndex:withObjectAtIndex:">exchangeObjectAtIndex:withObjectAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fastRemoveObject:">fastRemoveObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fastRemoveObjectAtIndex:">fastRemoveObjectAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getNSArray">getNSArray</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/indexOfObject:">indexOfObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithArray:">initWithArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithCapacity:">initWithCapacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithNSArray:">initWithNSArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertObject:atIndex:">insertObject:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertionSort:">insertionSort:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertionSortUsingCFuncComparator:">insertionSortUsingCFuncComparator:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isEqualToArray:">isEqualToArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastObject">lastObject</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/makeObjectPerformSelectorWithArrayObjects:selector:">makeObjectPerformSelectorWithArrayObjects:selector:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/makeObjectsPerformSelector:">makeObjectsPerformSelector:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/makeObjectsPerformSelector:withObject:">makeObjectsPerformSelector:withObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mergesortLUsingCFuncComparator:">mergesortLUsingCFuncComparator:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/objectAtIndex:">objectAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/qsortUsingCFuncComparator:">qsortUsingCFuncComparator:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/randomObject">randomObject</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reduceMemoryFootprint">reduceMemoryFootprint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllObjects">removeAllObjects</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeLastObject">removeLastObject</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeObject:">removeObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeObjectAtIndex:">removeObjectAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeObjectsInArray:">removeObjectsInArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/replaceObjectAtIndex:withObject:">replaceObjectAtIndex:withObject:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reverseObjects">reverseObjects</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sortUsingFunction:context:">sortUsingFunction:context:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCArray Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCArray Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying<br />NSFastEnumeration</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCArray.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@def CCARRAY_FOREACH
+A convience macro to iterate over a CCArray using. It is faster than the &ldquo;fast enumeration&rdquo; interface.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/array">+&nbsp;array</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/arrayWithCapacity:">+&nbsp;arrayWithCapacity:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/arrayWithArray:">+&nbsp;arrayWithArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/arrayWithNSArray:">+&nbsp;arrayWithNSArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithCapacity:">&ndash;&nbsp;initWithCapacity:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithArray:">&ndash;&nbsp;initWithArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithNSArray:">&ndash;&nbsp;initWithNSArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/count">&ndash;&nbsp;count</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/capacity">&ndash;&nbsp;capacity</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/indexOfObject:">&ndash;&nbsp;indexOfObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/objectAtIndex:">&ndash;&nbsp;objectAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/containsObject:">&ndash;&nbsp;containsObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/randomObject">&ndash;&nbsp;randomObject</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastObject">&ndash;&nbsp;lastObject</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getNSArray">&ndash;&nbsp;getNSArray</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isEqualToArray:">&ndash;&nbsp;isEqualToArray:</a></code>
+		<span class="tooltip"><p>1.1</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addObject:">&ndash;&nbsp;addObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addObjectsFromArray:">&ndash;&nbsp;addObjectsFromArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addObjectsFromNSArray:">&ndash;&nbsp;addObjectsFromNSArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertObject:atIndex:">&ndash;&nbsp;insertObject:atIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeLastObject">&ndash;&nbsp;removeLastObject</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeObject:">&ndash;&nbsp;removeObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeObjectAtIndex:">&ndash;&nbsp;removeObjectAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeObjectsInArray:">&ndash;&nbsp;removeObjectsInArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllObjects">&ndash;&nbsp;removeAllObjects</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fastRemoveObject:">&ndash;&nbsp;fastRemoveObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fastRemoveObjectAtIndex:">&ndash;&nbsp;fastRemoveObjectAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exchangeObject:withObject:">&ndash;&nbsp;exchangeObject:withObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exchangeObjectAtIndex:withObjectAtIndex:">&ndash;&nbsp;exchangeObjectAtIndex:withObjectAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/replaceObjectAtIndex:withObject:">&ndash;&nbsp;replaceObjectAtIndex:withObject:</a></code>
+		<span class="tooltip"><p>1.1</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reverseObjects">&ndash;&nbsp;reverseObjects</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reduceMemoryFootprint">&ndash;&nbsp;reduceMemoryFootprint</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/qsortUsingCFuncComparator:">&ndash;&nbsp;qsortUsingCFuncComparator:</a></code>
+		<span class="tooltip"><p>all since @1.1</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertionSortUsingCFuncComparator:">&ndash;&nbsp;insertionSortUsingCFuncComparator:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mergesortLUsingCFuncComparator:">&ndash;&nbsp;mergesortLUsingCFuncComparator:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertionSort:">&ndash;&nbsp;insertionSort:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sortUsingFunction:context:">&ndash;&nbsp;sortUsingFunction:context:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/makeObjectsPerformSelector:">&ndash;&nbsp;makeObjectsPerformSelector:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/makeObjectsPerformSelector:withObject:">&ndash;&nbsp;makeObjectsPerformSelector:withObject:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/makeObjectPerformSelectorWithArrayObjects:selector:">&ndash;&nbsp;makeObjectPerformSelectorWithArrayObjects:selector:</a></code>
+		<span class="tooltip"><p>1.1</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/array" title="array"></a>
+	<h3 class="subsubtitle method-title">array</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)array</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/arrayWithArray:" title="arrayWithArray:"></a>
+	<h3 class="subsubtitle method-title">arrayWithArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)arrayWithArray:(CCArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/arrayWithCapacity:" title="arrayWithCapacity:"></a>
+	<h3 class="subsubtitle method-title">arrayWithCapacity:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)arrayWithCapacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/arrayWithNSArray:" title="arrayWithNSArray:"></a>
+	<h3 class="subsubtitle method-title">arrayWithNSArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)arrayWithNSArray:(NSArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addObject:" title="addObject:"></a>
+	<h3 class="subsubtitle method-title">addObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addObjectsFromArray:" title="addObjectsFromArray:"></a>
+	<h3 class="subsubtitle method-title">addObjectsFromArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addObjectsFromArray:(CCArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addObjectsFromNSArray:" title="addObjectsFromNSArray:"></a>
+	<h3 class="subsubtitle method-title">addObjectsFromNSArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addObjectsFromNSArray:(NSArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/capacity" title="capacity"></a>
+	<h3 class="subsubtitle method-title">capacity</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)capacity</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/containsObject:" title="containsObject:"></a>
+	<h3 class="subsubtitle method-title">containsObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)containsObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/count" title="count"></a>
+	<h3 class="subsubtitle method-title">count</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)count</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exchangeObject:withObject:" title="exchangeObject:withObject:"></a>
+	<h3 class="subsubtitle method-title">exchangeObject:withObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)exchangeObject:(id)<em>object1</em> withObject:(id)<em>object2</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exchangeObjectAtIndex:withObjectAtIndex:" title="exchangeObjectAtIndex:withObjectAtIndex:"></a>
+	<h3 class="subsubtitle method-title">exchangeObjectAtIndex:withObjectAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)exchangeObjectAtIndex:(NSUInteger)<em>index1</em> withObjectAtIndex:(NSUInteger)<em>index2</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fastRemoveObject:" title="fastRemoveObject:"></a>
+	<h3 class="subsubtitle method-title">fastRemoveObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)fastRemoveObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fastRemoveObjectAtIndex:" title="fastRemoveObjectAtIndex:"></a>
+	<h3 class="subsubtitle method-title">fastRemoveObjectAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)fastRemoveObjectAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getNSArray" title="getNSArray"></a>
+	<h3 class="subsubtitle method-title">getNSArray</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)getNSArray</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/indexOfObject:" title="indexOfObject:"></a>
+	<h3 class="subsubtitle method-title">indexOfObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSUInteger)indexOfObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithArray:" title="initWithArray:"></a>
+	<h3 class="subsubtitle method-title">initWithArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithArray:(CCArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithCapacity:" title="initWithCapacity:"></a>
+	<h3 class="subsubtitle method-title">initWithCapacity:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithCapacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithNSArray:" title="initWithNSArray:"></a>
+	<h3 class="subsubtitle method-title">initWithNSArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithNSArray:(NSArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertObject:atIndex:" title="insertObject:atIndex:"></a>
+	<h3 class="subsubtitle method-title">insertObject:atIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)insertObject:(id)<em>object</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertionSort:" title="insertionSort:"></a>
+	<h3 class="subsubtitle method-title">insertionSort:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)insertionSort:(SEL)<em>selector</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertionSortUsingCFuncComparator:" title="insertionSortUsingCFuncComparator:"></a>
+	<h3 class="subsubtitle method-title">insertionSortUsingCFuncComparator:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)insertionSortUsingCFuncComparator:(int ( *) ( const void *, const void *))<em>comparator</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isEqualToArray:" title="isEqualToArray:"></a>
+	<h3 class="subsubtitle method-title">isEqualToArray:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>1.1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isEqualToArray:(CCArray *)<em>otherArray</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCArray.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastObject" title="lastObject"></a>
+	<h3 class="subsubtitle method-title">lastObject</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)lastObject</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/makeObjectPerformSelectorWithArrayObjects:selector:" title="makeObjectPerformSelectorWithArrayObjects:selector:"></a>
+	<h3 class="subsubtitle method-title">makeObjectPerformSelectorWithArrayObjects:selector:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>1.1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)makeObjectPerformSelectorWithArrayObjects:(id)<em>object</em> selector:(SEL)<em>aSelector</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCArray.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/makeObjectsPerformSelector:" title="makeObjectsPerformSelector:"></a>
+	<h3 class="subsubtitle method-title">makeObjectsPerformSelector:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)makeObjectsPerformSelector:(SEL)<em>aSelector</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/makeObjectsPerformSelector:withObject:" title="makeObjectsPerformSelector:withObject:"></a>
+	<h3 class="subsubtitle method-title">makeObjectsPerformSelector:withObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)makeObjectsPerformSelector:(SEL)<em>aSelector</em> withObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mergesortLUsingCFuncComparator:" title="mergesortLUsingCFuncComparator:"></a>
+	<h3 class="subsubtitle method-title">mergesortLUsingCFuncComparator:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)mergesortLUsingCFuncComparator:(int ( *) ( const void *, const void *))<em>comparator</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/objectAtIndex:" title="objectAtIndex:"></a>
+	<h3 class="subsubtitle method-title">objectAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)objectAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/qsortUsingCFuncComparator:" title="qsortUsingCFuncComparator:"></a>
+	<h3 class="subsubtitle method-title">qsortUsingCFuncComparator:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>all since @1.1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)qsortUsingCFuncComparator:(int ( *) ( const void *, const void *))<em>comparator</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>all since @1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCArray.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/randomObject" title="randomObject"></a>
+	<h3 class="subsubtitle method-title">randomObject</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)randomObject</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reduceMemoryFootprint" title="reduceMemoryFootprint"></a>
+	<h3 class="subsubtitle method-title">reduceMemoryFootprint</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)reduceMemoryFootprint</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllObjects" title="removeAllObjects"></a>
+	<h3 class="subsubtitle method-title">removeAllObjects</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllObjects</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeLastObject" title="removeLastObject"></a>
+	<h3 class="subsubtitle method-title">removeLastObject</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeLastObject</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeObject:" title="removeObject:"></a>
+	<h3 class="subsubtitle method-title">removeObject:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeObject:(id)<em>object</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeObjectAtIndex:" title="removeObjectAtIndex:"></a>
+	<h3 class="subsubtitle method-title">removeObjectAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeObjectAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeObjectsInArray:" title="removeObjectsInArray:"></a>
+	<h3 class="subsubtitle method-title">removeObjectsInArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeObjectsInArray:(CCArray *)<em>otherArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/replaceObjectAtIndex:withObject:" title="replaceObjectAtIndex:withObject:"></a>
+	<h3 class="subsubtitle method-title">replaceObjectAtIndex:withObject:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>1.1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)replaceObjectAtIndex:(NSUInteger)<em>index</em> withObject:(id)<em>anObject</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCArray.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reverseObjects" title="reverseObjects"></a>
+	<h3 class="subsubtitle method-title">reverseObjects</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)reverseObjects</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sortUsingFunction:context:" title="sortUsingFunction:context:"></a>
+	<h3 class="subsubtitle method-title">sortUsingFunction:context:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sortUsingFunction:(NSInteger ( *) ( id , id , void *))<em>compare</em> context:(void *)<em>context</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Ricardo Quesada and Zynga Inc.. All rights reserved. (Last updated: 2013-04-05)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>Heyzap 3.5.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>HZAchievement</Name>
+			<Path>Classes/HZAchievement.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>HZCheckinButton</Name>
+			<Path>Classes/HZCheckinButton.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>HZLeaderboardLevel</Name>
+			<Path>Classes/HZLeaderboardLevel.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>HZLeaderboardRank</Name>
+			<Path>Classes/HZLeaderboardRank.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>HZScore</Name>
+			<Path>Classes/HZScore.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>HeyzapSDK</Name>
+			<Path>Classes/HeyzapSDK.html</Path>
+		</Node>
+		
+		
+		<Node id="7">
+			<Name>HZAdsDelegate</Name>
+			<Path>Protocols/HZAdsDelegate.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>HeyzapAchievementProtocol</Name>
+			<Path>Protocols/HeyzapAchievementProtocol.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

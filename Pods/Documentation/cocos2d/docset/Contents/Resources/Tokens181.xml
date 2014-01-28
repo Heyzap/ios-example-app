@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTimer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTimer</TokenIdentifier>
+			<Abstract type="html">Light weight timer</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<NodeRef refid="181"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setInterval:</TokenIdentifier>
+			<Abstract type="html">interval in seconds</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) ccTime interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/interval</TokenIdentifier>
+			<Abstract type="html">interval in seconds</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) ccTime interval</Declaration>
+			
+			
+			<Anchor>//api/name/interval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTimer/timerWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Allocates a timer with a target and a selector.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>+ (id)timerWithTarget:(id)t selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/timerWithTarget:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTimer/timerWithTarget:selector:interval:</TokenIdentifier>
+			<Abstract type="html">Allocates a timer with a target, a selector and an interval in seconds.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>+ (id)timerWithTarget:(id)t selector:(SEL)s interval:(ccTime)seconds</Declaration>
+			
+			
+			<Anchor>//api/name/timerWithTarget:selector:interval:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/initWithTarget:selector:</TokenIdentifier>
+			<Abstract type="html">Initializes a timer with a target and a selector.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(id)t selector:(SEL)s</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTarget:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/initWithTarget:selector:interval:repeat:delay:</TokenIdentifier>
+			<Abstract type="html">Initializes a timer with a target, a selector, an interval in seconds, repeat in number of times to repeat, delay in seconds</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(id)t selector:(SEL)s interval:(ccTime)seconds repeat:(uint)r delay:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTarget:selector:interval:repeat:delay:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/update:</TokenIdentifier>
+			<Abstract type="html">triggers the timer</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>			
+			
+			<Declaration>- (void)update:(ccTime)dt</Declaration>
+			
+			
+			<Anchor>//api/name/update:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

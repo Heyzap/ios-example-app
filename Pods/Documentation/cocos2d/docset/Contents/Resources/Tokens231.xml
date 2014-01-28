@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CDAudioInterruptTargetGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CDAudioInterruptTargetGroup</TokenIdentifier>
+			<Abstract type="html">Container for objects that implement audio interrupt protocol i.e. they can be muted and enabled.
+Setting mute and enabled for the group propagates to all children.
+Designed to be used with your CDSoundSource objects to get them to comply with global enabled and mute settings
+if that is what you want to do.</Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>
+			
+			<NodeRef refid="231"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CDAudioInterruptTargetGroup/addAudioInterruptTarget:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CocosDenshion.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAudioInterruptTarget:(NSObject&lt;CDAudioInterruptProtocol&gt; *)interruptibleTarget</Declaration>
+			
+			
+			<Anchor>//api/name/addAudioInterruptTarget:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCOrbitCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCOrbitCamera</TokenIdentifier>
+			<Abstract type="html">CCOrbitCamera action
+Orbits the camera around the center of the screen using spherical coordinates</Abstract>
+			<DeclaredIn>CCActionCamera.h</DeclaredIn>
+			
+			<NodeRef refid="111"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCOrbitCamera/actionWithDuration:radius:deltaRadius:angleZ:deltaAngleZ:angleX:deltaAngleX:</TokenIdentifier>
+			<Abstract type="html">creates a CCOrbitCamera action with radius, delta-radius,  z, deltaZ, x, deltaX</Abstract>
+			<DeclaredIn>CCActionCamera.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithDuration:(float)t radius:(float)r deltaRadius:(float)dr angleZ:(float)z deltaAngleZ:(float)dz angleX:(float)x deltaAngleX:(float)dx</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:radius:deltaRadius:angleZ:deltaAngleZ:angleX:deltaAngleX:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCOrbitCamera/initWithDuration:radius:deltaRadius:angleZ:deltaAngleZ:angleX:deltaAngleX:</TokenIdentifier>
+			<Abstract type="html">initializes a CCOrbitCamera action with radius, delta-radius,  z, deltaZ, x, deltaX</Abstract>
+			<DeclaredIn>CCActionCamera.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDuration:(float)t radius:(float)r deltaRadius:(float)dr angleZ:(float)z deltaAngleZ:(float)dz angleX:(float)x deltaAngleX:(float)dx</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:radius:deltaRadius:angleZ:deltaAngleZ:angleX:deltaAngleX:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCOrbitCamera/sphericalRadius:zenith:azimuth:</TokenIdentifier>
+			<Abstract type="html">positions the camera according to spherical coordinates</Abstract>
+			<DeclaredIn>CCActionCamera.h</DeclaredIn>			
+			
+			<Declaration>- (void)sphericalRadius:(float *)r zenith:(float *)zenith azimuth:(float *)azimuth</Declaration>
+			
+			
+			<Anchor>//api/name/sphericalRadius:zenith:azimuth:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCEaseIn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCEaseIn</TokenIdentifier>
+			<Abstract type="html">CCEaseIn action with a rate</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

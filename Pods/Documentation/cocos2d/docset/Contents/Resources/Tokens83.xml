@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCGrid3DAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCGrid3DAction</TokenIdentifier>
+			<Abstract type="html">Base class for CCGrid3D actions.
+Grid3D actions can modify a non-tiled grid.</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>
+			
+			<NodeRef refid="83"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGrid3DAction/vertex:</TokenIdentifier>
+			<Abstract type="html">returns the vertex than belongs to certain position in the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccVertex3F)vertex:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/vertex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGrid3DAction/originalVertex:</TokenIdentifier>
+			<Abstract type="html">returns the non-transformed vertex than belongs to certain position in the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (ccVertex3F)originalVertex:(ccGridSize)pos</Declaration>
+			
+			
+			<Anchor>//api/name/originalVertex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGrid3DAction/setVertex:vertex:</TokenIdentifier>
+			<Abstract type="html">sets a new vertex to a certain position of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (void)setVertex:(ccGridSize)pos vertex:(ccVertex3F)vertex</Declaration>
+			
+			
+			<Anchor>//api/name/setVertex:vertex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

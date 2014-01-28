@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCFlipX.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCFlipX</TokenIdentifier>
+			<Abstract type="html">Flips the sprite horizontally</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCFlipX/actionWithFlipX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithFlipX:(BOOL)x</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithFlipX:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFlipX/initWithFlipX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFlipX:(BOOL)x</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFlipX:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

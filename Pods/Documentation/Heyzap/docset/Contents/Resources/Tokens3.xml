@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/HZLeaderboardLevel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/HZLeaderboardLevel</TokenIdentifier>
+			<Abstract type="html">HZLeaderboardLevel is the model object describing a level. You shouldn&apos;t need to interact with these objects directly; they are returned by Heyzap network requests to be used there.</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HZLeaderboardLevel/setLevelID:</TokenIdentifier>
+			<Abstract type="html">The same level ID you would find at https://developers.heyzap.com/dashboard</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *levelID</Declaration>
+			
+			
+			<Anchor>//api/name/levelID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HZLeaderboardLevel/levelID</TokenIdentifier>
+			<Abstract type="html">The same level ID you would find at https://developers.heyzap.com/dashboard</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *levelID</Declaration>
+			
+			
+			<Anchor>//api/name/levelID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HZLeaderboardLevel/setName:</TokenIdentifier>
+			<Abstract type="html">The name of the level</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HZLeaderboardLevel/name</TokenIdentifier>
+			<Abstract type="html">The name of the level</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/HZLeaderboardLevel/setLowestScoreFirst:</TokenIdentifier>
+			<Abstract type="html">What direction the scores are sorted in in the leaderboard. A golf game might sort based on the fewest strokes (lowest first), whereas a game sorting on points would sort highest first. You can configure this value at https://developers.heyzap.com/dashboard</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL lowestScoreFirst</Declaration>
+			
+			
+			<Anchor>//api/name/lowestScoreFirst</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/HZLeaderboardLevel/lowestScoreFirst</TokenIdentifier>
+			<Abstract type="html">What direction the scores are sorted in in the leaderboard. A golf game might sort based on the fewest strokes (lowest first), whereas a game sorting on points would sort highest first. You can configure this value at https://developers.heyzap.com/dashboard</Abstract>
+			<DeclaredIn>HZLeaderboardLevel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) BOOL lowestScoreFirst</Declaration>
+			
+			
+			<Anchor>//api/name/lowestScoreFirst</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

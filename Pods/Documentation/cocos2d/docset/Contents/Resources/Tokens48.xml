@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCEaseBounceOut.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCEaseBounceOut</TokenIdentifier>
+			<Abstract type="html">EaseBounceOut action.</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

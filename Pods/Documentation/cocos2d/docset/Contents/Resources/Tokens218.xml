@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionSplitRows.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionSplitRows</TokenIdentifier>
+			<Abstract type="html">CCTransitionSplitRows:
+The odd rows goes to the left while the even rows goes to the right.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="218"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

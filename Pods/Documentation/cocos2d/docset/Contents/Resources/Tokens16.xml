@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCArray.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCArray</TokenIdentifier>
+			<Abstract type="html">@def CCARRAY_FOREACH
+A convience macro to iterate over a CCArray using. It is faster than the &quot;fast enumeration&quot; interface.</Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCArray/array</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>+ (id)array</Declaration>
+			
+			
+			<Anchor>//api/name/array</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCArray/arrayWithCapacity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>+ (id)arrayWithCapacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/arrayWithCapacity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCArray/arrayWithArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>+ (id)arrayWithArray:(CCArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/arrayWithArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCArray/arrayWithNSArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>+ (id)arrayWithNSArray:(NSArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/arrayWithNSArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/initWithCapacity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCapacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCapacity:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/initWithArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithArray:(CCArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/initWithNSArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithNSArray:(NSArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNSArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/count</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/capacity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/indexOfObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)indexOfObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/indexOfObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/objectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)objectAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/objectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/containsObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)containsObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/containsObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/randomObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)randomObject</Declaration>
+			
+			
+			<Anchor>//api/name/randomObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/lastObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (id)lastObject</Declaration>
+			
+			
+			<Anchor>//api/name/lastObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/getNSArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)getNSArray</Declaration>
+			
+			
+			<Anchor>//api/name/getNSArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/isEqualToArray:</TokenIdentifier>
+			<Abstract type="html">1.1</Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEqualToArray:(CCArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/isEqualToArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/addObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)addObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/addObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/addObjectsFromArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)addObjectsFromArray:(CCArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/addObjectsFromArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/addObjectsFromNSArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)addObjectsFromNSArray:(NSArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/addObjectsFromNSArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/insertObject:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertObject:(id)object atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertObject:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/removeLastObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeLastObject</Declaration>
+			
+			
+			<Anchor>//api/name/removeLastObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/removeObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/removeObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/removeObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeObjectAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/removeObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/removeObjectsInArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeObjectsInArray:(CCArray *)otherArray</Declaration>
+			
+			
+			<Anchor>//api/name/removeObjectsInArray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/removeAllObjects</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAllObjects</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/fastRemoveObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)fastRemoveObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/fastRemoveObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/fastRemoveObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)fastRemoveObjectAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/fastRemoveObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/exchangeObject:withObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)exchangeObject:(id)object1 withObject:(id)object2</Declaration>
+			
+			
+			<Anchor>//api/name/exchangeObject:withObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/exchangeObjectAtIndex:withObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)exchangeObjectAtIndex:(NSUInteger)index1 withObjectAtIndex:(NSUInteger)index2</Declaration>
+			
+			
+			<Anchor>//api/name/exchangeObjectAtIndex:withObjectAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/replaceObjectAtIndex:withObject:</TokenIdentifier>
+			<Abstract type="html">1.1</Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)replaceObjectAtIndex:(NSUInteger)index withObject:(id)anObject</Declaration>
+			
+			
+			<Anchor>//api/name/replaceObjectAtIndex:withObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/reverseObjects</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)reverseObjects</Declaration>
+			
+			
+			<Anchor>//api/name/reverseObjects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/reduceMemoryFootprint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)reduceMemoryFootprint</Declaration>
+			
+			
+			<Anchor>//api/name/reduceMemoryFootprint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/qsortUsingCFuncComparator:</TokenIdentifier>
+			<Abstract type="html">all since @1.1</Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)qsortUsingCFuncComparator:(int ( *) ( const void *, const void *))comparator</Declaration>
+			
+			
+			<Anchor>//api/name/qsortUsingCFuncComparator:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/insertionSortUsingCFuncComparator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertionSortUsingCFuncComparator:(int ( *) ( const void *, const void *))comparator</Declaration>
+			
+			
+			<Anchor>//api/name/insertionSortUsingCFuncComparator:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/mergesortLUsingCFuncComparator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)mergesortLUsingCFuncComparator:(int ( *) ( const void *, const void *))comparator</Declaration>
+			
+			
+			<Anchor>//api/name/mergesortLUsingCFuncComparator:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/insertionSort:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertionSort:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/insertionSort:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/sortUsingFunction:context:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)sortUsingFunction:(NSInteger ( *) ( id , id , void *))compare context:(void *)context</Declaration>
+			
+			
+			<Anchor>//api/name/sortUsingFunction:context:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/makeObjectsPerformSelector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)makeObjectsPerformSelector:(SEL)aSelector</Declaration>
+			
+			
+			<Anchor>//api/name/makeObjectsPerformSelector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/makeObjectsPerformSelector:withObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)makeObjectsPerformSelector:(SEL)aSelector withObject:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/makeObjectsPerformSelector:withObject:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCArray/makeObjectPerformSelectorWithArrayObjects:selector:</TokenIdentifier>
+			<Abstract type="html">1.1</Abstract>
+			<DeclaredIn>CCArray.h</DeclaredIn>			
+			
+			<Declaration>- (void)makeObjectPerformSelectorWithArrayObjects:(id)object selector:(SEL)aSelector</Declaration>
+			
+			
+			<Anchor>//api/name/makeObjectPerformSelectorWithArrayObjects:selector:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

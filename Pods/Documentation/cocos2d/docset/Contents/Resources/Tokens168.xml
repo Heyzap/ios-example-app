@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTMXMapInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTMXMapInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<NodeRef refid="168"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setOrientation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) int orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/orientation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) int orientation</Declaration>
+			
+			
+			<Anchor>//api/name/orientation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setMapSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize mapSize</Declaration>
+			
+			
+			<Anchor>//api/name/mapSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/mapSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize mapSize</Declaration>
+			
+			
+			<Anchor>//api/name/mapSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setTileSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize tileSize</Declaration>
+			
+			
+			<Anchor>//api/name/tileSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/tileSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize tileSize</Declaration>
+			
+			
+			<Anchor>//api/name/tileSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setLayers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *layers</Declaration>
+			
+			
+			<Anchor>//api/name/layers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/layers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *layers</Declaration>
+			
+			
+			<Anchor>//api/name/layers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setTilesets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *tilesets</Declaration>
+			
+			
+			<Anchor>//api/name/tilesets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/tilesets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *tilesets</Declaration>
+			
+			
+			<Anchor>//api/name/tilesets</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setFilename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/filename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setResources:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/resources</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *resources</Declaration>
+			
+			
+			<Anchor>//api/name/resources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setObjectGroups:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *objectGroups</Declaration>
+			
+			
+			<Anchor>//api/name/objectGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/objectGroups</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *objectGroups</Declaration>
+			
+			
+			<Anchor>//api/name/objectGroups</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setProperties:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/properties</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/setTileProperties:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *tileProperties</Declaration>
+			
+			
+			<Anchor>//api/name/tileProperties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXMapInfo/tileProperties</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *tileProperties</Declaration>
+			
+			
+			<Anchor>//api/name/tileProperties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTMXMapInfo/formatWithTMXFile:</TokenIdentifier>
+			<Abstract type="html">creates a TMX Format with a tmx file</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>+ (id)formatWithTMXFile:(NSString *)tmxFile</Declaration>
+			
+			
+			<Anchor>//api/name/formatWithTMXFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTMXMapInfo/formatWithXML:resourcePath:</TokenIdentifier>
+			<Abstract type="html">creates a TMX Format with an XML string and a TMX resource path</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>+ (id)formatWithXML:(NSString *)tmxString resourcePath:(NSString *)resourcePath</Declaration>
+			
+			
+			<Anchor>//api/name/formatWithXML:resourcePath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/initWithTMXFile:</TokenIdentifier>
+			<Abstract type="html">initializes a TMX format with a tmx file</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTMXFile:(NSString *)tmxFile</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTMXFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXMapInfo/initWithXML:resourcePath:</TokenIdentifier>
+			<Abstract type="html">initializes a TMX format with an XML string and a TMX resource path</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithXML:(NSString *)tmxString resourcePath:(NSString *)resourcePath</Declaration>
+			
+			
+			<Anchor>//api/name/initWithXML:resourcePath:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTileMapAtlas.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTileMapAtlas</TokenIdentifier>
+			<Abstract type="html">CCTileMapAtlas is a subclass of CCAtlasNode.</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>
+			
+			<NodeRef refid="178"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTileMapAtlas/setTgaInfo:</TokenIdentifier>
+			<Abstract type="html">TileMap info</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) tImageTGA *tgaInfo</Declaration>
+			
+			
+			<Anchor>//api/name/tgaInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTileMapAtlas/tgaInfo</TokenIdentifier>
+			<Abstract type="html">TileMap info</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) tImageTGA *tgaInfo</Declaration>
+			
+			
+			<Anchor>//api/name/tgaInfo</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTileMapAtlas/tileMapAtlasWithTileFile:mapFile:tileWidth:tileHeight:</TokenIdentifier>
+			<Abstract type="html">creates a CCTileMap with a tile file (atlas) with a map file and the width and height of each tile in points.
+The tile file will be loaded using the TextureMgr.</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>+ (id)tileMapAtlasWithTileFile:(NSString *)tile mapFile:(NSString *)map tileWidth:(int)w tileHeight:(int)h</Declaration>
+			
+			
+			<Anchor>//api/name/tileMapAtlasWithTileFile:mapFile:tileWidth:tileHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTileMapAtlas/initWithTileFile:mapFile:tileWidth:tileHeight:</TokenIdentifier>
+			<Abstract type="html">initializes a CCTileMap with a tile file (atlas) with a map file and the width and height of each tile in points.
+The file will be loaded using the TextureMgr.</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTileFile:(NSString *)tile mapFile:(NSString *)map tileWidth:(int)w tileHeight:(int)h</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTileFile:mapFile:tileWidth:tileHeight:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTileMapAtlas/tileAt:</TokenIdentifier>
+			<Abstract type="html">returns a tile from position x,y.
+For the moment only channel R is used</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>- (ccColor3B)tileAt:(ccGridSize)position</Declaration>
+			
+			
+			<Anchor>//api/name/tileAt:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTileMapAtlas/setTile:at:</TokenIdentifier>
+			<Abstract type="html">sets a tile at position x,y.
+For the moment only channel R is used</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>- (void)setTile:(ccColor3B)tile at:(ccGridSize)position</Declaration>
+			
+			
+			<Anchor>//api/name/setTile:at:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTileMapAtlas/releaseMap</TokenIdentifier>
+			<Abstract type="html">dealloc the map from memory</Abstract>
+			<DeclaredIn>CCTileMapAtlas.h</DeclaredIn>			
+			
+			<Declaration>- (void)releaseMap</Declaration>
+			
+			
+			<Anchor>//api/name/releaseMap</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

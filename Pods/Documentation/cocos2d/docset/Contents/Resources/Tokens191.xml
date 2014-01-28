@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionFadeTR.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionFadeTR</TokenIdentifier>
+			<Abstract type="html">CCTransitionFadeTR:
+Fade the tiles of the outgoing scene from the left-bottom corner the to top-right corner.</Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>
+			
+			<NodeRef refid="191"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTransitionFadeTR/actionWithSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTransition.h</DeclaredIn>			
+			
+			<Declaration>- (CCActionInterval *)actionWithSize:(ccGridSize)vector</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithSize:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

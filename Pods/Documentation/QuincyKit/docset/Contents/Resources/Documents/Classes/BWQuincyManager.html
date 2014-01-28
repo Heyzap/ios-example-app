@@ -1,0 +1,657 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BWQuincyManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">QuincyKit 2.1.9 </a></h1>
+				<a id="developerHome" href="../index.html">Andreas Linde</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BWQuincyManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/appIdentifier">&nbsp;&nbsp;&nbsp;&nbsp;appIdentifier</option>
+	
+	<option value="//api/name/autoSubmitCrashReport">&nbsp;&nbsp;&nbsp;&nbsp;autoSubmitCrashReport</option>
+	
+	<option value="//api/name/companyName">&nbsp;&nbsp;&nbsp;&nbsp;companyName</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/didCrashInLastSession">&nbsp;&nbsp;&nbsp;&nbsp;didCrashInLastSession</option>
+	
+	<option value="//api/name/feedbackActivated">&nbsp;&nbsp;&nbsp;&nbsp;feedbackActivated</option>
+	
+	<option value="//api/name/languageStyle">&nbsp;&nbsp;&nbsp;&nbsp;languageStyle</option>
+	
+	<option value="//api/name/loggingEnabled">&nbsp;&nbsp;&nbsp;&nbsp;loggingEnabled</option>
+	
+	<option value="//api/name/showAlwaysButton">&nbsp;&nbsp;&nbsp;&nbsp;showAlwaysButton</option>
+	
+	<option value="//api/name/submissionURL">&nbsp;&nbsp;&nbsp;&nbsp;submissionURL</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/sharedQuincyManager">&nbsp;&nbsp;&nbsp;&nbsp;+ sharedQuincyManager</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/applicationName">&nbsp;&nbsp;&nbsp;&nbsp;- applicationName</option>
+	
+	<option value="//api/name/applicationVersion">&nbsp;&nbsp;&nbsp;&nbsp;- applicationVersion</option>
+	
+	<option value="//api/name/applicationVersionString">&nbsp;&nbsp;&nbsp;&nbsp;- applicationVersionString</option>
+	
+	<option value="//api/name/cancelReport">&nbsp;&nbsp;&nbsp;&nbsp;- cancelReport</option>
+	
+	<option value="//api/name/modelVersion">&nbsp;&nbsp;&nbsp;&nbsp;- modelVersion</option>
+	
+	<option value="//api/name/sendReportCrash:description:">&nbsp;&nbsp;&nbsp;&nbsp;- sendReportCrash:description:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/appIdentifier">appIdentifier</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/autoSubmitCrashReport">autoSubmitCrashReport</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/companyName">companyName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didCrashInLastSession">didCrashInLastSession</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/feedbackActivated">feedbackActivated</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/languageStyle">languageStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loggingEnabled">loggingEnabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showAlwaysButton">showAlwaysButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/submissionURL">submissionURL</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sharedQuincyManager">sharedQuincyManager</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applicationName">applicationName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applicationVersion">applicationVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applicationVersionString">applicationVersionString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cancelReport">cancelReport</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/modelVersion">modelVersion</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendReportCrash:description:">sendReportCrash:description:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BWQuincyManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BWQuincyManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSXMLParserDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BWQuincyManager.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/modelVersion">&ndash;&nbsp;modelVersion</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sharedQuincyManager">+&nbsp;sharedQuincyManager</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/submissionURL">&nbsp;&nbsp;submissionURL</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/companyName">&nbsp;&nbsp;companyName</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/autoSubmitCrashReport">&nbsp;&nbsp;autoSubmitCrashReport</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/appIdentifier">&nbsp;&nbsp;appIdentifier</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cancelReport">&ndash;&nbsp;cancelReport</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendReportCrash:description:">&ndash;&nbsp;sendReportCrash:description:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applicationName">&ndash;&nbsp;applicationName</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applicationVersionString">&ndash;&nbsp;applicationVersionString</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applicationVersion">&ndash;&nbsp;applicationVersion</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loggingEnabled">&nbsp;&nbsp;loggingEnabled</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/languageStyle">&nbsp;&nbsp;languageStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showAlwaysButton">&nbsp;&nbsp;showAlwaysButton</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/feedbackActivated">&nbsp;&nbsp;feedbackActivated</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didCrashInLastSession">&nbsp;&nbsp;didCrashInLastSession</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/appIdentifier" title="appIdentifier"></a>
+	<h3 class="subsubtitle method-title">appIdentifier</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *appIdentifier</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/autoSubmitCrashReport" title="autoSubmitCrashReport"></a>
+	<h3 class="subsubtitle method-title">autoSubmitCrashReport</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, getter=isAutoSubmitCrashReport) BOOL autoSubmitCrashReport</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/companyName" title="companyName"></a>
+	<h3 class="subsubtitle method-title">companyName</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *companyName</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;BWQuincyManagerDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/didCrashInLastSession" title="didCrashInLastSession"></a>
+	<h3 class="subsubtitle method-title">didCrashInLastSession</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL didCrashInLastSession</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/feedbackActivated" title="feedbackActivated"></a>
+	<h3 class="subsubtitle method-title">feedbackActivated</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, getter=isFeedbackActivated) BOOL feedbackActivated</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/languageStyle" title="languageStyle"></a>
+	<h3 class="subsubtitle method-title">languageStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *languageStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loggingEnabled" title="loggingEnabled"></a>
+	<h3 class="subsubtitle method-title">loggingEnabled</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, getter=isLoggingEnabled) BOOL loggingEnabled</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showAlwaysButton" title="showAlwaysButton"></a>
+	<h3 class="subsubtitle method-title">showAlwaysButton</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, getter=isShowingAlwaysButton) BOOL showAlwaysButton</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/submissionURL" title="submissionURL"></a>
+	<h3 class="subsubtitle method-title">submissionURL</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *submissionURL</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/sharedQuincyManager" title="sharedQuincyManager"></a>
+	<h3 class="subsubtitle method-title">sharedQuincyManager</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (BWQuincyManager *)sharedQuincyManager</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/applicationName" title="applicationName"></a>
+	<h3 class="subsubtitle method-title">applicationName</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)applicationName</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applicationVersion" title="applicationVersion"></a>
+	<h3 class="subsubtitle method-title">applicationVersion</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)applicationVersion</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applicationVersionString" title="applicationVersionString"></a>
+	<h3 class="subsubtitle method-title">applicationVersionString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)applicationVersionString</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cancelReport" title="cancelReport"></a>
+	<h3 class="subsubtitle method-title">cancelReport</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)cancelReport</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/modelVersion" title="modelVersion"></a>
+	<h3 class="subsubtitle method-title">modelVersion</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)modelVersion</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendReportCrash:description:" title="sendReportCrash:description:"></a>
+	<h3 class="subsubtitle method-title">sendReportCrash:description:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendReportCrash:(NSString *)<em>crashContent</em> description:(NSString *)<em>description</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Andreas Linde. All rights reserved. (Last updated: 2013-04-06)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

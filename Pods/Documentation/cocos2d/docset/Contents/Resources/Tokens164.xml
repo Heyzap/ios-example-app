@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCStandardTouchHandler.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCStandardTouchHandler</TokenIdentifier>
+			<Abstract type="html">CCStandardTouchHandler
+It forwardes each event to the delegate.</Abstract>
+			<DeclaredIn>CCTouchHandler.h</DeclaredIn>
+			
+			<NodeRef refid="164"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCDeccelAmplitude.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCDeccelAmplitude</TokenIdentifier>
+			<Abstract type="html">CCDeccelAmplitude action</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDeccelAmplitude/setRate:</TokenIdentifier>
+			<Abstract type="html">amplitude rate</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) float rate</Declaration>
+			
+			
+			<Anchor>//api/name/rate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCDeccelAmplitude/rate</TokenIdentifier>
+			<Abstract type="html">amplitude rate</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) float rate</Declaration>
+			
+			
+			<Anchor>//api/name/rate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCDeccelAmplitude/actionWithAction:duration:</TokenIdentifier>
+			<Abstract type="html">creates the action with an inner action that has the amplitude property, and a duration time</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithAction:(CCAction *)action duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithAction:duration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDeccelAmplitude/initWithAction:duration:</TokenIdentifier>
+			<Abstract type="html">initializes the action with an inner action that has the amplitude property, and a duration time</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAction:(CCAction *)action duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAction:duration:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

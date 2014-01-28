@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionCamera.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionCamera</TokenIdentifier>
+			<Abstract type="html">Base class for CCCamera actions</Abstract>
+			<DeclaredIn>CCActionCamera.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

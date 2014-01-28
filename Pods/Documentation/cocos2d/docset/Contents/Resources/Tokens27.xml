@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCCallFuncND.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCCallFuncND</TokenIdentifier>
+			<Abstract type="html">Calls a &apos;callback&apos; with the node as the first argument and the 2nd argument is data.
+ND means: Node and Data. Data is void *, so it could be anything.</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCallFuncND/setCallbackMethod:</TokenIdentifier>
+			<Abstract type="html">Invocation object that has the target#selector and the parameters</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CC_CALLBACK_ND callbackMethod</Declaration>
+			
+			
+			<Anchor>//api/name/callbackMethod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCCallFuncND/callbackMethod</TokenIdentifier>
+			<Abstract type="html">Invocation object that has the target#selector and the parameters</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CC_CALLBACK_ND callbackMethod</Declaration>
+			
+			
+			<Anchor>//api/name/callbackMethod</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCCallFuncND/actionWithTarget:selector:data:</TokenIdentifier>
+			<Abstract type="html">creates the action with the callback and the data to pass as an argument</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithTarget:(id)t selector:(SEL)s data:(void *)d</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithTarget:selector:data:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCCallFuncND/initWithTarget:selector:data:</TokenIdentifier>
+			<Abstract type="html">initializes the action with the callback and the data to pass as an argument</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTarget:(id)t selector:(SEL)s data:(void *)d</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTarget:selector:data:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

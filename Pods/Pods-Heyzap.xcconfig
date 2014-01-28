@@ -1,0 +1,2 @@
+PODS_HEYZAP_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Heyzap"
+PODS_HEYZAP_OTHER_LDFLAGS = -framework CoreGraphics -framework CoreTelephony -framework HeyzapAds -framework MediaPlayer -framework QuartzCore -weak_framework AdSupport -weak_framework StoreKit

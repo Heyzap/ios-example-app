@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCMenuItemAtlasFont.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCMenuItemAtlasFont</TokenIdentifier>
+			<Abstract type="html">A CCMenuItemAtlasFont
+Helper class that creates a CCMenuItemLabel class with a CCLabelAtlas</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:</TokenIdentifier>
+			<Abstract type="html">creates a menu item from a string and atlas with a target/selector</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</TokenIdentifier>
+			<Abstract type="html">creates a menu item from a string and atlas. Use it with CCMenuItemToggle.
+The &quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap target:(id)target selector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemAtlasFont/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item from a string and atlas with a target/selector.
+  The &quot;target&quot; won&apos;t be retained.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap target:(id)target selector:(SEL)selector</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:block:</TokenIdentifier>
+			<Abstract type="html">creates a menu item from a string and atlas. Use it with CCMenuItemToggle.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemWithString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemWithString:charMapFile:itemWidth:itemHeight:startCharMap:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemAtlasFont/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:block:</TokenIdentifier>
+			<Abstract type="html">initializes a menu item from a string and atlas with a  block.
+The block will be &quot;copied&quot;.</Abstract>
+			<DeclaredIn>CCMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap target:(id)rec selector:(SEL)cb</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMenuItemAtlasFont/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>+ (id)itemFromString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/itemFromString:charMapFile:itemWidth:itemHeight:startCharMap:block:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemAtlasFont/initFromString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>- (id)initFromString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap target:(id)rec selector:(SEL)cb</Declaration>
+			
+			
+			<Anchor>//api/name/initFromString:charMapFile:itemWidth:itemHeight:startCharMap:target:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMenuItemAtlasFont/initFromString:charMapFile:itemWidth:itemHeight:startCharMap:block:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccDeprecated.h</DeclaredIn>			
+			
+			<Declaration>- (id)initFromString:(NSString *)value charMapFile:(NSString *)charMapFile itemWidth:(int)itemWidth itemHeight:(int)itemHeight startCharMap:(char)startCharMap block:(void ( ^ ) ( id sender ))block</Declaration>
+			
+			
+			<Anchor>//api/name/initFromString:charMapFile:itemWidth:itemHeight:startCharMap:block:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

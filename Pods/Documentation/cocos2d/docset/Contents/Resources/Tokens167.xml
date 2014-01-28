@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTMXLayerInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTMXLayerInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<NodeRef refid="167"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setLayerSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize layerSize</Declaration>
+			
+			
+			<Anchor>//api/name/layerSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/layerSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize layerSize</Declaration>
+			
+			
+			<Anchor>//api/name/layerSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setTiles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int *tiles</Declaration>
+			
+			
+			<Anchor>//api/name/tiles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/tiles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int *tiles</Declaration>
+			
+			
+			<Anchor>//api/name/tiles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setVisible:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/visible</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL visible</Declaration>
+			
+			
+			<Anchor>//api/name/visible</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setOpacity:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned char opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/opacity</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned char opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setOwnTiles:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL ownTiles</Declaration>
+			
+			
+			<Anchor>//api/name/ownTiles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/ownTiles</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL ownTiles</Declaration>
+			
+			
+			<Anchor>//api/name/ownTiles</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setMinGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int minGID</Declaration>
+			
+			
+			<Anchor>//api/name/minGID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/minGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int minGID</Declaration>
+			
+			
+			<Anchor>//api/name/minGID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setMaxGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int maxGID</Declaration>
+			
+			
+			<Anchor>//api/name/maxGID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/maxGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) unsigned int maxGID</Declaration>
+			
+			
+			<Anchor>//api/name/maxGID</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setProperties:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/properties</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXLayerInfo/setOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXLayerInfo/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

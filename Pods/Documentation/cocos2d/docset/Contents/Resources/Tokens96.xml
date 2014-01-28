@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLayerMultiplex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLayerMultiplex</TokenIdentifier>
+			<Abstract type="html">CCLayerMultiplex is a CCLayer with the ability to multiplex its children.
+Features:
+   - It supports one or more children
+   - Only one children will be active a time</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<NodeRef refid="96"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLayerMultiplex/layerWithLayers:</TokenIdentifier>
+			<Abstract type="html">creates a CCMultiplexLayer with one or more layers using a variable argument list.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>			
+			
+			<Declaration>+ (id)layerWithLayers:(CCLayer *)layer, ...</Declaration>
+			
+			
+			<Anchor>//api/name/layerWithLayers:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerMultiplex/initWithLayers:vaList:</TokenIdentifier>
+			<Abstract type="html">initializes a MultiplexLayer with one or more layers using a variable argument list.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLayers:(CCLayer *)layer vaList:(va_list)params</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLayers:vaList:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerMultiplex/switchTo:</TokenIdentifier>
+			<Abstract type="html">switches to a certain layer indexed by n.
+The current (old) layer will be removed from its parent with &apos;cleanup:YES&apos;.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)switchTo:(unsigned int)n</Declaration>
+			
+			
+			<Anchor>//api/name/switchTo:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerMultiplex/switchToAndReleaseMe:</TokenIdentifier>
+			<Abstract type="html">release the current layer and switches to another layer indexed by n.
+The current (old) layer will be removed from its parent with &apos;cleanup:YES&apos;.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)switchToAndReleaseMe:(unsigned int)n</Declaration>
+			
+			
+			<Anchor>//api/name/switchToAndReleaseMe:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

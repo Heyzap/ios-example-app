@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCFadeOutUpTiles.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCFadeOutUpTiles</TokenIdentifier>
+			<Abstract type="html">CCFadeOutUpTiles action.
+Fades out the tiles in upwards direction</Abstract>
+			<DeclaredIn>CCActionTiledGrid.h</DeclaredIn>
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

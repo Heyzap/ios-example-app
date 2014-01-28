@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CDLongAudioSourceFader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CDLongAudioSourceFader</TokenIdentifier>
+			<Abstract type="html">Fader for long audio source objects</Abstract>
+			<DeclaredIn>CDAudioManager.h</DeclaredIn>
+			
+			<NodeRef refid="237"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCESRenderer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCESRenderer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>
+			
+			<NodeRef refid="255"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/initWithDepthFormat:withPixelFormat:withSharegroup:withMultiSampling:withNumberOfSamples:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDepthFormat:(unsigned int)depthFormat withPixelFormat:(unsigned int)pixelFormat withSharegroup:(EAGLSharegroup *)sharegroup withMultiSampling:(BOOL)multiSampling withNumberOfSamples:(unsigned int)requestedSamples</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDepthFormat:withPixelFormat:withSharegroup:withMultiSampling:withNumberOfSamples:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/resizeFromLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)resizeFromLayer:(CAEAGLLayer *)layer</Declaration>
+			
+			
+			<Anchor>//api/name/resizeFromLayer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/context</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (EAGLContext *)context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/backingSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (CGSize)backingSize</Declaration>
+			
+			
+			<Anchor>//api/name/backingSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/colorRenderBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned int)colorRenderBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/colorRenderBuffer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/defaultFrameBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned int)defaultFrameBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/defaultFrameBuffer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/msaaFrameBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned int)msaaFrameBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaFrameBuffer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCESRenderer/msaaColorBuffer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCESRenderer.h</DeclaredIn>			
+			
+			<Declaration>- (unsigned int)msaaColorBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaColorBuffer</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

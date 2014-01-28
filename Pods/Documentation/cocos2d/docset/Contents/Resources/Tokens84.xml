@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCGridAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCGridAction</TokenIdentifier>
+			<Abstract type="html">Base class for Grid actions</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGridAction/setGridSize:</TokenIdentifier>
+			<Abstract type="html">size of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) ccGridSize gridSize</Declaration>
+			
+			
+			<Anchor>//api/name/gridSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCGridAction/gridSize</TokenIdentifier>
+			<Abstract type="html">size of the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) ccGridSize gridSize</Declaration>
+			
+			
+			<Anchor>//api/name/gridSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGridAction/actionWithSize:duration:</TokenIdentifier>
+			<Abstract type="html">creates the action with size and duration</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithSize:(ccGridSize)size duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithSize:duration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGridAction/initWithSize:duration:</TokenIdentifier>
+			<Abstract type="html">initializes the action with size and duration</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithSize:(ccGridSize)gridSize duration:(ccTime)d</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSize:duration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGridAction/grid</TokenIdentifier>
+			<Abstract type="html">returns the grid</Abstract>
+			<DeclaredIn>CCActionGrid.h</DeclaredIn>			
+			
+			<Declaration>- (CCGridBase *)grid</Declaration>
+			
+			
+			<Anchor>//api/name/grid</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

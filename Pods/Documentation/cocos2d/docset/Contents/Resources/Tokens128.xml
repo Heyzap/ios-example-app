@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPlace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPlace</TokenIdentifier>
+			<Abstract type="html">Places the node in a certain position</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>
+			
+			<NodeRef refid="128"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCPlace/actionWithPosition:</TokenIdentifier>
+			<Abstract type="html">creates a Place action with a position</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithPosition:(CGPoint)pos</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPlace/initWithPosition:</TokenIdentifier>
+			<Abstract type="html">Initializes a Place action with a position</Abstract>
+			<DeclaredIn>CCActionInstant.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPosition:(CGPoint)pos</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPosition:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

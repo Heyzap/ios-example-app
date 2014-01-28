@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCProgressFromTo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCProgressFromTo</TokenIdentifier>
+			<Abstract type="html">Progress from a percentage to another percentage</Abstract>
+			<DeclaredIn>CCActionProgressTimer.h</DeclaredIn>
+			
+			<NodeRef refid="132"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCProgressFromTo/actionWithDuration:from:to:</TokenIdentifier>
+			<Abstract type="html">Creates and initializes the action with a duration, a &quot;from&quot; percentage and a &quot;to&quot; percentage</Abstract>
+			<DeclaredIn>CCActionProgressTimer.h</DeclaredIn>			
+			
+			<Declaration>+ (id)actionWithDuration:(ccTime)duration from:(float)fromPercentage to:(float)toPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:from:to:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCProgressFromTo/initWithDuration:from:to:</TokenIdentifier>
+			<Abstract type="html">Initializes the action with a duration, a &quot;from&quot; percentage and a &quot;to&quot; percentage</Abstract>
+			<DeclaredIn>CCActionProgressTimer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDuration:(ccTime)duration from:(float)fromPercentage to:(float)toPercentage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:from:to:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

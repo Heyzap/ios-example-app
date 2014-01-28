@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCMouseEventDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCMouseEventDelegate</TokenIdentifier>
+			<Abstract type="html">CCMouseEventDelegate protocol.
+Implement it in your node to receive any of mouse events</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>
+			
+			<NodeRef refid="259"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseDown:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseDown&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccMouseDown:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseDragged:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseDragged&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccMouseDragged:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseMoved:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseMoved&quot; event is received.
+Return YES to avoid propagating the event to other delegates.
+By default, &quot;mouseMoved&quot; is disabled. To enable it, send the &quot;setAcceptsMouseMovedEvents:YES&quot; message to the main window.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccMouseMoved:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseMoved:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseUp:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseUp&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccMouseUp:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccRightMouseDown:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;rightMouseDown&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccRightMouseDown:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccRightMouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccRightMouseDragged:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;rightMouseDragged&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccRightMouseDragged:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccRightMouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccRightMouseUp:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;rightMouseUp&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccRightMouseUp:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccRightMouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccOtherMouseDown:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;otherMouseDown&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccOtherMouseDown:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccOtherMouseDown:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccOtherMouseDragged:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;otherMouseDragged&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccOtherMouseDragged:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccOtherMouseDragged:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccOtherMouseUp:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;otherMouseUp&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccOtherMouseUp:(NSEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccOtherMouseUp:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccScrollWheel:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;scrollWheel&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccScrollWheel:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/ccScrollWheel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseEntered:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseEntered&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccMouseEntered:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseEntered:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCMouseEventDelegate/ccMouseExited:</TokenIdentifier>
+			<Abstract type="html">called when the &quot;mouseExited&quot; event is received.
+Return YES to avoid propagating the event to other delegates.</Abstract>
+			<DeclaredIn>CCEventDispatcher.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccMouseExited:(NSEvent *)theEvent</Declaration>
+			
+			
+			<Anchor>//api/name/ccMouseExited:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

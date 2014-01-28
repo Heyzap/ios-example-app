@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTMXObjectGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTMXObjectGroup</TokenIdentifier>
+			<Abstract type="html">CCTMXObjectGroup represents the TMX object group.</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>
+			
+			<NodeRef refid="169"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">name of the group</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXObjectGroup/groupName</TokenIdentifier>
+			<Abstract type="html">name of the group</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/setPositionOffset:</TokenIdentifier>
+			<Abstract type="html">offset position of child objects</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint positionOffset</Declaration>
+			
+			
+			<Anchor>//api/name/positionOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXObjectGroup/positionOffset</TokenIdentifier>
+			<Abstract type="html">offset position of child objects</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint positionOffset</Declaration>
+			
+			
+			<Anchor>//api/name/positionOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/setObjects:</TokenIdentifier>
+			<Abstract type="html">array of the objects</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXObjectGroup/objects</TokenIdentifier>
+			<Abstract type="html">array of the objects</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/setProperties:</TokenIdentifier>
+			<Abstract type="html">list of properties stored in a dictionary</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTMXObjectGroup/properties</TokenIdentifier>
+			<Abstract type="html">list of properties stored in a dictionary</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/propertyNamed:</TokenIdentifier>
+			<Abstract type="html">return the value for the specific property name</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>- (id)propertyNamed:(NSString *)propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyNamed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTMXObjectGroup/objectNamed:</TokenIdentifier>
+			<Abstract type="html">return the dictionary for the specific object name.
+It will return the 1st object found on the array for the given name.</Abstract>
+			<DeclaredIn>CCTMXObjectGroup.h</DeclaredIn>			
+			
+			<Declaration>- (NSMutableDictionary *)objectNamed:(NSString *)objectName</Declaration>
+			
+			
+			<Anchor>//api/name/objectNamed:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

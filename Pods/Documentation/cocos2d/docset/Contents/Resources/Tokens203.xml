@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTransitionProgressHorizontal.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTransitionProgressHorizontal</TokenIdentifier>
+			<Abstract type="html">CCTransitionProgressHorizontal transition.
+A  colock-wise radial transition to the next scene</Abstract>
+			<DeclaredIn>CCTransitionProgress.h</DeclaredIn>
+			
+			<NodeRef refid="203"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCTargetedTouchDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCTargetedTouchDelegate</TokenIdentifier>
+			<Abstract type="html">CCTargetedTouchDelegate.</Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="262"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTargetedTouchDelegate/ccTouchBegan:withEvent:</TokenIdentifier>
+			<Abstract type="html">Return YES to claim the touch.</Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchBegan:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTargetedTouchDelegate/ccTouchMoved:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchMoved:(UITouch *)touch withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchMoved:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTargetedTouchDelegate/ccTouchEnded:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchEnded:withEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTargetedTouchDelegate/ccTouchCancelled:withEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTouchDelegateProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)ccTouchCancelled:(UITouch *)touch withEvent:(UIEvent *)event</Declaration>
+			
+			
+			<Anchor>//api/name/ccTouchCancelled:withEvent:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

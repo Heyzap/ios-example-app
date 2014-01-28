@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AppXperience.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AppXperience</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/setDeveloperKey:</TokenIdentifier>
+			<Abstract type="html">Your developer key to identify yourself on appXperience. (Mandatory)</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *developerKey</Declaration>
+			
+			
+			<Anchor>//api/name/developerKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppXperience/developerKey</TokenIdentifier>
+			<Abstract type="html">Your developer key to identify yourself on appXperience. (Mandatory)</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) NSString *developerKey</Declaration>
+			
+			
+			<Anchor>//api/name/developerKey</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/setOfferwallDetailTimerDuration:</TokenIdentifier>
+			<Abstract type="html">Timer for the left menu close duration in offerwall&apos;s detail
+Optional : by default it&apos;s automatiquely closing after delay
+Set -1 to force user to close menu manually</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat offerwallDetailTimerDuration</Declaration>
+			
+			
+			<Anchor>//api/name/offerwallDetailTimerDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppXperience/offerwallDetailTimerDuration</TokenIdentifier>
+			<Abstract type="html">Timer for the left menu close duration in offerwall&apos;s detail
+Optional : by default it&apos;s automatiquely closing after delay
+Set -1 to force user to close menu manually</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat offerwallDetailTimerDuration</Declaration>
+			
+			
+			<Anchor>//api/name/offerwallDetailTimerDuration</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AppXperience/sharedManager</TokenIdentifier>
+			<Abstract type="html">Singleton access</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>+ (AppXperience *)sharedManager</Declaration>
+			
+			<ReturnValue><Abstract type="html">the singleton instance</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedManager</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/prepareInterstitialWithCompletion:error:</TokenIdentifier>
+			<Abstract type="html">This methode call the model to get interstitial data and return an InterstitialViewController in the block</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareInterstitialWithCompletion:(AXControllerBlock)completion error:(AXErrorBlock)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">return an Interstitial controller with data</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">return an error if data can&apos;t be download</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/prepareInterstitialWithCompletion:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/prepareOrRefreshOfferWallDataWithCompletion:error:</TokenIdentifier>
+			<Abstract type="html">This method fetch the offerwall data</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (void)prepareOrRefreshOfferWallDataWithCompletion:(AXAppXperienceBlock)completion error:(AXErrorBlock)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">return a boolean success that tell you if data is fetch and numberNewApp give you the number of new application since last connexion</Abstract>
+				</Parameter><Parameter>
+					<Name>error</Name>
+					<Abstract type="html">return an error if data can&apos;t be download</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/prepareOrRefreshOfferWallDataWithCompletion:error:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/offerWallViewControllerFromTabBar</TokenIdentifier>
+			<Abstract type="html">Return the view controller of the offerwall.
+You need to retain it. This will always return a new view.</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (UIViewController *)offerWallViewControllerFromTabBar</Declaration>
+			
+			<ReturnValue><Abstract type="html">return the offerwall view controller</Abstract></ReturnValue>
+			<Anchor>//api/name/offerWallViewControllerFromTabBar</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/offerWallViewControllerFromModal</TokenIdentifier>
+			<Abstract type="html">Return the view controller of the offerwall with headerView.
+You need to retain it. This will always return a new view.</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (UIViewController *)offerWallViewControllerFromModal</Declaration>
+			
+			<ReturnValue><Abstract type="html">return the offerwall view controller</Abstract></ReturnValue>
+			<Anchor>//api/name/offerWallViewControllerFromModal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/lastConnexionDate</TokenIdentifier>
+			<Abstract type="html">Return the last connexion date since offerwallData has been fetch.</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (NSDate *)lastConnexionDate</Declaration>
+			
+			<ReturnValue><Abstract type="html">return the date</Abstract></ReturnValue>
+			<Anchor>//api/name/lastConnexionDate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppXperience/purgeDatas</TokenIdentifier>
+			<Abstract type="html">This methode purge all the saved datas</Abstract>
+			<DeclaredIn>AppXperience.h</DeclaredIn>			
+			
+			<Declaration>- (void)purgeDatas</Declaration>
+			
+			
+			<Anchor>//api/name/purgeDatas</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
