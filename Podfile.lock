@@ -11,16 +11,16 @@ PODS:
   - VungleAdvertiserSDK (3.1.2)
 
 DEPENDENCIES:
-  - AdColony
-  - AppLovin
-  - ChartboostSDK
-  - FacebookAudienceNetwork
-  - Google-Mobile-Ads-SDK
-  - Heyzap
-  - HyprMX
-  - Leadbolt
-  - UnityAds
-  - VungleAdvertiserSDK
+  - AdColony (= 2.5.3)
+  - AppLovin (= 3.1.2)
+  - ChartboostSDK (= 5.5.3)
+  - FacebookAudienceNetwork (= 4.5.1)
+  - Google-Mobile-Ads-SDK (= 7.4.1)
+  - Heyzap (= 9.1.5)
+  - HyprMX (= 36)
+  - Leadbolt (= 5.2)
+  - UnityAds (= 1.4.5)
+  - VungleAdvertiserSDK (= 3.1.2)
 
 SPEC CHECKSUMS:
   AdColony: 389b39a185cf61a18cc7d4e1d910046246508e80
