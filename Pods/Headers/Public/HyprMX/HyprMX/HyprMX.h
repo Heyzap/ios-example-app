@@ -1,0 +1,1 @@
+../../../../HyprMX/HyprMX.framework/Versions/A/Headers/HyprMX.h

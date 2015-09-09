@@ -1,0 +1,37 @@
+PODS:
+  - AdColony (2.5.3)
+  - AppLovin (3.1.2)
+  - ChartboostSDK (5.5.3)
+  - FacebookAudienceNetwork (4.5.1)
+  - Google-Mobile-Ads-SDK (7.4.1)
+  - Heyzap (9.1.5)
+  - HyprMX (36)
+  - Leadbolt (5.2)
+  - UnityAds (1.4.5)
+  - VungleAdvertiserSDK (3.1.2)
+
+DEPENDENCIES:
+  - AdColony
+  - AppLovin
+  - ChartboostSDK
+  - FacebookAudienceNetwork
+  - Google-Mobile-Ads-SDK
+  - Heyzap
+  - HyprMX
+  - Leadbolt
+  - UnityAds
+  - VungleAdvertiserSDK
+
+SPEC CHECKSUMS:
+  AdColony: 389b39a185cf61a18cc7d4e1d910046246508e80
+  AppLovin: 491ab14cf8c11b3ac5c5fececaee1463b3cb8b15
+  ChartboostSDK: 9bf9427b4c306773ea9f7d8cf974b4a3a0f1e61e
+  FacebookAudienceNetwork: 5e931961bef5030fd56b24a46af151b7c7ffd8ce
+  Google-Mobile-Ads-SDK: dce4c2728daa0bcbd88b6e3dc111b718a07b1eb6
+  Heyzap: fb0e3a2f9261f27d3baa294836d915314f07e6f1
+  HyprMX: 91b4ac0c0aad04fe04a4f320106d75af625becee
+  Leadbolt: 1e2703134831ec79a27145a80791efba1664ceba
+  UnityAds: a05bce9ad710707a267d66bb3f651e211f0dd74b
+  VungleAdvertiserSDK: 2909d6e65c488799574ba028b84e64a95652127c
+
+COCOAPODS: 0.38.2
