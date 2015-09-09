@@ -1,4 +1,0 @@
-Documentation set was installed to Xcode!
-
-Path: /Users/Max/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.QuincyKit-2.1.9.docset
-Time: 2013-04-06 22:13:38 +0000
