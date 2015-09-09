@@ -1,7 +1,7 @@
 Heyzap iOS Example App
 ===============
 
-This sample app shows the basic functionalities of the Heyzap SDK for iOS. 
+This sample app demonstrates the basic functionalities of the Heyzap SDK for iOS. 
 
 ### Features:
 * You can fetch and show Interstitial, Video, Incentivized, and Banner ads from the main screen by selecting one of them and pressing the fetch and show buttons.
