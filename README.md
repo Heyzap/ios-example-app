@@ -23,11 +23,11 @@ If you do not do these things, 3rd-party networks will not be available in the t
 
 ### Cocoapods
 
-*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove the Pods from the `podfile` and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
+*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove some/all Pods from the `podfile` and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
 
-To install the SDKs for all the 3rd-party networks and Heyzap using Cocoapods, use Terminal and navigate to the top level directory of this repo. Then, run `pod install`. This will download the 3rd-party SDKs and Heyzap and add them to your project.
+All the pods are included in this repo. You should not need Cocoapods installed on your machine, and the app should run from Xcode without any other configuration or downloads.
 
-The latest versions of each pod we've tested are shown below:
+The latest versions of each pod we've tested & included in this repo are shown below:
 
 	- AdColony (2.5.3)
 	- AppLovin (3.1.2)
@@ -40,4 +40,4 @@ The latest versions of each pod we've tested are shown below:
 	- UnityAds (1.4.5)
 	- VungleAdvertiserSDK (3.1.2)
 
-The `podfile` is set up to use Heyzap SDK `v9.1.5`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.
+The `podfile` is set up to use Heyzap SDK `v9.1.5`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list, podfile, & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.
