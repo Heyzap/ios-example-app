@@ -37,7 +37,6 @@
 		993A82F21B61B4F9001B586C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		993A82F31B61B4F9001B586C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		993A82F41B61B4F9001B586C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		99816B971B97B4A200A178A2 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeyzapAds.framework; sourceTree = "<group>"; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		99CED3811BA0AA1700B43417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,7 +119,6 @@
 		993A82DD1B601F90001B586C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99816B971B97B4A200A178A2 /* HeyzapAds.framework */,
 				992CA6AB1B91130500125780 /* libsqlite3.dylib */,
 				993A82E01B601FF0001B586C /* libxml2.dylib */,
 				2386FB1C50232C7AEF37CA16 /* libPods-SampleApp.a */,
