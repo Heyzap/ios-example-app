@@ -109,7 +109,7 @@ typedef enum {
     self.adTagField = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.showButton.frame) + ButtonXSpacing, CGRectGetMinY(self.fetchButton.frame), 110.0, ButtonHeight)];
     self.adTagField.delegate = self;
     self.adTagField.borderStyle = UITextBorderStyleRoundedRect;
-    self.adTagField.keyboardType = UIKeyboardTypeNumberPad;
+    self.adTagField.keyboardType = UIKeyboardTypeDefault;
     self.adTagField.placeholder = @"Ad Tag";
     self.adTagField.textAlignment = NSTextAlignmentLeft;
     self.adTagField.accessibilityLabel = @"ad tag";
@@ -322,6 +322,8 @@ typedef enum {
     
     HZBannerAdOptions *opts = [[HZBannerAdOptions alloc] init];
     opts.presentingViewController = self;
+    opts.tag = [self adTagText];
+    
     if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
         opts.admobBannerSize = HZAdMobBannerSizeFlexibleWidthLandscape;
     }
@@ -335,6 +337,7 @@ typedef enum {
                               self.currentBannerAd = banner;
                           } failure:^(NSError *error) {
                               self.showBannerButton.enabled = YES;
+                              [self logToConsole:[NSString stringWithFormat:@"Failed to place banner ad. Error: %@", error]];
                           }];
 }
 

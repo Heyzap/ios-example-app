@@ -31,7 +31,8 @@
     [[[UIApplication sharedApplication] keyWindow] setRootViewController:vc];
     
     // setup Heyzap
-    [HeyzapAds startWithPublisherID:@"ENTER_YOUR_PUBLISHER_ID_HERE"];
+    //[HZLog setThirdPartyLoggingEnabled:YES];
+    [HeyzapAds startWithPublisherID:@"ENTER_YOUR_PUBLISHER_ID_HERE" andOptions:HZAdOptionsDisableAutomaticIAPRecording | HZAdOptionsDisableAutoPrefetching];
     
     return YES;
 }
