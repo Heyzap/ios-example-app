@@ -23,7 +23,7 @@ If you do not do these things, 3rd-party networks will not be available in the t
 
 ### Cocoapods
 
-*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove some/all Pods from the `podfile` and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
+*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove some/all Pods from the `podfile`, run `pod install` in this repo's top directory to remove the frameworks and libraries, and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
 
 All the pods are included in this repo. You should not need Cocoapods installed on your machine, and the app should run from Xcode without any other configuration or downloads.
 
@@ -34,10 +34,14 @@ The latest versions of each pod we've tested & included in this repo are shown b
 	- ChartboostSDK (5.5.3)
 	- FacebookAudienceNetwork (4.5.1)
 	- Google-Mobile-Ads-SDK (7.5.0)
-	- Heyzap (9.1.12)
+	- Heyzap (9.1.13)
 	- HyprMX (36)
-	- Leadbolt (5.2)
+	- Leadbolt (6.0) 
 	- UnityAds (1.5.2)
 	- VungleAdvertiserSDK (3.2.0)
 
-The `podfile` is set up to use Heyzap SDK `v9.1.12`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list, podfile, & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.
+The `podfile` is set up to use Heyzap SDK `v9.1.13`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list, podfile, & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.
+
+
+### Known issues
+- Leadbolt 6.0 (`libAppTracker.a`) will produce warnings that are caused by [this bug](https://openradar.appspot.com/radar?id=5051031360634880).

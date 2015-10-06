@@ -16,7 +16,6 @@
 		02D7E4B833300217D42BA0CC867634E6 /* ALNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALNativeAd.h; path = headers/ALNativeAd.h; sourceTree = "<group>"; };
 		04B3CB0FE62680E31BB3C575A04428B4 /* ALAdType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdType.h; path = headers/ALAdType.h; sourceTree = "<group>"; };
 		05A139E3D089FC2C8892BB644BAA6A77 /* ALIncentivizedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALIncentivizedInterstitialAd.h; path = headers/ALIncentivizedInterstitialAd.h; sourceTree = "<group>"; };
-		0A764B48D0C2EF2953072A45E4084324 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.1.12/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
 		0A766F15634DA06C8E2F797CCD6A2370 /* ALPostbackDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALPostbackDelegate.h; path = headers/ALPostbackDelegate.h; sourceTree = "<group>"; };
 		0F8975E8FB1F0434B7EBADAEF02D40C8 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/Resources/vg_mute_on.png; sourceTree = "<group>"; };
 		1042C83500D6D7078DBDC862B966411F /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		746F72A9F6C3B696BDE6EE3F3DFF11D3 /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
 		74B10ED276D404587093B8ABF636EAAA /* ALNativeAdPrecacheDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALNativeAdPrecacheDelegate.h; path = headers/ALNativeAdPrecacheDelegate.h; sourceTree = "<group>"; };
 		765B58E981EF5132B406DEC903BE2C70 /* libAppLovinSdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAppLovinSdk.a; sourceTree = "<group>"; };
+		7880789719AAD6E2DE15DD6404709F46 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.1.13/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
 		7A84D184D0964DCB28B7C97E0BF0EF75 /* ALAdUpdateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdUpdateDelegate.h; path = headers/ALAdUpdateDelegate.h; sourceTree = "<group>"; };
 		7AE9EF41030A467B3953BB400ACDC895 /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_privacy.png; path = VungleSDK.embeddedframework/Resources/vg_privacy.png; sourceTree = "<group>"; };
 		7D60F526D9A454C3C037AB99AFDDB5DC /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
@@ -282,14 +282,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2A9BE3DE968836F9E25A849E53D8398 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0A764B48D0C2EF2953072A45E4084324 /* HeyzapAds.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C435D90A9F09AC69742CCCBDAF68D715 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,7 +334,7 @@
 		E72C3F21A629C8BDA8320A3BD9BEA971 /* Heyzap */ = {
 			isa = PBXGroup;
 			children = (
-				C2A9BE3DE968836F9E25A849E53D8398 /* Frameworks */,
+				EBC12486A4B7E74CCD8F8689273E2D7C /* Frameworks */,
 			);
 			path = Heyzap;
 			sourceTree = "<group>";
@@ -361,6 +353,14 @@
 				F1E049C7EDCE0198B66282E11A52AD02 /* Frameworks */,
 			);
 			path = ChartboostSDK;
+			sourceTree = "<group>";
+		};
+		EBC12486A4B7E74CCD8F8689273E2D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7880789719AAD6E2DE15DD6404709F46 /* HeyzapAds.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F0D4238B2ECDD8FFA8E59412073B0953 /* Frameworks */ = {

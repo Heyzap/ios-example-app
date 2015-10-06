@@ -1,5 +1,5 @@
 //
-//  AppTracker.h - v5.2
+//  AppTracker.h - v6.0
 //
 //  Created by Leadbolt.
 //  Copyright (c) 2015 Leadbolt. All rights reserved.
@@ -7,12 +7,23 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol AppModuleDelegate <NSObject>
+
+@optional
+-(void) onModuleLoaded:(NSString *)placement;
+-(void) onModuleClosed:(NSString *)placement;
+-(void) onModuleClicked:(NSString *)placement;
+-(void) onModuleCached:(NSString *)placement;
+-(void) onModuleFailed:(NSString *)placement error:(NSString *)error cached:(BOOL)iscached;
+-(void) onMediaFinished:(BOOL)viewCompleted;
+
+@end
+
 @interface AppTracker : NSObject 
 
 
 /// Start, close, sync
 +(void) startSession:(NSString *)apiKey;
-+(void) startSession:(NSString *)apikey view:(UIView *)view __deprecated;
 +(void) closeSession;
 
 +(void) setSyncDataPeriodInSecond:(int)periodInSecond;
@@ -57,9 +68,6 @@
 +(void)setCrashHandlerStatus:(BOOL)enable;
 +(void)crashWithName:(NSString*)crashName description:(NSString*)description;
 
-// Landscape Mode
-+(void) setLandscapeMode:(BOOL)mode __deprecated;
-
 typedef enum {
     AdOrientation_AutoDetect=0,
     AdOrientation_Landscape,
@@ -68,5 +76,16 @@ typedef enum {
 
 // force Ad Orientation
 +(void) fixAdOrientation:(AdOrientation)orientation;
+
++(void)setAppModuleDelete:(id<AppModuleDelegate>)delegate;
+
++(BOOL) isAdReady:(NSString *)placement;
+
+//Demographics function
++(void) setAgeRange:(NSString *)range; // accepted values "13-17", "18-25", "26-35", "36-45", "46+"
++(void) setGender:(NSString *)gender; // accepted valued "Male", "Female"
+
++(void) setFramework:(NSString *)f;
+
 
 @end
