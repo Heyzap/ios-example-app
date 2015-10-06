@@ -30,14 +30,14 @@ All the pods are included in this repo. You should not need Cocoapods installed 
 The latest versions of each pod we've tested & included in this repo are shown below:
 
 	- AdColony (2.5.3)
-	- AppLovin (3.1.2)
+	- AppLovin (3.1.4)
 	- ChartboostSDK (5.5.3)
 	- FacebookAudienceNetwork (4.5.1)
-	- Google-Mobile-Ads-SDK (7.4.1)
-	- Heyzap (9.1.5)
+	- Google-Mobile-Ads-SDK (7.5.0)
+	- Heyzap (9.1.12)
 	- HyprMX (36)
 	- Leadbolt (5.2)
-	- UnityAds (1.4.5)
-	- VungleAdvertiserSDK (3.1.2)
+	- UnityAds (1.5.2)
+	- VungleAdvertiserSDK (3.2.0)
 
-The `podfile` is set up to use Heyzap SDK `v9.1.5`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list, podfile, & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.
+The `podfile` is set up to use Heyzap SDK `v9.1.12`, and the above versions of the 3rd-party networks' SDKs that we know are compatible with this version of Heyzap's SDK. As new versions of the Heyzap SDK become available, we will try and keep this list, podfile, & repo up to date. Feel free to submit a pull request or an email to support@heyzap.com if you see that this is not the case.

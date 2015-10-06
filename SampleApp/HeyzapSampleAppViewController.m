@@ -272,15 +272,19 @@ typedef enum {
         adTag = nil;
     }
     
+    void (^completionBlock)(BOOL, NSError *) = ^void(BOOL result, NSError *err) {
+        [self logToConsole:[NSString stringWithFormat:@"Fetch successful? %@ error: %@", result ? @"yes" : @"no", err]];
+    };
+    
     switch (self.adUnitSegmentedControl.selectedSegmentIndex) {
         case kAdUnitSegmentInterstitial:
-            [HZInterstitialAd fetchForTag:adTag];
+            [HZInterstitialAd fetchForTag:adTag withCompletion:completionBlock];
             break;
         case kAdUnitSegmentVideo:
-            [HZVideoAd fetchForTag:adTag];
+            [HZVideoAd fetchForTag:adTag withCompletion:completionBlock];
             break;
         case kAdUnitSegmentIncentivized:
-            [HZIncentivizedAd fetchForTag:adTag];
+            [HZIncentivizedAd fetchForTag:adTag withCompletion:completionBlock];
             break;
         default:
             break;

@@ -1,7 +1,7 @@
 Welcome to the release repository of Unity Ads SDK. To get started, make sure you have an account
 registered with Unity Ads. If you don't have one, you can create an account at https://unityads.unity3d.com/admin/
 
-For integration and generic documentation, go to https://github.com/Applifier/unity-ads/wiki
+For integration and generic documentation, go to http://unityads.unity3d.com/help/index
 
 For source code access or code review, check https://github.com/Applifier/unity-ads
 
@@ -12,6 +12,43 @@ or log a ticket with us by emailing unityads-support@unity3d.com
 
 Unity Ads SDK Release Notes
 ===========================
+
+v1.5.2 September 16th, 2015
+---------------------------
+
+*iOS*
+
+- Support for Bitcode in Xcode 7
+
+v1.5.1 September 11th, 2015
+---------------------------
+
+*iOS*
+
+- Remove CFBundleExecutable from bundle .plist for compatibility with new App Store submission guidelines
+
+v1.5.0 September 4th, 2015
+--------------------------
+
+*Android*
+
+- Refactored activity and context handling
+- Images and resources are now in resource files
+- External storage permission is completely removed
+- Support for legacy Applifier Impact API has been removed
+
+*iOS*
+
+- Refresh ad inventory after all ads have been watched
+- Fixes for appsheet autorotation and mute button issues
+- Support for legacy Applifier Impact API has been removed
+
+v1.4.7 July 1st, 2015
+---------------------
+
+*Android*
+
+- Minor fixes
 
 v1.4.5 June 25th, 2015
 ----------------------

@@ -89,12 +89,3 @@ extern NSString * const __alnonnull ALSdkUriNextAd;
  * </pre>
  */
 extern NSString * const __alnonnull ALSdkCloseAd;
-
-/**
- * This is an endpoint name for custom landing page that should
- * be displayed.
- * <pre>
- *        applovin://com.applovin.sdk/adservice/landing_page/<PAGE_ID>
- * </pre>
- */
-extern NSString * const __alnonnull ALSdkLandingPage __deprecated_msg("No longer used.");

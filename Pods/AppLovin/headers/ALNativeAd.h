@@ -98,9 +98,9 @@
 @property (assign, atomic, readonly, getter=isVideoPrecached) BOOL videoPrecached;
 
 /**
- * Hande a click on this native ad by launching the ad's destination.
+ * Handle a click on this native ad by launching the ad's destination.
  *
- * You should call this method the user tap anywhere on your native ad.
+ * You should call this method anytime the user taps anywhere on your native ad.
  * Calling this method launches Safari or the App Store and will result in your app being paused.
  */
 -(void) launchClickTarget;

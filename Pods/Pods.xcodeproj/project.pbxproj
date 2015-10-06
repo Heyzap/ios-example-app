@@ -16,6 +16,7 @@
 		02D7E4B833300217D42BA0CC867634E6 /* ALNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALNativeAd.h; path = headers/ALNativeAd.h; sourceTree = "<group>"; };
 		04B3CB0FE62680E31BB3C575A04428B4 /* ALAdType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdType.h; path = headers/ALAdType.h; sourceTree = "<group>"; };
 		05A139E3D089FC2C8892BB644BAA6A77 /* ALIncentivizedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALIncentivizedInterstitialAd.h; path = headers/ALIncentivizedInterstitialAd.h; sourceTree = "<group>"; };
+		0A764B48D0C2EF2953072A45E4084324 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.1.12/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
 		0A766F15634DA06C8E2F797CCD6A2370 /* ALPostbackDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALPostbackDelegate.h; path = headers/ALPostbackDelegate.h; sourceTree = "<group>"; };
 		0F8975E8FB1F0434B7EBADAEF02D40C8 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/Resources/vg_mute_on.png; sourceTree = "<group>"; };
 		1042C83500D6D7078DBDC862B966411F /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		146BE1C6D043FF85956FC8409EBE6A15 /* ALTargetingData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALTargetingData.h; path = headers/ALTargetingData.h; sourceTree = "<group>"; };
 		156FC91A3E0D46767167218B64DEA8FB /* UnityAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = UnityAds.bundle; sourceTree = "<group>"; };
 		18FE64B7984385F6EDF9F9DF628A7CDB /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
-		1C29F6AF2B5A4F186308A7360914D4D7 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.1.5/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
 		1D26A268E04EAADE0C721D522DEDD13D /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
 		1FDFB1F3B815B231F5F7E09DEC1BF591 /* ALAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdSize.h; path = headers/ALAdSize.h; sourceTree = "<group>"; };
 		20B5ED8428FAD852294A15EB9CFC4300 /* ALPostbackService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALPostbackService.h; path = headers/ALPostbackService.h; sourceTree = "<group>"; };
@@ -65,12 +65,12 @@
 		C5911EFB7D0AAC6621523F34DB63BFC4 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C68E3EA1F91FCC62F5577E216A083095 /* CBNewsfeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBNewsfeed.h; path = Chartboost.framework/Versions/A/Headers/CBNewsfeed.h; sourceTree = "<group>"; };
 		CC3C6AF00C8EAC86330C4E7D3B7326D3 /* ALAdDisplayDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdDisplayDelegate.h; path = headers/ALAdDisplayDelegate.h; sourceTree = "<group>"; };
-		D18C702D56FD3BFB000A96D33233BF25 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.4.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		D1F7FF93F1F7383086B833A26F8AFC14 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_close.png; path = VungleSDK.embeddedframework/Resources/vg_close.png; sourceTree = "<group>"; };
 		D22CC62BA52B20F7A1ED3B657C11D901 /* ALEventTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALEventTypes.h; path = headers/ALEventTypes.h; sourceTree = "<group>"; };
 		DD559CF9E141AB9529FD71352DC40348 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
 		E184047F0C6BC9A69E4313DF9104500E /* CBNewsfeedUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBNewsfeedUI.h; path = Chartboost.framework/Versions/A/Headers/CBNewsfeedUI.h; sourceTree = "<group>"; };
 		E2FE4F974F91C7CF2586698EBFFE61D5 /* ALInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALInterstitialAd.h; path = headers/ALInterstitialAd.h; sourceTree = "<group>"; };
+		E668A49DD6363372B79DC15B40BFD281 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.5.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		EEF0145CEB3167FB149D0C3073B9CB30 /* ALAdVideoPlaybackDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALAdVideoPlaybackDelegate.h; path = headers/ALAdVideoPlaybackDelegate.h; sourceTree = "<group>"; };
 		FDBB43651F258D623DE914A06FD3E4E4 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,14 +93,6 @@
 				3C114801F7760DA735B4DEAF7503286E /* Frameworks */,
 			);
 			path = FacebookAudienceNetwork;
-			sourceTree = "<group>";
-		};
-		0322B1C044DCFCE6AFB0DB9080FA2CD8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1C29F6AF2B5A4F186308A7360914D4D7 /* HeyzapAds.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		19EC07B20BF1FA44C006CBC574E42044 /* Frameworks */ = {
@@ -290,10 +282,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C2A9BE3DE968836F9E25A849E53D8398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A764B48D0C2EF2953072A45E4084324 /* HeyzapAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C435D90A9F09AC69742CCCBDAF68D715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E668A49DD6363372B79DC15B40BFD281 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA8E2FD53E486078B8F63F704BF476EE /* Google-Mobile-Ads-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				E2E022015D949DE0266A7230998F6730 /* Frameworks */,
+				C435D90A9F09AC69742CCCBDAF68D715 /* Frameworks */,
 			);
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
@@ -322,14 +330,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E2E022015D949DE0266A7230998F6730 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D18C702D56FD3BFB000A96D33233BF25 /* GoogleMobileAds.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E6AD1AAC426034CB89B91EFBABD62698 /* UnityAds */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,7 +342,7 @@
 		E72C3F21A629C8BDA8320A3BD9BEA971 /* Heyzap */ = {
 			isa = PBXGroup;
 			children = (
-				0322B1C044DCFCE6AFB0DB9080FA2CD8 /* Frameworks */,
+				C2A9BE3DE968836F9E25A849E53D8398 /* Frameworks */,
 			);
 			path = Heyzap;
 			sourceTree = "<group>";
