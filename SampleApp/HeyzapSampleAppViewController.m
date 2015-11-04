@@ -203,7 +203,7 @@ typedef enum {
     
 }
 
-- (UIButton * ) buttonWithRect:(CGRect)rect text:(NSString *)text{
+- (UIButton *) buttonWithRect:(CGRect)rect text:(NSString *)text{
     UIButton * button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setTitle:text forState:UIControlStateNormal];
     button.frame = rect;
@@ -219,8 +219,12 @@ typedef enum {
 - (void)logToConsole:(NSString *)consoleString {
     NSDateFormatter * format = [[NSDateFormatter alloc]init];
     [format setDateFormat:@"[h:mm:ss a]"];
-    self.consoleTextView.text = [self.consoleTextView.text  stringByAppendingFormat:@"\n\n%@ %@",[format stringFromDate:[NSDate date]],consoleString];
-    [self.consoleTextView scrollRangeToVisible:NSMakeRange(self.consoleTextView.text.length, 0)];
+    self.consoleTextView.text = [self.consoleTextView.text stringByAppendingFormat:@"\n\n%@ %@",[format stringFromDate:[NSDate date]],consoleString];
+    
+    // get around weird bug in iOS 9 - text view scrolling has issues when done directly after updating the text
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self bottomButton];
+    });
 }
 
 - (void)adTagEditingChanged:(UITextField *)sender {
@@ -359,11 +363,12 @@ typedef enum {
 }
 
 - (void) topButton{
-    [self.consoleTextView scrollRangeToVisible:NSMakeRange(0, 0)];
+    [self.consoleTextView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
 }
 
 - (void) bottomButton{
-    [self.consoleTextView scrollRangeToVisible:NSMakeRange(self.consoleTextView.text.length, 0)];
+    CGRect rect = CGRectMake(0, self.consoleTextView.contentSize.height -1, self.consoleTextView.frame.size.width, self.consoleTextView.contentSize.height);
+    [self.consoleTextView scrollRectToVisible:rect animated:NO];
 }
 
 - (void) emailConsoleButton{
@@ -511,6 +516,15 @@ typedef enum {
         subviewContainingRect = CGRectUnion(subviewContainingRect, view.frame);
     }
     self.scrollView.contentSize = (CGSize) { CGRectGetWidth(self.view.frame), subviewContainingRect.size.height + 80 };
+}
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED < 90000
+- (NSUInteger)supportedInterfaceOrientations
+#else
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+#endif
+{
+    return UIInterfaceOrientationMaskAll;
 }
 
 @end

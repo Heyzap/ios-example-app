@@ -15,7 +15,7 @@ typedef enum {
     HYPRLogLevelDebug      //                               ... in debug mode.
 } HYPRLogLevel;
 
-@class HYPRError, HYPROfferListViewController, HYPROffer, HYPRDisplayRequest, HYPRSettings;
+@class HYPRError, HYPROffer, HYPRDisplayRequest, HYPRSettings;
 @protocol HYPROfferPresentationDelegate;
 
 /** Failure block type used for notifying callers of failed operations */
@@ -32,51 +32,61 @@ typedef void (^HYPRDisplayOfferCallback)(BOOL completed, HYPROffer *offer);
  */
 @interface HYPRManager : NSObject
 
-/** Library version
+/** 
+ * Library version.
+ *
  * Obtain the current version of the HyprMX Library.
  */
 @property (nonatomic, readonly) NSString *versionString;
 
-/** Distributor Identifier
+/** 
+ * Distributor Identifier.
  *
  * Generated Distributor ID for each application
  */
 @property (nonatomic, strong) NSString *distributorId;
 
-/** Distributor Property Identifier
+/** 
+ * Distributor Property Identifier.
  *
  * ID/Name of a Distributor's Property (formerly Application) name
  */
 @property (nonatomic, strong) NSString *distributorPropertyId;
 
-/** User Identifier unique identifies the user
+/** 
+ * User Identifier. 
+ * Uniquely identifies the user.
  *
  * @discussion User ID must be unique across devices. It is recommended to use your Game Center ID
  * for the user or other uniquely identifying information.
  */
 @property (nonatomic, strong) NSString *userId;
 
-/** An array of HYPRReward objects.
+/** 
+ * An array of HYPRReward objects.
  *
  * @discussion The rewards are sent to HyprMX. Only offers that can satisfy these rewards will be displayed.
  * Rewards specified here will apply to all offer requests that do not specify their own set of rewards.
  */
 @property (nonatomic, copy) NSArray *rewards;
 
-/** The HYPRSettings object associated with the HYPRManager.
+/** 
+ * The HYPRSettings object associated with the HYPRManager.
  *
- *  @discussion the settings will change if the HYPRManager is re-initialized with a new userId.
+ *  @discussion The settings will change if the HYPRManager is re-initialized with a new userId.
  *  Settings will be stored and re-used by userId.
  */
 @property (nonatomic, strong) HYPRSettings *settings;
 
-/** The HYPRLogLevel indicating what level to log messages at.
+/** 
+ * The HYPRLogLevel indicating what level to log messages at.
  * 
- * @discussion this should be left at HYPRLogLevelError for all Release builds.
+ * @discussion This should be left at HYPRLogLevelError for all Release builds.
  */
 @property (atomic, assign) HYPRLogLevel logLevel;
 
-/** Provides the shared instance of th HyprMX Mobile SDK Manager
+/** 
+ * Provides the shared instance of the HyprMX Mobile SDK Manager.
  *
  * HYPRManager provides a singleton interface to the HyprMX Mobile SDK. 
  *
@@ -84,42 +94,51 @@ typedef void (^HYPRDisplayOfferCallback)(BOOL completed, HYPROffer *offer);
  */
 + (HYPRManager *)sharedManager;
 
-/** Enables Debug logging. Should not be used in production, as excessive logging can hurt performance.
+/** 
+ * Enables Debug logging. 
+ *
+ * @discussion Should not be used in production, as excessive logging can hurt performance.
  */
 + (void)enableDebugLogging;
 
-/** Prevent the HYPRManager from preloading content when initialized.
+/** 
+ * Prevent the HYPRManager from preloading content when initialized.
  *
  * @discussion If you do this, be sure to call -preloadContent manually, if you don't you will have inventory problems.
  */
 + (void)disableAutomaticPreloading;
 
-/** Initalize state on the HyprMX Mobile manager with properties
+/** 
+ * Initalize state on the HyprMX Mobile manager with properties.
  */
 - (void)initializeWithDistributorId:(NSString *)distributorId propertyId:(NSString *)propertyId userId:(NSString *)userId;
 
-/** Initalize state on the HyprMX Mobile manager (if you already set the properties)
+/**
+ * Initalize state on the HyprMX Mobile manager if you already set the properties.
  */
 - (void)initialize;
 
-/** Helper Method to set known required information.
+/** 
+ * Helper Method to set known required information.
  *
- * @param requiredInformation the information to set.
+ * @param requiredInformation The dictionary of information to set.
  */
 - (void)setRequiredInformation:(NSDictionary*)requiredInformation;
 
-/** Begin loading offers for display. This includes preloading video content.
+/** 
+ * Begin loading offers for display. This includes preloading video content.
  * 
  * @discussion You only need to call this if you call +disableAutomaticPreloading before you initialize the HYPRManager.
  */
 - (void)preloadContent;
 
-/** Display a specific offer to a user.
+/** 
+ * Display a specific offer to a user.
  * 
  * @discussion This is for advanced use only, and not sutable for most integrations. You should likely use -displayOfferWithTransactionId:completion: instead.
  *
- * @param offer instance of class HYPROffer to display
- * @param displayRequest the display request that supplied the offer.
+ * @param offer             Instance of class HYPROffer to display
+ * @param displayRequest    The display request that supplied the offer.
  */
 - (void)displayOffer:(HYPROffer *)offer forDisplayRequest:(HYPRDisplayRequest *)displayRequest;
 
@@ -140,15 +159,16 @@ typedef void (^HYPRDisplayOfferCallback)(BOOL completed, HYPROffer *offer);
 /**
  * Check availability of offers.
  *
- * @param checkCallback the block to call when the inventory check returns. If isOfferReady is YES, you can call -display on the request object (now, or later).
+ * @param checkCallback         The block to call when the inventory check returns. If isOfferReady is YES, you can call displayOffer: or displayOfferWithTransactionId:completion: on the request object (now, or later).
  */
 - (void)checkInventory:(HYPRBooleanResultCallback)checkCallback;
 
 /**
  * Display an offer. We will set the transaction ID with a UUID.
  *
- * @param completionCallback: the block that is executed when an offer has been completed (successfully or not).
- * @discussion: We recommend calling this method inside of the param checkCallback of method checkInventory: to ensure than an offer is ready to display.
+ * @param completionCallback    The block that is executed when an offer has been completed (successfully or not).
+ *
+ * @discussion We recommend calling this method inside of the param checkCallback of method checkInventory: to ensure than an offer is ready to display.
  */
 - (void)displayOffer:(HYPRDisplayOfferCallback)completionCallback;
 
@@ -156,24 +176,27 @@ typedef void (^HYPRDisplayOfferCallback)(BOOL completed, HYPROffer *offer);
  * Display an offer and set your own transaction ID. Use this method rather than displayOffer: if you wish to use your proprietary transaction ID's. If no
  * transaction ID is provided, we will set the transaction ID with a UUID.
  *
- * @param transactionId: String uniquely identifying this offer transaction.
- * @param completionCallback: The block that is executed when an offer has been completed (successfully or not).
+ * @param transactionId         String uniquely identifying this offer transaction.
+ * @param completionCallback    The block that is executed when an offer has been completed (successfully or not).
+ * 
  * @discussion We recommend calling this method inside of the param checkCallback of method checkInventory.
  */
 - (void)displayOfferWithTransactionId:(NSString *)transactionId completion:(HYPRDisplayOfferCallback)completionCallback;
 
 /* Depricated APIS */
 
-/** Create a display request, begin fetching offers for it, and return it.
+/** 
+ * Create a display request, begin fetching offers for it, and return it.
  *
- * @param presentationDelegate An object you create to prepare and show offers once they are loaded. Must not be nil.
- * @return A new display request.
+ * @param presentationDelegate      An object you create to prepare and show offers once they are loaded. Must not be nil.
+ * @return                          A new display request.
  */
 - (HYPRDisplayRequest *)addDisplayRequestWithPresentationDelegate:(id<HYPROfferPresentationDelegate>)presentationDelegate __attribute__((deprecated));
 
-/** Remove a display request that you added earlier. Your HYPROfferPresentationDelegate will not get any further messages.
+/** 
+ * Remove a display request that you added earlier. 
  *
- * @param displayRequest A display request that you created earlier with -addDisplayRequestWithPresentationDelegate:.
+ * @param displayRequest    A display request that you created earlier with -addDisplayRequestWithPresentationDelegate:
  */
 - (void)removeDisplayRequest:(HYPRDisplayRequest *)displayRequest __attribute__((deprecated));
 

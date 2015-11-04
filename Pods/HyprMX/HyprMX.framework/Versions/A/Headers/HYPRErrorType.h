@@ -22,7 +22,8 @@ typedef enum {
     HYPRErrorTypeVastCachingAssetError,
     HYPRErrorTypeVastPlayerError,
     HYPRErrorTypeUnspecified,
-    HYPRErrorTypeLocationNotFound
+    HYPRErrorTypeLocationNotFound,
+    HYPRErrorTypeLoadAppStore
 } HYPRErrorType;
 
 //
@@ -44,5 +45,6 @@ static NSString * const HYPRErrorMessages[] = {
     [HYPRErrorTypeVastCachingAssetError] = @"Error while caching VAST asset",
     [HYPRErrorTypeVastPlayerError] = @"Error occurred while playing a VAST video",
     [HYPRErrorTypeUnspecified] = @"Unspecified Error Type",
-    [HYPRErrorTypeLocationNotFound] = @"Location could not be identified"
+    [HYPRErrorTypeLocationNotFound] = @"Location could not be identified",
+    [HYPRErrorTypeLoadAppStore] = @"Error while load app store"
 };

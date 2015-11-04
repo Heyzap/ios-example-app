@@ -4,8 +4,8 @@ PODS:
   - ChartboostSDK (5.5.3)
   - FacebookAudienceNetwork (4.5.1)
   - Google-Mobile-Ads-SDK (7.5.0)
-  - Heyzap (9.1.13)
-  - HyprMX (36)
+  - Heyzap (9.2.5)
+  - HyprMX (68)
   - Leadbolt (6.0)
   - UnityAds (1.5.2)
   - VungleAdvertiserSDK (3.2.0)
@@ -16,8 +16,8 @@ DEPENDENCIES:
   - ChartboostSDK (= 5.5.3)
   - FacebookAudienceNetwork (= 4.5.1)
   - Google-Mobile-Ads-SDK (= 7.5.0)
-  - Heyzap (= 9.1.13)
-  - HyprMX (= 36)
+  - Heyzap (= 9.2.5)
+  - HyprMX (= 68)
   - Leadbolt (= 6.0)
   - UnityAds (= 1.5.2)
   - VungleAdvertiserSDK (= 3.2.0)
@@ -28,10 +28,10 @@ SPEC CHECKSUMS:
   ChartboostSDK: 9bf9427b4c306773ea9f7d8cf974b4a3a0f1e61e
   FacebookAudienceNetwork: 5e931961bef5030fd56b24a46af151b7c7ffd8ce
   Google-Mobile-Ads-SDK: 24879c6e4d1c2f9767e68bb9e65640a06c711143
-  Heyzap: 3c1ae01c8a0ba6381839499b844b93965fa27004
-  HyprMX: 91b4ac0c0aad04fe04a4f320106d75af625becee
+  Heyzap: 488c4719abc6379848aa41b20f1378c9e6f7e2d5
+  HyprMX: 626dcce6c83a9856abeeef644542bc2cd058770e
   Leadbolt: 2599cdd53890689158e94bd93268ae118b43ed1e
   UnityAds: 76f1a98bf40597f1c0aab01f65c700b7734dcbd9
   VungleAdvertiserSDK: c3ece1bf66a7f34688cfed832e2b12e321bbed03
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

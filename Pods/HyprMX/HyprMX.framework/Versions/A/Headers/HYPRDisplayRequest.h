@@ -5,10 +5,10 @@
 //  Created on 3/23/12.
 //  Copyright (c) 2012 HyprMX Mobile LLC. All rights reserved.
 //
-
+#import <Foundation/Foundation.h>
 /**
  HYPRDisplayRequest is an opaque handle to an offer-fetching and offer-displaying session.
- See HYPRManager and HYPROfferPresentationDelegate for more information.
+ See HYPRManager for more information.
  */
 @interface HYPRDisplayRequest : NSObject
 

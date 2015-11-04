@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86AADD69A1A3B7D4DBFD6379 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2386FB1C50232C7AEF37CA16 /* libPods-SampleApp.a */; };
+		991C4A891BC4783B006309A8 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 991C4A881BC4783B006309A8 /* libxml2.tbd */; };
 		993A82B71B5F1534001B586C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A82B61B5F1534001B586C /* main.m */; };
 		993A82BA1B5F1534001B586C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A82B91B5F1534001B586C /* AppDelegate.m */; };
 		993A82BD1B5F1534001B586C /* HeyzapSampleAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A82BC1B5F1534001B586C /* HeyzapSampleAppViewController.m */; };
@@ -16,6 +17,7 @@
 		993A82F51B61B4F9001B586C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F21B61B4F9001B586C /* Default.png */; };
 		993A82F61B61B4F9001B586C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F31B61B4F9001B586C /* Default@2x.png */; };
 		993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F41B61B4F9001B586C /* Default-568h@2x.png */; };
+		996E96BF1BDFEC30009E3151 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */; };
 		99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CED3811BA0AA1700B43417 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,7 @@
 		2386FB1C50232C7AEF37CA16 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE14DB6D0EFBFB2B721F81 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		49BA074D97F4D6D707080658 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		991C4A881BC4783B006309A8 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		993A82B11B5F1534001B586C /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993A82B51B5F1534001B586C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		993A82B61B5F1534001B586C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 		993A82F21B61B4F9001B586C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		993A82F31B61B4F9001B586C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		993A82F41B61B4F9001B586C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		99CED3811BA0AA1700B43417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996E96BF1BDFEC30009E3151 /* libsqlite3.tbd in Frameworks */,
+				991C4A891BC4783B006309A8 /* libxml2.tbd in Frameworks */,
 				86AADD69A1A3B7D4DBFD6379 /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +123,8 @@
 		993A82DD1B601F90001B586C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */,
+				991C4A881BC4783B006309A8 /* libxml2.tbd */,
 				2386FB1C50232C7AEF37CA16 /* libPods-SampleApp.a */,
 			);
 			name = Frameworks;
@@ -134,6 +142,7 @@
 				993A82AE1B5F1534001B586C /* Frameworks */,
 				993A82AF1B5F1534001B586C /* Resources */,
 				C4C8B99D13D40CCBD08F3FE1 /* Copy Pods Resources */,
+				B1BBC9F7B5F36BCFF2F66B03 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +215,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BBC9F7B5F36BCFF2F66B03 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4C8B99D13D40CCBD08F3FE1 /* Copy Pods Resources */ = {
@@ -350,6 +374,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -358,6 +383,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = SampleApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -374,6 +400,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VungleSDK.embeddedframework",
 				);
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -382,6 +409,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = SampleApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
 			};

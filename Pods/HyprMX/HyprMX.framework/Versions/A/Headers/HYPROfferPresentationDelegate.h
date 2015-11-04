@@ -13,7 +13,7 @@
 @protocol HYPROfferPresentationDelegate <HYPROfferDelegate>
 
 - (void)displayRequestCanDisplayRequiredInformation:(HYPRDisplayRequest *)displayRequest;
-- (void)displayRequestCanDisplayOfferList:(HYPRDisplayRequest *)displayRequest;
+- (void)displayRequestCanDisplayOffers:(HYPRDisplayRequest *)displayRequest;
 - (void)displayRequest:(HYPRDisplayRequest *)displayRequest canDisplayOffer:(HYPROffer *)offer;
 
 - (void)displayRequestCannotDisplay:(HYPRDisplayRequest *)displayRequest;
