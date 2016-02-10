@@ -13,6 +13,43 @@ or log a ticket with us by emailing unityads-support@unity3d.com
 Unity Ads SDK Release Notes
 ===========================
 
+v1.5.6 January 5th, 2016
+------------------------
+
+- Fix crash on Android 4.1 and older
+
+v1.5.5 December 16th, 2015
+--------------------------
+
+*Android*
+
+- Fix issues with Arabic locales
+- Clean ProGuard configuration
+
+v1.5.4 November 19th, 2015
+--------------------------
+
+*Android*
+
+- Add minimum SDK version to AAR package so Android Studio will not add unnecessary permissions
+
+*iOS*
+
+- Fix reachability check crash on iOS 9
+
+v1.5.3 October 9th, 2015
+------------------------
+
+*Android*
+
+- Minor fixes
+- Add ProGuard configuration to AAR package
+
+*iOS*
+
+- Fix Bitcode support
+- Bug fixes for iOS 9
+
 v1.5.2 September 16th, 2015
 ---------------------------
 

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALNullabilityAnnotations.h"
+#import "ALAnnotations.h"
 #import "ALPostbackDelegate.h"
 
 @class ALSdk;
@@ -25,6 +25,6 @@
  * @param targetUrl URL to call via HTTP GET.
  * @param delegate Optional postback delegate. May be nil.
  */
--(void) dispatchPostbackAsync: (alnonnull NSURL*) targetURL andNotify: (alnullable id <ALPostbackDelegate>) delegate;
+- (void) dispatchPostbackAsync: (alnonnull NSURL *) targetURL andNotify: (alnullable id <ALPostbackDelegate>) delegate;
 
 @end

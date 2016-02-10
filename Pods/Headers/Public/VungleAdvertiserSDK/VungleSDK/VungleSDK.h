@@ -1,1 +1,0 @@
-../../../../VungleAdvertiserSDK/VungleSDK.embeddedframework/VungleSDK.framework/Headers/VungleSDK.h

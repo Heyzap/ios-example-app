@@ -15,7 +15,7 @@
 #import "ALPostbackService.h"
 #import "ALEventService.h"
 
-#import "ALNullabilityAnnotations.h"
+#import "ALAnnotations.h"
 #import "ALErrorCodes.h"
 
 /**
@@ -31,12 +31,12 @@
 /**
  * This SDK's key.
  */
-@property (strong, nonatomic, readonly) NSString* __alnonnull sdkKey;
+@property (strong, nonatomic, readonly) NSString * __alnonnull sdkKey;
 
 /**
  * This SDK's settings.
  */
-@property (strong, nonatomic, readonly) ALSdkSettings* __alnonnull settings;
+@property (strong, nonatomic, readonly) ALSdkSettings * __alnonnull settings;
 
 /**
  * Set Plugin version.
@@ -46,7 +46,7 @@
  *
  * @param version Some descriptive string which identifies the plugin.
  */
--(void) setPluginVersion: (alnonnull NSString *) version;
+- (void) setPluginVersion: (alnonnull NSString *) version;
 
 /**
  * @name SDK Information
@@ -57,7 +57,7 @@
  *
  *  @return The current SDK version.
  */
-+(alnonnull NSString *) version;
++ (alnonnull NSString *) version;
 
 /**
  * @name SDK Services
@@ -69,7 +69,7 @@
  *
  * @return Ad service. Guaranteed not to be null.
  */
-@property (strong, nonatomic, readonly) ALAdService* __alnonnull  adService;
+@property (strong, nonatomic, readonly) ALAdService * __alnonnull adService;
 
 /**
  * Get an instance of AppLovin Native Ad service. This service is
@@ -77,21 +77,21 @@
  *
  * @return Native ad service. Guaranteed not to be null.
  */
-@property (strong, nonatomic, readonly) ALNativeAdService* __alnonnull nativeAdService;
+@property (strong, nonatomic, readonly) ALNativeAdService * __alnonnull nativeAdService;
 
 /**
  * Get an instance of the AppLovin postback service. This service is used to dispatch HTTP GET postbacks to arbitrary URLs.
  *
  * @return Postback service. Guaranteed not to be null.
  */
-@property (strong, nonatomic, readonly) ALPostbackService*  __alnonnull postbackService;
+@property (strong, nonatomic, readonly) ALPostbackService * __alnonnull postbackService;
 
 /**
  * Get an instance of the AppLovin event service. This service is used to track post-install user events.
  *
  * @return Event service. Guaranteed not to be null.
  */
-@property (strong, nonatomic, readonly) ALEventService* __alnonnull eventService;
+@property (strong, nonatomic, readonly) ALEventService * __alnonnull eventService;
 
 /**
  * @name Custom User Targeting
@@ -104,7 +104,7 @@
  *
  * @return Current targeting data. Guaranteed not to be null.
  */
-@property (strong, nonatomic, readonly) ALTargetingData* __alnonnull targetingData;
+@property (strong, nonatomic, readonly) ALTargetingData * __alnonnull targetingData;
 
 /**
  * @name SDK Initialization
@@ -114,7 +114,7 @@
  * Initialize current version of the SDK.
  *
  */
--(void) initializeSdk;
+- (void) initializeSdk;
 
 /**
  * Initialize the default instance of AppLovin SDK.
@@ -124,7 +124,7 @@
  *
  * @return An instance of AppLovinSDK
  */
-+(void) initializeSdk;
++ (void) initializeSdk;
 
 /**
  * @name Getting SDK Instances
@@ -138,7 +138,7 @@
  *
  * @return An instance of AppLovinSDK
  */
-+(alnullable ALSdk *) shared;
++ (alnullable ALSdk *) shared;
 
 /**
  * Get an instance of AppLovin SDK using default SDK settings.
@@ -147,7 +147,7 @@
  *
  * @return An instance of AppLovinSDK
  */
-+(alnullable ALSdk *) sharedWithKey: (alnonnull NSString *) sdkKey;
++ (alnullable ALSdk *) sharedWithKey: (alnonnull NSString *) sdkKey;
 
 /**
  * Get an instance of AppLovin SDK.
@@ -157,7 +157,7 @@
  * 
  * @return An instance of AppLovinSDK
  */
-+(alnullable ALSdk *) sharedWithKey: (alnonnull NSString *) sdkKey settings: (alnonnull ALSdkSettings *) settings;
++ (alnullable ALSdk *) sharedWithKey: (alnonnull NSString *) sdkKey settings: (alnonnull ALSdkSettings *) settings;
 
 - (alnullable id) init __attribute__((unavailable("Use [ALSdk shared] instead of alloc-init pattern.")));
 

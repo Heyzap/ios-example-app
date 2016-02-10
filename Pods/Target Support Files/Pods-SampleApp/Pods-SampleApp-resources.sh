@@ -59,21 +59,21 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "UnityAds/UnityAds.bundle"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/__vungle.db"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_close.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_cta.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_mute_off.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_mute_on.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_privacy.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/__vungle.db"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_close.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_cta.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_mute_off.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_mute_on.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_privacy.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "UnityAds/UnityAds.bundle"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/__vungle.db"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_close.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_cta.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_mute_off.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_mute_on.png"
-  install_resource "VungleAdvertiserSDK/VungleSDK.embeddedframework/Resources/vg_privacy.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/__vungle.db"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_close.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_cta.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_mute_off.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_mute_on.png"
+  install_resource "VungleSDK-iOS/VungleSDK.embeddedframework/Resources/vg_privacy.png"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

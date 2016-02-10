@@ -159,6 +159,7 @@
 		993A82A91B5F1534001B586C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = heyzap.com;
 				TargetAttributes = {
@@ -383,7 +384,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnterpriseHeyzap.HeyzapSDKTest;
 				PRODUCT_NAME = SampleApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -409,7 +410,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EnterpriseHeyzap.HeyzapSDKTest;
 				PRODUCT_NAME = SampleApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
 			};

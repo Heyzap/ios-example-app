@@ -1,1 +1,0 @@
-../../../../FacebookAudienceNetwork/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h

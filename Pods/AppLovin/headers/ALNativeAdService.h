@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALNullabilityAnnotations.h"
+#import "ALAnnotations.h"
 #import "ALNativeAdLoadDelegate.h"
 #import "ALNativeAdPrecacheDelegate.h"
 
@@ -21,7 +21,7 @@
  *
  *  @param  delegate    The native ad load delegate to notify upon completion.
  */
--(void) loadNativeAdGroupOfCount: (NSUInteger) numberOfAdsToLoad andNotify: (alnullable id <ALNativeAdLoadDelegate>) delegate;
+- (void) loadNativeAdGroupOfCount: (NSUInteger) numberOfAdsToLoad andNotify: (alnullable id <ALNativeAdLoadDelegate>) delegate;
 
 /**
  *  Pre-cache image and video resources of a native ad.
@@ -30,8 +30,8 @@
  *  @param  delegate    The delegate to be notified upon completion.
  */
 
--(void) precacheResourcesForNativeAd: (alnonnull ALNativeAd*) ad andNotify: (alnullable id <ALNativeAdPrecacheDelegate>) delegate;
+- (void) precacheResourcesForNativeAd: (alnonnull ALNativeAd *) ad andNotify: (alnullable id <ALNativeAdPrecacheDelegate>) delegate;
 
-- (alnullable id)init __attribute__((unavailable("Don't instantiate ALNativeAdService, access one via [sdk nativeAdService] instead.")));
+- (alnullable id) init __attribute__((unavailable("Don't instantiate ALNativeAdService, access one via [sdk nativeAdService] instead.")));
 
 @end

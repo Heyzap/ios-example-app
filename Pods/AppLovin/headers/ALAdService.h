@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALNullabilityAnnotations.h"
+#import "ALAnnotations.h"
 
 #import "ALAd.h"
 #import "ALAdSize.h"
@@ -31,14 +31,14 @@
  * @param adSize    Size of an ad to load. Must not be nil.
  * @param delegate  A callback to notify of the fact that the ad is loaded.
  */
--(void) loadNextAd: (alnonnull ALAdSize *) adSize andNotify: (alnullable id<ALAdLoadDelegate>)delegate;
+- (void) loadNextAd: (alnonnull ALAdSize *) adSize andNotify: (alnullable id <ALAdLoadDelegate>) delegate;
 
 /**
  * Pre-load an ad of a given size in the background, if one is not already available.
  *
  * @param adSize Size of the ad to cache.
  */
--(void) preloadAdOfSize: (alnonnull ALAdSize*) adSize;
+- (void) preloadAdOfSize: (alnonnull ALAdSize *) adSize;
 
 /**
  * Check whether an ad of a given size is pre-loaded and ready to be displayed.
@@ -47,7 +47,7 @@
  *
  * @return YES if an ad of this size is pre-loaded and ready to display without further network activity. NO if requesting an ad of this size would require fetching over the network.
  */
--(BOOL) hasPreloadedAdOfSize: (alnonnull ALAdSize*) adSize;
+- (BOOL) hasPreloadedAdOfSize: (alnonnull ALAdSize *) adSize;
 
 /**
  * @name Observing Ad Rotations
@@ -59,7 +59,7 @@
  *  @param adListener  Listener to add
  *  @param adSize      Size of ads that the listener is interested in
  */
--(void)addAdUpdateObserver: (alnonnull id<ALAdUpdateObserver>) adListener ofSize: (alnonnull ALAdSize *) adSize;
+- (void) addAdUpdateObserver: (alnonnull id <ALAdUpdateObserver>) adListener ofSize: (alnonnull ALAdSize *) adSize;
 
 /**
  * Remove an observer of updates of advertisements of a given size.
@@ -67,9 +67,9 @@
  *  @param adListener  Listener to modify
  *  @param adSize      Size of ads that the listener should no longer receive notifications about
  */
--(void)removeAdUpdateObserver: (alnonnull id<ALAdUpdateObserver>) adListener ofSize: (alnonnull ALAdSize *) adSize;
+- (void) removeAdUpdateObserver: (alnonnull id <ALAdUpdateObserver>) adListener ofSize: (alnonnull ALAdSize *) adSize;
 
-- (alnullable id)init __attribute__((unavailable("Don't instantiate ALAdService, access one via [sdk adService] instead.")));
+- (alnullable id) init __attribute__((unavailable("Don't instantiate ALAdService, access one via [sdk adService] instead.")));
 @end
 
 /**

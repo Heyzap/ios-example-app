@@ -1,37 +1,40 @@
 PODS:
-  - AdColony (2.5.3)
-  - AppLovin (3.1.5)
-  - ChartboostSDK (5.5.3)
-  - FacebookAudienceNetwork (4.5.1)
-  - Google-Mobile-Ads-SDK (7.5.0)
-  - Heyzap (9.2.5)
+  - AdColony (2.6.1)
+  - AppLovin (3.2.2)
+  - ChartboostSDK (6.3.0)
+  - FBAudienceNetwork (4.9.1)
+  - Google-Mobile-Ads-SDK (7.6.0)
+  - Heyzap (9.3.9)
   - HyprMX (68)
+  - HZInMobi (5.2.0)
   - Leadbolt (6.0)
-  - UnityAds (1.5.2)
-  - VungleAdvertiserSDK (3.2.0)
+  - UnityAds (1.5.6)
+  - VungleSDK-iOS (3.2.0.1)
 
 DEPENDENCIES:
-  - AdColony (= 2.5.3)
-  - AppLovin (= 3.1.5)
-  - ChartboostSDK (= 5.5.3)
-  - FacebookAudienceNetwork (= 4.5.1)
-  - Google-Mobile-Ads-SDK (= 7.5.0)
-  - Heyzap (= 9.2.5)
+  - AdColony (= 2.6.1)
+  - AppLovin (= 3.2.2)
+  - ChartboostSDK (= 6.3.0)
+  - FBAudienceNetwork (= 4.9.1)
+  - Google-Mobile-Ads-SDK (= 7.6.0)
+  - Heyzap (= 9.3.9)
   - HyprMX (= 68)
+  - HZInMobi (= 5.2.0)
   - Leadbolt (= 6.0)
-  - UnityAds (= 1.5.2)
-  - VungleAdvertiserSDK (= 3.2.0)
+  - UnityAds (= 1.5.6)
+  - VungleSDK-iOS (= 3.2.0.1)
 
 SPEC CHECKSUMS:
-  AdColony: 389b39a185cf61a18cc7d4e1d910046246508e80
-  AppLovin: 29282a5295c39d54787732502c9e3ff60381af54
-  ChartboostSDK: 9bf9427b4c306773ea9f7d8cf974b4a3a0f1e61e
-  FacebookAudienceNetwork: 5e931961bef5030fd56b24a46af151b7c7ffd8ce
-  Google-Mobile-Ads-SDK: 24879c6e4d1c2f9767e68bb9e65640a06c711143
-  Heyzap: 488c4719abc6379848aa41b20f1378c9e6f7e2d5
+  AdColony: a9859672fee49d9a81017d1fffa3133bf8538bd8
+  AppLovin: 5b0d374500cbe64a483cec6810ebd3e3ff004180
+  ChartboostSDK: 8c3cf39887442f5700e380f63fef6d61949b4518
+  FBAudienceNetwork: af5491ef430a75ac5c7290ebf86481e808e626e9
+  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
+  Heyzap: 8a755d902f8039f6b8f08f7c00b92103990728e4
   HyprMX: 626dcce6c83a9856abeeef644542bc2cd058770e
+  HZInMobi: 8322b6f01d0a4ba714fd988f1a5cdb83aefe64d8
   Leadbolt: 2599cdd53890689158e94bd93268ae118b43ed1e
-  UnityAds: 76f1a98bf40597f1c0aab01f65c700b7734dcbd9
-  VungleAdvertiserSDK: c3ece1bf66a7f34688cfed832e2b12e321bbed03
+  UnityAds: f341d0f7a911d8b6eb7c943d4e89c17bca4b4a75
+  VungleSDK-iOS: e18cf2f47cf0abe096d4b162f583bd197de1ea28
 
 COCOAPODS: 0.39.0

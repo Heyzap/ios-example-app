@@ -1,7 +1,11 @@
 AdColony iOS SDK
 ==================================
-Modified: 2015/07/22  
-SDK Version: 2.5.3  
+Modified: 2016/01/14  
+SDK Version: 2.6.1  
+
+iOS 9 
+----------------------------------
+iOS 9 has introduced a couple of changes that will affect your integration of our new SDK. Please note that following our iOS 9 [integration instructions](https://github.com/AdColony/AdColony-iOS-SDK/wiki/iOS-9) is a strict requirement for apps compiling against the iOS 9 SDK (Xcode 7). Failure to do so will result in ads being turned off for your application. 
 
 To Download:
 ----------------------------------
@@ -12,13 +16,34 @@ Contains:
 * AdColony.framework (iOS)
 * Sample Apps
   * AdColonyAdvanced
-  * AdColonyBasic
+  * AdColonyInstantFeed
   * AdColonyV4VC
 * W-9 Form.pdf
 
 Getting Started with AdColony:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/AdColony/AdColony-iOS-SDK/wiki), which contains detailed integration instructions.
+
+2.6.1 Change Log:
+----------------------------------
+* Logic to prevent gradual thread buildup in airplane mode
+* Decreased time to initial ad playback
+* Improved logging
+* Miscellaneous bug fixes
+
+2.6.0 Change Log:
+----------------------------------
+* Fully tested and certified for iOS 9 
+* iOS 9 multitasking compatibility
+* Optimized ad-caching algorithms
+* Removed requirement for ObjC linker flag
+* App install can now be triggered from in-feed native ads
+* `getVirtualCurrencyRewardsAvailableTodayForZone:` method no longer supported
+* New sample applications (Swift and ObjC)
+* SDK is compiled with bitcode
+* Improved logging
+* Xcode 7 support
+* Miscellaneous bug fixes
 
 2.5.3 Change Log:
 ----------------------------------
@@ -115,7 +140,7 @@ New and returning users should review the [quick start guide](https://github.com
 
 Sample Applications:
 ----------------------------------
-Included are three sample apps to use as examples and for help on AdColony integration. The basic app allows users to launch an ad, demonstrating simple usage of AdColony. The currency app demonstrates how to implement videos-for-virtual currency (V4VC) to enable users to watch videos in return for in-app virtual currency rewards (with currency balances stored client-side). The advanced app demonstrates advanced topics such as multiple zones and playing ads in apps with audio and music. 
+Included are three sample apps to use as examples and for help on AdColony integration, each of which has been written in Swift and ObjC. The basic app allows users to launch an ad, demonstrating simple usage of AdColony. The currency app demonstrates how to implement videos-for-virtual currency (V4VC) to enable users to watch videos in return for in-app virtual currency rewards (with currency balances stored client-side). The Instant-Feed app demonstrates recommended usage of AdColony's native ad unit within the context of a social feed application.
 
 
 Legal Requirements:

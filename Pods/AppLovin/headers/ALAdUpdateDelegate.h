@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ALNullabilityAnnotations.h"
+#import "ALAnnotations.h"
 
 @protocol ALAdUpdateObserver <NSObject>
 
--(void) adService: (alnonnull ALAdService *) adService didUpdateAd: (alnullable ALAd *) ad;
--(BOOL) canAcceptUpdate;
+- (void) adService: (alnonnull ALAdService *) adService didUpdateAd: (alnullable ALAd *) ad;
+
+- (BOOL) canAcceptUpdate;
 
 @end
