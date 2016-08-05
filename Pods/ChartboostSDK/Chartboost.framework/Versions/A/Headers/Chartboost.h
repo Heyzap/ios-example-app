@@ -1,7 +1,7 @@
 /*
  * Chartboost.h
  * Chartboost
- * 6.3.0
+ * 6.4.7
  *
  * Copyright 2011 Chartboost. All rights reserved.
  */
@@ -61,6 +61,10 @@ typedef NS_ENUM(NSUInteger, CBMediation) {
     CBMediationMoPub,
     /*! Supersonic */
     CBMediationSupersonic,
+    /*! AdMob */
+    CBMediationAdMob,
+    /*! HyprMX */
+    CBMediationHyprMX
 };
 
 
@@ -73,29 +77,31 @@ typedef NS_ENUM(NSUInteger, CBMediation) {
  */
 typedef NS_ENUM(NSUInteger, CBLoadError) {
     /*! Unknown internal error. */
-    CBLoadErrorInternal,
+    CBLoadErrorInternal = 0,
     /*! Network is currently unavailable. */
-    CBLoadErrorInternetUnavailable,
+    CBLoadErrorInternetUnavailable = 1,
     /*! Too many requests are pending for that location.  */
-    CBLoadErrorTooManyConnections,
+    CBLoadErrorTooManyConnections = 2,
     /*! Interstitial loaded with wrong orientation. */
-    CBLoadErrorWrongOrientation,
+    CBLoadErrorWrongOrientation = 3,
     /*! Interstitial disabled, first session. */
-    CBLoadErrorFirstSessionInterstitialsDisabled,
+    CBLoadErrorFirstSessionInterstitialsDisabled = 4,
     /*! Network request failed. */
-    CBLoadErrorNetworkFailure,
+    CBLoadErrorNetworkFailure = 5,
     /*!  No ad received. */
-    CBLoadErrorNoAdFound,
+    CBLoadErrorNoAdFound = 6,
     /*! Session not started. */
-    CBLoadErrorSessionNotStarted,
+    CBLoadErrorSessionNotStarted = 7,
+	/*! There is an impression already visible.*/
+	CBLoadErrorImpressionAlreadyVisible = 8,
     /*! User manually cancelled the impression. */
-    CBLoadErrorUserCancellation,
+    CBLoadErrorUserCancellation = 10,
     /*! No location detected. */
-    CBLoadErrorNoLocationFound,
+    CBLoadErrorNoLocationFound = 11,
+    /*! Error downloading asset. */
+    CBLoadErrorAssetDownloadFailure = 16,
     /*! Video Prefetching is not finished */
-    CBLoadErrorPrefetchingIncomplete,
-    /*! There is an impression already visible.*/
-    CBLoadErrorImpressionAlreadyVisible
+    CBLoadErrorPrefetchingIncomplete = 21
 };
 
 /*!

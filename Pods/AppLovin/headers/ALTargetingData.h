@@ -24,12 +24,12 @@
 /**
  * Set carrier current device is on.
  */
-@property (strong, nonatomic) NSString * __alnullable carrier;
+@property (strong, nonatomic) NSString * __alnullable carrier __deprecated;
 
 /**
  * Set a two-character ISO 3166-1 country code of the device.
  */
-@property (strong, nonatomic) NSString * __alnullable country;
+@property (strong, nonatomic) NSString * __alnullable country __deprecated;
 
 /**
  * Set the year of birth of current user.
@@ -64,7 +64,7 @@
  * Set the location of current user. The location represented as
  * longiture and latitude.
  */
-- (void) setLocationWithLatitude: (double) latitude longitude: (double) longitude;
+- (void) setLocationWithLatitude: (double) latitude longitude: (double) longitude __deprecated;
 
 /**
  * Put an extra targeting parameter

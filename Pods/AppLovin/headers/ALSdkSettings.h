@@ -44,4 +44,11 @@
  */
 @property (strong, atomic) NSString * __alnonnull autoPreloadAdTypes;
 
+/**
+ * Determines whether to begin video ads in a muted state or not. Defaults to YES unless changed in the dashboard.
+ *
+ * @param muted YES if ads should begin in a muted state. NO if ads should NOT begin in a muted state.
+ */
+@property (assign, atomic) BOOL muted __TVOS_PROHIBITED;
+
 @end

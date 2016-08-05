@@ -31,7 +31,7 @@
 
 /**
  * This method is invoked when the ad is hidden from in the view.
- * This occurs when the user "X's" out of an interstitial, or when a banner rotates.
+ * This occurs when the user "X's" out of an interstitial.
  *
  * This method is invoked on the main UI thread.
  * 

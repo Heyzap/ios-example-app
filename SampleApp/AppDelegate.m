@@ -32,6 +32,7 @@
     
     // setup Heyzap
     //[HZLog setThirdPartyLoggingEnabled:YES];
+    [HZLog setDebugLevel:HZDebugLevelVerbose];
     [HeyzapAds startWithPublisherID:@"ENTER_YOUR_PUBLISHER_ID_HERE" andOptions:HZAdOptionsDisableAutomaticIAPRecording | HZAdOptionsDisableAutoPrefetching];
     
     return YES;

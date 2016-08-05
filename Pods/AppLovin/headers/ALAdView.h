@@ -90,6 +90,14 @@
 - (void) render: (alnullable ALAd *) ad;
 
 /**
+ * Render a specific ad that was loaded via ALAdService.
+ *
+ * @param ad          Ad to render. Must not be nil.
+ * @param placement   Name of the placement over which the ad is rendered. May be null
+ */
+- (void) render: (alnullable ALAd *) ad overPlacement: (alnullable NSString *)placement;
+
+/**
  * @name Initialization
  */
 

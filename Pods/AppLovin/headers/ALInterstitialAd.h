@@ -55,6 +55,25 @@
  */
 + (alnonnull ALInterstitialAd *) showOver: (alnonnull UIWindow *) window;
 
+
+/**
+ * Show a new interstitial ad. This method will display an interstitial over the
+ * key window
+ *
+ * @param placement  A placement to show the interstitial over
+ */
++ (alnonnull ALInterstitialAd *) showOverPlacement: (alnullable NSString *) placement;
+
+
+/**
+ * Show a new interstitial ad. This method will display an interstitial*
+ * over the given UIWindow.
+ *
+ * @param window     A window to show the interstitial over
+ * @param placement  A placement to show the interstitial over
+ */
++ (alnonnull ALInterstitialAd *) showOver: (alnonnull UIWindow *) window placement: (alnullable NSString* )placement;
+
 /**
  * Check if an ad is currently ready to display.
  *
@@ -84,6 +103,18 @@
 - (void) show;
 
 /**
+ * Show an interstitial over the application's key window.
+ * This will load the next interstitial and display it.
+ *
+ * Note that this method is functionally equivalent to calling
+ * showOver: and passing [[UIApplication sharedApplication] keyWindow].
+ *
+ * @param placement  Placement over which this ad is displayed
+ */
+
+- (void) showOverPlacement: (alnonnull NSString *) placement;
+
+/**
  * Show an interstitial over a given window.
  * @param window An instance of window to show the interstitial over.
  */
@@ -96,6 +127,16 @@
  * @param ad     The ad to render into this interstitial.
  */
 - (void) showOver: (alnonnull UIWindow *) window andRender: (alnonnull ALAd *) ad;
+
+/**
+ * Show current interstitial over a given window and render a specified ad loaded by ALAdService.
+ *
+ * @param window     An instance of window to show the interstitial over.
+ * @param ad         The ad to render into this interstitial.
+ * @param placement  Placement over which this ad is displayed
+ */
+- (void) showOver: (alnonnull UIWindow *) window  placement: (alnullable NSString *)placement andRender: (alnonnull ALAd *) ad;
+
 
 /**
  * Check if an ad is currently ready to display.

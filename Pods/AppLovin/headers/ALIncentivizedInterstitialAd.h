@@ -90,6 +90,30 @@
 + (void) showAndNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
 
 /**
+ * Show an incentivized interstitial over the current key window, using the most recently pre-loaded ad.
+ *
+ * You must call preloadAndNotify before calling showOver.
+ *
+ * @param placement Placement to show the app over
+ */
++ (void) showOverPlacement: (alnullable NSString *)placement;
+
+/**
+ * Show an incentivized interstitial over the current key window, using the most recently pre-loaded ad.
+ *
+ * You must call preloadAndNotify before calling showOver.
+ *
+ * Using the ALAdRewardDelegate, you will be able to verify with AppLovin servers the the video view is legitimate,
+ * as we will confirm whether the specific ad was actually served - then we will ping your server with a url for you to update
+ * the user's balance. The Reward Validation Delegate will tell you whether we were able to reach our servers or not. If you receive
+ * a successful response, you should refresh the user's balance from your server. For more info, see the documentation.
+ *
+ * @param adRewardDelegate The reward delegate to notify upon validating reward authenticity with AppLovin.
+ * @param placement Placement to show the app over
+ */
++ (void) showOverPlacement: (alnullable NSString *)placement andNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
+
+/**
  * Show an incentivized interstitial, using the most recently pre-loaded ad.
  *
  * You must call preloadAndNotify before calling showOver.
@@ -104,6 +128,22 @@
  *
  */
 + (void) showOver: (alnonnull UIWindow *) window andNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
+
+/**
+ * Show an incentivized interstitial, using the most recently pre-loaded ad.
+ *
+ * You must call preloadAndNotify before calling showOver.
+ *
+ * Using the ALAdRewardDelegate, you will be able to verify with AppLovin servers the the video view is legitimate,
+ * as we will confirm whether the specific ad was actually served - then we will ping your server with a url for you to update
+ * the user's balance. The Reward Validation Delegate will tell you whether we were able to reach our servers or not. If you receive
+ * a successful response, you should refresh the user's balance from your server. For more info, see the documentation.
+ *
+ * @param adRewardDelegate The reward delegate to notify upon validating reward authenticity with AppLovin.
+ * @param window The UIWindow over which the rewarded video should be displayed.
+ * @param placement Placement to show the app over
+ */
++ (void) showOver: (alnonnull UIWindow *) window placement: (alnullable NSString *)placement andNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
 
 /**
  * @name Integration, Instance Methods
@@ -174,9 +214,24 @@
  *
  * @param adRewardDelegate The reward delegate to notify upon validating reward authenticity with AppLovin.
  * @param window The UIWindow over which the rewarded video should be displayed.
- *
  */
 - (void) showOver: (alnonnull UIWindow *) window andNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
+
+/**
+ * Show an incentivized interstitial, using the most recently pre-loaded ad.
+ *
+ * You must call preloadAndNotify before calling showOver.
+ *
+ * Using the ALAdRewardDelegate, you will be able to verify with AppLovin servers that the video view is legitimate,
+ * as we will confirm whether the specific ad was actually served - then we will ping your server with a url for you to update
+ * the user's balance. The Reward Validation Delegate will tell you whether we were able to reach our servers or not. If you receive
+ * a successful response, you should refresh the user's balance from your server. For more info, see the documentation.
+ *
+ * @param adRewardDelegate The reward delegate to notify upon validating reward authenticity with AppLovin.
+ * @param window The UIWindow over which the rewarded video should be displayed.
+ * @param placement A placement current incentivized ad is shown over
+ */
+- (void) showOver: (alnonnull UIWindow *) window placement: (alnullable NSString *)placement andNotify: (alnullable id <ALAdRewardDelegate>) adRewardDelegate;
 
 /**
  * Dismiss an incentivized interstitial prematurely, before video playback has completed.

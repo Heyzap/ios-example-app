@@ -39,7 +39,7 @@ typedef NS_ENUM(NSInteger, FBAdLogLevel) {
 
  @abstract AdSettings contains global settings for all ad controls.
  */
-FB_CLASS_EXPORT
+FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED
 @interface FBAdSettings : NSObject
 
 /*!
@@ -97,14 +97,6 @@ FB_CLASS_EXPORT
  @param service Representing the name of the mediation that is mediation Audience Network
  */
 + (void)setMediationService:(NSString *)service;
-
-/*!
- @method
- 
- @abstract
- Returns the name of the mediation service that is mediating Audience Network
- */
-+ (NSString *)getMediationService;
 
 /*!
  @method

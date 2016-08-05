@@ -1,40 +1,42 @@
 PODS:
-  - AdColony (2.6.1)
-  - AppLovin (3.2.2)
-  - ChartboostSDK (6.3.0)
-  - FBAudienceNetwork (4.9.1)
-  - Google-Mobile-Ads-SDK (7.6.0)
-  - Heyzap (9.3.9)
+  - AdColony (2.6.2)
+  - AppLovin (3.4.0)
+  - ChartboostSDK (6.4.7)
+  - FBAudienceNetwork (4.14.0)
+  - Google-Mobile-Ads-SDK (7.9.1)
+  - Heyzap (9.6.3)
   - HyprMX (68)
-  - HZInMobi (5.2.0)
+  - HZInMobi (5.3.1)
   - Leadbolt (6.0)
   - UnityAds (1.5.6)
-  - VungleSDK-iOS (3.2.0.1)
+  - VungleSDK-iOS (3.2.2)
 
 DEPENDENCIES:
-  - AdColony (= 2.6.1)
-  - AppLovin (= 3.2.2)
-  - ChartboostSDK (= 6.3.0)
-  - FBAudienceNetwork (= 4.9.1)
-  - Google-Mobile-Ads-SDK (= 7.6.0)
-  - Heyzap (= 9.3.9)
-  - HyprMX (= 68)
-  - HZInMobi (= 5.2.0)
-  - Leadbolt (= 6.0)
-  - UnityAds (= 1.5.6)
-  - VungleSDK-iOS (= 3.2.0.1)
+  - AdColony
+  - AppLovin
+  - ChartboostSDK
+  - FBAudienceNetwork
+  - Google-Mobile-Ads-SDK
+  - Heyzap
+  - HyprMX
+  - HZInMobi
+  - Leadbolt
+  - UnityAds
+  - VungleSDK-iOS
 
 SPEC CHECKSUMS:
-  AdColony: a9859672fee49d9a81017d1fffa3133bf8538bd8
-  AppLovin: 5b0d374500cbe64a483cec6810ebd3e3ff004180
-  ChartboostSDK: 8c3cf39887442f5700e380f63fef6d61949b4518
-  FBAudienceNetwork: af5491ef430a75ac5c7290ebf86481e808e626e9
-  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
-  Heyzap: 8a755d902f8039f6b8f08f7c00b92103990728e4
+  AdColony: c91c627c389e8d26a22c05ce7585d83db0121c25
+  AppLovin: 8be4c5d173de7ab0a77dc5d5990a30be9437c9d0
+  ChartboostSDK: aeff0e21746d8b659c6407b1eda1fe67cdd59cf0
+  FBAudienceNetwork: 483340b42f239d560cd3caf781e4ed35023ff724
+  Google-Mobile-Ads-SDK: 575583d7eae25793bb81ad8673737d1b4ecbedc5
+  Heyzap: 49e09447f9cf2ed185fce78aa80552c6f1f027aa
   HyprMX: 626dcce6c83a9856abeeef644542bc2cd058770e
-  HZInMobi: 8322b6f01d0a4ba714fd988f1a5cdb83aefe64d8
+  HZInMobi: 9763586e3d82d5f8c9ba38a69d229c9812a98047
   Leadbolt: 2599cdd53890689158e94bd93268ae118b43ed1e
   UnityAds: f341d0f7a911d8b6eb7c943d4e89c17bca4b4a75
-  VungleSDK-iOS: e18cf2f47cf0abe096d4b162f583bd197de1ea28
+  VungleSDK-iOS: 1c9ac04299476b78e592221fe6cbc8e3fd5b7418
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: ed8fe8cb51f382b2c10158a33d42f3d81382b120
+
+COCOAPODS: 1.0.1

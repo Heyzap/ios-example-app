@@ -14,7 +14,10 @@
 // Indicates that a fetch ad request timed out (usually due to poor connectivity).
 #define kALErrorCodeAdRequestNetworkTimeout -1001
 
-// Indicates that an unspecified network issue occured, for instance if the user is in Airplane Mode.
+// Indicates that the device is not connected to internet (for instance if user is in Airplane mode). This returns the same code as NSURLErrorNotConnectedToInternet.
+#define kALErrorCodeNotConnectedToInternet -1009
+
+// Indicates that an unspecified network issue occured.
 #define kALErrorCodeAdRequestUnspecifiedError -1
 
 // Indicates that an attempt to cache a resource to the filesystem failed; the device may be out of space.
@@ -29,11 +32,13 @@
 // Indicates that there was an error while attempting to render a native ad
 #define kALErrorCodeUnableToRenderNativeAd -700
 
-// Indicates that an unspecified network issue occurred, for instance if the user is in Airplane Mode.
+// Indicates that an unspecified network issue occurred.
 #define kALErrorCodeUnableToPreloadNativeAd -701
 
 
+//
 // Rewarded Videos
+//
 
 // Indicates that the developer called for a rewarded video before one was available.
 #define kALErrorCodeIncentiviziedAdNotPreloaded -300

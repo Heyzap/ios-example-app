@@ -1,7 +1,7 @@
 AdColony iOS SDK
 ==================================
-Modified: 2016/01/14  
-SDK Version: 2.6.1  
+Modified: 2016/06/23  
+SDK Version: 2.6.2  
 
 iOS 9 
 ----------------------------------
@@ -10,6 +10,12 @@ iOS 9 has introduced a couple of changes that will affect your integration of ou
 To Download:
 ----------------------------------
 The simplest way to obtain the AdColony iOS SDK is to click the "Download ZIP" button located in the right-hand navigation pane of the Github repository page.
+
+In addition, you can add the AdColony SDK to your project using [CocoaPods](https://cocoapods.org/). Just add the following to your Podfile
+```
+pod 'AdColony'
+```
+
 
 Contains:
 ----------------------------------
@@ -23,6 +29,12 @@ Contains:
 Getting Started with AdColony:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/AdColony/AdColony-iOS-SDK/wiki), which contains detailed integration instructions.
+
+2.6.2 Change Log:
+----------------------------------
+* Tracking event for in-feed, native ad video engagement
+* Periodic reporting of asset download metadata
+* Miscellaneous bug fixes
 
 2.6.1 Change Log:
 ----------------------------------
