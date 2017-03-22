@@ -12,7 +12,7 @@ No license given.
 
 ## ChartboostSDK
 
-LICENSE © 2011-2016 Chartboost. All rights reserved. LICENSE
+LICENSE © 2011-2017 Chartboost. All rights reserved. LICENSE
 
 ## FBAudienceNetwork
 
@@ -37,7 +37,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Google-Mobile-Ads-SDK
 
-Copyright 2011 Google Inc. All Rights Reserved.
+Copyright 2017 Google
 
 ## HZInMobi
 

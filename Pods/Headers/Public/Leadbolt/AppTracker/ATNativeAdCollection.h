@@ -1,0 +1,1 @@
+../../../../Leadbolt/AppTracker.framework/Versions/A/Headers/ATNativeAdCollection.h

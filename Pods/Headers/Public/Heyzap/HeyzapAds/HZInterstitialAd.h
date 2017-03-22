@@ -1,1 +1,1 @@
-../../../../Heyzap/heyzap-ads-sdk-9.6.3/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZInterstitialAd.h
+../../../../Heyzap/heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZInterstitialAd.h

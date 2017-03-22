@@ -1,1 +1,1 @@
-../../../../VungleSDK-iOS/VungleSDK.embeddedframework/VungleSDK.framework/Headers/VungleSDK.h
+../../../../VungleSDK-iOS/VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Headers/VungleSDK.h

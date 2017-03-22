@@ -11,7 +11,7 @@ target 'SampleApp' do
     pod 'AdColony' # Maintained by AdColony
     pod 'AppLovin' # Vendored by Heyzap
     pod 'ChartboostSDK', :inhibit_warnings => true # Maintained by Chartboost
-    pod 'FBAudienceNetwork' # Maintained by Facebook
+    pod 'FBAudienceNetwork', '~>4.14.0' # Maintained by Facebook
     pod 'Google-Mobile-Ads-SDK' # Maintained by Google
     pod 'HyprMX' # Vendored by Heyzap
     pod 'HZInMobi' # Vendored by Heyzap
