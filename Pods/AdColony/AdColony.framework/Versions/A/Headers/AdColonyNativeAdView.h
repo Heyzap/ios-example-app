@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setLeftApplication:(nullable void (^)(void))leftApplication;
 
 /**
- @abstract Sets the block of code to be executed when the user taps on the interstitial ad, causing an action to be taken.
+ @abstract Sets the block of code to be executed when the user taps on the ad, causing an action to be taken.
  @discussion Note that the associated code block will be dispatched on the main thread.
  @param click The block of code to be executed.
  */

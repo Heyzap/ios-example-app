@@ -7,99 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		627BC7990BE721A98A9C0833D725DF83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1FED03A3BC8264C10098ABFD40FBCAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A8BEFC5D3A4059D021048D56B4DEBF4A /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD5AA885B84DD10B53CCCC77719E8D1 /* Pods-SampleApp-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06AD2BABBBE4BBBBC695DF468BFBF0E2 /* IMSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMSdk.h; path = Headers/IMSdk.h; sourceTree = "<group>"; };
-		0826904E732D74C22F8805B5870D702B /* HZMediatedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAd.h"; sourceTree = "<group>"; };
-		0852A34AF3DDC4B575116596F7550BC1 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; name = __vungle.db; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/__vungle.db; sourceTree = "<group>"; };
-		086E069433029C9ACD975638E0A38D2C /* HZBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZBannerAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAd.h"; sourceTree = "<group>"; };
+		006B2EFBC23C5C2AB4F18F5660C1C697 /* HZVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZVideoAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZVideoAd.h"; sourceTree = "<group>"; };
+		00B091490FBF993328ACCB28E309C0D6 /* AdColonyAppOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAppOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyAppOptions.h; sourceTree = "<group>"; };
+		01171811A7249E83984F0A6FD4E8F607 /* FBNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAd.h; path = FBAudienceNetwork.framework/Headers/FBNativeAd.h; sourceTree = "<group>"; };
+		0365075F01B70612CB9E1FC9DD4D60F6 /* AdColonyAdRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdRequestError.h; path = AdColony.framework/Versions/A/Headers/AdColonyAdRequestError.h; sourceTree = "<group>"; };
+		06038EAE5B894FB8CFB2198E241497B0 /* IMInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMInterstitial.h; path = Headers/IMInterstitial.h; sourceTree = "<group>"; };
+		095713AEF7A7A799C54C898258F30D3F /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		0982BC2411186BE56A6BE9F4B70BE642 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		0D71B1AACC7E2C5962191929F29B64DB /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = FBAudienceNetwork.framework/Headers/FBAdSize.h; sourceTree = "<group>"; };
-		0D7F84B0C8F8E0457CDE2C1D2F9506B4 /* FBNativeAdScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdScrollView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h; sourceTree = "<group>"; };
-		0E5FDA2337F869FFBD291C4B0D4C22C0 /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h; sourceTree = "<group>"; };
-		0ED36D4581807DF1435A464C37BD502A /* IMNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeDelegate.h; path = Headers/IMNativeDelegate.h; sourceTree = "<group>"; };
-		0F0C266B7AD051DB318C33EBB2A0D175 /* HeyzapAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeyzapAds.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HeyzapAds.h"; sourceTree = "<group>"; };
-		11D4F3AD44350A2ACAAE440C102B4A91 /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = FBAudienceNetwork.framework/Headers/FBInterstitialAd.h; sourceTree = "<group>"; };
-		16111C67B1E819C572D9F70CBA6B0D20 /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = FBAudienceNetwork.framework/Headers/FBAdChoicesView.h; sourceTree = "<group>"; };
-		19E87F37CCD10040AF9305A66E5E2CEB /* HZDemographics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZDemographics.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZDemographics.h"; sourceTree = "<group>"; };
-		1A7F31165C31DD43FA52EF5B69E146FE /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
-		21D1208AC95CB5D40CC684AE595E6494 /* HZVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZVideoAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZVideoAd.h"; sourceTree = "<group>"; };
-		2C27BD07260BF03BA2905BB0B62ED655 /* HZBannerAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZBannerAdOptions.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAdOptions.h"; sourceTree = "<group>"; };
-		2C8212176F1306FD4E875428ED4FAF37 /* FBNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAd.h; path = FBAudienceNetwork.framework/Headers/FBNativeAd.h; sourceTree = "<group>"; };
-		3050F2422F27A509C8FEFAC7D41218F8 /* HZNativeAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdController.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdController.h"; sourceTree = "<group>"; };
-		30963F86601FD7DF5FA64FE11A5A5C88 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; name = vg_mute_on.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_mute_on.png; sourceTree = "<group>"; };
-		38AA6DCD64F2694B21614A60DF98269D /* CBMoreAppsBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsBadge.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsBadge.h; sourceTree = "<group>"; };
-		38D975A2C475714135150C9E326F5AF7 /* IMStrandPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandPosition.h; path = Headers/IMStrandPosition.h; sourceTree = "<group>"; };
-		3BC36D331D4E17B6986FB54FE1B6444D /* IMBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMBannerDelegate.h; path = Headers/IMBannerDelegate.h; sourceTree = "<group>"; };
+		0CA42DACDE4C76659C916E1777B1954C /* FBNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdView.h; sourceTree = "<group>"; };
+		0F26A8464B043606A7BBB501BFFFE2F5 /* HZMediatedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAd.h"; sourceTree = "<group>"; };
+		10ABB66F3EA4F88F6AA1EE1608A1CBB1 /* IMStrandPosition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandPosition.h; path = Headers/IMStrandPosition.h; sourceTree = "<group>"; };
+		11FF2FC9011BBF920280AF7F44B08C80 /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h; sourceTree = "<group>"; };
+		13020A50A95CAAD62A0229197A193BA7 /* HZNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAd.h"; sourceTree = "<group>"; };
+		164BFF74CD97830216B311567540130D /* HZBannerAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZBannerAdOptions.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAdOptions.h"; sourceTree = "<group>"; };
+		1FEC25A44F163C598B887AA19ADFEF2A /* IMStrandTableViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandTableViewAdapter.h; path = Headers/IMStrandTableViewAdapter.h; sourceTree = "<group>"; };
+		2938363101FBEE47265FB1B47683BE7C /* FBInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInterstitialAd.h; path = FBAudienceNetwork.framework/Headers/FBInterstitialAd.h; sourceTree = "<group>"; };
+		2D6CFDDD8B69EAC2579936BF4261DB81 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
+		2FD80ADC5D68C53C3FFD219F34A2CEE4 /* FBNativeAdCollectionViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h; sourceTree = "<group>"; };
+		3B17D2299778FD5FC1FFA8A795E9DB5A /* IMSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMSdk.h; path = Headers/IMSdk.h; sourceTree = "<group>"; };
+		3BC0DADA2840CBF905A77B2914F8F0A0 /* HZMediatedNativeAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAdManager.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdManager.h"; sourceTree = "<group>"; };
+		3D4F5435B3226185362803D500810818 /* IMRequestStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMRequestStatus.h; path = Headers/IMRequestStatus.h; sourceTree = "<group>"; };
+		3E66B76A32CCF8FA1BB2B464F26F4566 /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_off.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_mute_off.png; sourceTree = "<group>"; };
 		3E8BAB392B28EB2C10062145F9F2E9AB /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
 		4110B5FA88FBE92563E26253260D02B6 /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		412DC83C26F5F31D03968BB5446A03A6 /* IMNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNative.h; path = Headers/IMNative.h; sourceTree = "<group>"; };
-		47668CA0B1DADE9AD5BCFE43B935EF4C /* HZNativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdImage.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdImage.h"; sourceTree = "<group>"; };
-		48D143BB68DC909E48581343CDFA0604 /* IMBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMBanner.h; path = Headers/IMBanner.h; sourceTree = "<group>"; };
-		495640F23045D68762CDD05653043631 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		4BEBB4E358133EC6D40BD1BDC25A1930 /* AdColonyInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyInterstitial.h; path = AdColony.framework/Versions/A/Headers/AdColonyInterstitial.h; sourceTree = "<group>"; };
+		48034F69118A7B7DEA992D14D98859F6 /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_cta.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_cta.png; sourceTree = "<group>"; };
+		49E25569680198A1ACBB79362E68516C /* FBNativeAdCollectionViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewCellProvider.h; sourceTree = "<group>"; };
+		4B6DD36545CBAFF44F56E2CD1F26FF7D /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
 		50387ED00B5E00A8819A058DC9B7D14B /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50E8AF30DAEAC514C6A409E2086EE649 /* IMCustomNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMCustomNative.h; path = Headers/IMCustomNative.h; sourceTree = "<group>"; };
-		54AD814FB13BB8130B9476B0DD562C05 /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = FBAudienceNetwork.framework/Headers/FBAdSettings.h; sourceTree = "<group>"; };
-		5A7569FD7AA8FA4D1DBB8892D28CFD84 /* libInMobi-5.3.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libInMobi-5.3.1.a"; sourceTree = "<group>"; };
-		5B3CD3D9DC9B21D5928EADC4206768D6 /* HZIncentivizedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZIncentivizedAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZIncentivizedAd.h"; sourceTree = "<group>"; };
+		50A065E4A3CB59911BFE285B84022731 /* HZMediatedNativeAdViewRegisterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAdViewRegisterer.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdViewRegisterer.h"; sourceTree = "<group>"; };
+		53BBF001232933E766F780683B5F0995 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		55D5642296EA4C080D920939159FABB5 /* FBAdSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettings.h; path = FBAudienceNetwork.framework/Headers/FBAdSettings.h; sourceTree = "<group>"; };
+		57468416A6095207925E5FA79B9F4D1E /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h; sourceTree = "<group>"; };
+		582ED7CE45FB53E42667C52DE7FA7259 /* HZBannerAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZBannerAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAd.h"; sourceTree = "<group>"; };
 		5B52682116E4FFEEA5FC1574AC5C828C /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C1AF81EB635FBAAD2C0333133D9F858 /* AdColonyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyOptions.h; sourceTree = "<group>"; };
-		5D9F31E80637AF44A44A76422CB4CBD3 /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h; sourceTree = "<group>"; };
-		6E08FAA475164572C1F45807C97394E3 /* IMInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMInterstitial.h; path = Headers/IMInterstitial.h; sourceTree = "<group>"; };
-		6EA3EDFB8F0ED82F8D24E3C1633CF727 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h; sourceTree = "<group>"; };
-		7041F01E2235CEF76CC0AADE60029350 /* AdColonyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyTypes.h; path = AdColony.framework/Versions/A/Headers/AdColonyTypes.h; sourceTree = "<group>"; };
-		72B9C701F29C4B6D0DF2AEB3D3E49EED /* vg_cta.png */ = {isa = PBXFileReference; includeInIndex = 1; name = vg_cta.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_cta.png; sourceTree = "<group>"; };
-		732EE22BA44CA37DF0C86FE02C918DEB /* AppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppTracker.framework; sourceTree = "<group>"; };
-		7975FDA95F7CAC928279BDFE96F1B9D0 /* AdColonyAdRequestError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdRequestError.h; path = AdColony.framework/Versions/A/Headers/AdColonyAdRequestError.h; sourceTree = "<group>"; };
-		7A3753CF170C9BCCA6FCA7CC5915F6FA /* HZLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZLog.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZLog.h"; sourceTree = "<group>"; };
-		7C6B645DA4A83E6BF2C6631CE7514D34 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
-		7DF862F951E6188D794A260702488E58 /* HyprMX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HyprMX.framework; sourceTree = "<group>"; };
-		882E53074731AA77EDDF1B63030F3525 /* AdColonyAppOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAppOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyAppOptions.h; sourceTree = "<group>"; };
-		88E0C05881DDEE3CF81221F5761BB5D0 /* IMInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMInterstitialDelegate.h; path = Headers/IMInterstitialDelegate.h; sourceTree = "<group>"; };
-		894767745BB1764B079001D747DA0587 /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h; sourceTree = "<group>"; };
-		8C4CC1D5986678E9FC3E67353F2C7B75 /* FBNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdView.h; sourceTree = "<group>"; };
-		907D070A6F4A476764C0D2FD761C3A61 /* CBMoreAppsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsButton.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsButton.h; sourceTree = "<group>"; };
+		5CE67795A58BD16CC8C2E00F82021E2A /* IMInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMInterstitialDelegate.h; path = Headers/IMInterstitialDelegate.h; sourceTree = "<group>"; };
+		6246066CEE596CADD2FE4B10AC735379 /* IMStrandTableViewAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandTableViewAdapterDelegate.h; path = Headers/IMStrandTableViewAdapterDelegate.h; sourceTree = "<group>"; };
+		65013ABCC141424EA6FAE87E2A5AF219 /* IMNativeStrands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeStrands.h; path = Headers/IMNativeStrands.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71202021F24D6A1850126355A1E49C26 /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = FBAudienceNetwork.framework/Headers/FBAdView.h; sourceTree = "<group>"; };
+		754395E46E347A131C8A85E6154F5738 /* HyprMX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HyprMX.framework; sourceTree = "<group>"; };
+		77CCC4838A8D1FA4C9B9B77B5D462EF5 /* HeyzapAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeyzapAds.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HeyzapAds.h"; sourceTree = "<group>"; };
+		7DF36439DE13478AF4BE92CE70F1E744 /* IMBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMBanner.h; path = Headers/IMBanner.h; sourceTree = "<group>"; };
+		8022A3DBA9D6706F2FE5896449F491A1 /* HZLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZLog.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZLog.h"; sourceTree = "<group>"; };
+		8400BC4D81BC1639DFF3D1A1BF7F15C9 /* libInMobi-5.3.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libInMobi-5.3.1.a"; sourceTree = "<group>"; };
+		852621964F47374F7001C8DA506A4892 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		8557B64AD8B522A5D3CDC7F7C4B42AF3 /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyAdOptions.h; sourceTree = "<group>"; };
+		881FF947A5158B8902F52B7347750BD6 /* AdColonyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyOptions.h; sourceTree = "<group>"; };
+		89088EA4112E8F2672896BA83E819159 /* FBInstreamAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBInstreamAdView.h; path = FBAudienceNetwork.framework/Headers/FBInstreamAdView.h; sourceTree = "<group>"; };
+		8B4C51D8F3EEADE5FFDA80448893B5DE /* AdColonyNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyNativeAdView.h; path = AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h; sourceTree = "<group>"; };
+		915BD5E4AD6D62BBF1C02B0DE0E7F558 /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93C28F835178BFA09F5054FC70257C29 /* AdColonyZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyZone.h; path = AdColony.framework/Versions/A/Headers/AdColonyZone.h; sourceTree = "<group>"; };
-		9ABD074650DDE53C53E9DC94653A4ED0 /* HZMediatedNativeAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAdManager.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdManager.h"; sourceTree = "<group>"; };
-		9B1380E4240DF5EC41F2D34E84BEE7FA /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; name = vg_privacy.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_privacy.png; sourceTree = "<group>"; };
-		9CE2C0F2682E4A7DF6E48E2C50E60506 /* HeyzapAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HeyzapAds.framework; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework"; sourceTree = "<group>"; };
-		9EF63754F62B25417131382C83D663D1 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; name = vg_close.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_close.png; sourceTree = "<group>"; };
-		A2ADEFEC6BFE362D41FFA3D2050D78CA /* CBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBAnalytics.h; path = Chartboost.framework/Versions/A/Headers/CBAnalytics.h; sourceTree = "<group>"; };
-		A6C28AD716F75DA4F62D58F7A2B7FC60 /* IMNativeStrandsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeStrandsDelegate.h; path = Headers/IMNativeStrandsDelegate.h; sourceTree = "<group>"; };
-		AE32C4BFA56EA53F2C86205A494758A7 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		93BCA4768889A569D76A9D68232EBF82 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		9606E4EB8A57DE5E09591B096EF8A5D0 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		962DA48BF6CE2BFD6AE3E0AF3094A5C9 /* __vungle.db */ = {isa = PBXFileReference; includeInIndex = 1; name = __vungle.db; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/__vungle.db; sourceTree = "<group>"; };
+		987B56FCF243975AD9611C1BD5C8020D /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h; sourceTree = "<group>"; };
+		9974717C98AB790DCAD2A500DF1973BF /* vg_privacy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_privacy.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_privacy.png; sourceTree = "<group>"; };
+		9A7D221F490F23F687D9BDB872C36013 /* HZNativeAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdController.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdController.h"; sourceTree = "<group>"; };
+		9C83C1A621CD0C4DF66C8CECE23579D1 /* FBAdChoicesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdChoicesView.h; path = FBAudienceNetwork.framework/Headers/FBAdChoicesView.h; sourceTree = "<group>"; };
+		9CF096F611199555E70E730113D0D5B1 /* IMNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNative.h; path = Headers/IMNative.h; sourceTree = "<group>"; };
+		9EF5B71081A51760793D1342CB88ACA4 /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
+		A54F7197184E2C76CDED2E65799779A6 /* FBNativeAdScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdScrollView.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdScrollView.h; sourceTree = "<group>"; };
+		A5DC3CE281DFF25729F111A90D4384C7 /* HZIncentivizedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZIncentivizedAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZIncentivizedAd.h"; sourceTree = "<group>"; };
+		A5FDDBFD72AF96BB98C8C58BEF1CC9D0 /* vg_mute_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_mute_on.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_mute_on.png; sourceTree = "<group>"; };
+		A61F22A2120C265C3E239E70F6F4E1CA /* HZNativeAdCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdCollection.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdCollection.h"; sourceTree = "<group>"; };
+		A973E63F9A31C45DA200B315A155836F /* HZDemographics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZDemographics.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZDemographics.h"; sourceTree = "<group>"; };
+		AD0DD817FA93CDEEFE8E44CB41C7CAC6 /* vg_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = vg_close.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_close.png; sourceTree = "<group>"; };
 		AF725480C712996DBC422CEDBB0DDC5C /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleApp.a"; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFEC9BE3FC6293DC63637EB512DC6A2D /* Chartboost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chartboost.h; path = Chartboost.framework/Versions/A/Headers/Chartboost.h; sourceTree = "<group>"; };
-		B387C03CDA4DAF240579A2057B441050 /* AdColonyNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyNativeAdView.h; path = AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h; sourceTree = "<group>"; };
-		B3D5EDC7A9500A6067C5A71B6A488530 /* HZMediatedNativeAdViewRegisterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZMediatedNativeAdViewRegisterer.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdViewRegisterer.h"; sourceTree = "<group>"; };
-		B64D057B20EB97786319F0C8D7A011BE /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = AdColony.framework/Versions/A/Headers/AdColonyAdOptions.h; sourceTree = "<group>"; };
+		AFE73808BF77386A34A25B8B69848E5F /* HZShowOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZShowOptions.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZShowOptions.h"; sourceTree = "<group>"; };
+		B228D2EF8028D764FD7BD13FD089FFA4 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h; sourceTree = "<group>"; };
+		B2BCE55327ECA2AD1FBD826B02C25191 /* IMNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeDelegate.h; path = Headers/IMNativeDelegate.h; sourceTree = "<group>"; };
+		B3E62730732AD608F79D63CAC0A7C5DD /* AdColonyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyTypes.h; path = AdColony.framework/Versions/A/Headers/AdColonyTypes.h; sourceTree = "<group>"; };
+		B4FE61E483387B307B4EC7BA5EA2C543 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VungleSDK.framework; path = VungleSDK.embeddedframework/VungleSDK.framework; sourceTree = "<group>"; };
+		B5489CFB458CDA22C080216FB1C45A93 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = AdColony.framework/Versions/A/Headers/AdColony.h; sourceTree = "<group>"; };
+		B78E1C2DBBE28A2B33309E2A1A5B7D62 /* IMBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMBannerDelegate.h; path = Headers/IMBannerDelegate.h; sourceTree = "<group>"; };
+		BAA068220331D5553D7528DC9338C28F /* AdColonyZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyZone.h; path = AdColony.framework/Versions/A/Headers/AdColonyZone.h; sourceTree = "<group>"; };
 		BDD5AA885B84DD10B53CCCC77719E8D1 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
-		C1E21999A05FCE8771359E5EBDEDE57C /* vg_mute_off.png */ = {isa = PBXFileReference; includeInIndex = 1; name = vg_mute_off.png; path = VungleSDK.embeddedframework/VungleSDK.framework/Versions/A/Resources/vg_mute_off.png; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD44375B1B1ADA6814D6DA89199CDC5E /* FBAdDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdDefines.h; path = FBAudienceNetwork.framework/Headers/FBAdDefines.h; sourceTree = "<group>"; };
-		D04B57C33C578E9D73780659D05DEE3D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		D3AB43A357FDD675576F480B3B14EAE4 /* FBAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdView.h; path = FBAudienceNetwork.framework/Headers/FBAdView.h; sourceTree = "<group>"; };
-		D4313B4A65BF78BBC36009F1471389B3 /* HZFetchOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZFetchOptions.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZFetchOptions.h"; sourceTree = "<group>"; };
-		D602AB5652D3BD6C7F556127B11B0255 /* CBInPlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBInPlay.h; path = Chartboost.framework/Versions/A/Headers/CBInPlay.h; sourceTree = "<group>"; };
-		D6A9B7AE0A802702960D4953D36EA2B9 /* HZNativeAdCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdCollection.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdCollection.h"; sourceTree = "<group>"; };
-		D72D71E7B71BD7D10EF5CEBAB24DF757 /* HZInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZInterstitialAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZInterstitialAd.h"; sourceTree = "<group>"; };
-		DFFC02AE8893E6A2C614F4AF29B14A6B /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = FBAudienceNetwork.framework/Headers/FBMediaView.h; sourceTree = "<group>"; };
-		E686EE81F7EF29FB958060E73C20919E /* IMRequestStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMRequestStatus.h; path = Headers/IMRequestStatus.h; sourceTree = "<group>"; };
-		E79AED9FF586F784A5D1C985A58A5602 /* IMStrandTableViewAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandTableViewAdapterDelegate.h; path = Headers/IMStrandTableViewAdapterDelegate.h; sourceTree = "<group>"; };
-		E7BF26730A7F4F48B99795994CBFFEA5 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		C0927F6FD8F669AD952F82DB45A785F1 /* HZNativeAdImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAdImage.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdImage.h"; sourceTree = "<group>"; };
+		C67F8E62A114EE7B24252E1DA8D7173A /* HZInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZInterstitialAd.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZInterstitialAd.h"; sourceTree = "<group>"; };
+		CA8076FA81E0A92D780C23701FC54C99 /* FBAdDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdDefines.h; path = FBAudienceNetwork.framework/Headers/FBAdDefines.h; sourceTree = "<group>"; };
+		CE7FA97A4C8C2D23F8BDC45AA580717A /* IMCustomNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMCustomNative.h; path = Headers/IMCustomNative.h; sourceTree = "<group>"; };
+		D275243A71EB3119C996998E64998F6E /* AppTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppTracker.framework; sourceTree = "<group>"; };
+		D4F755A9ABC14412A2BECD34328388CF /* FBAdSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSize.h; path = FBAudienceNetwork.framework/Headers/FBAdSize.h; sourceTree = "<group>"; };
+		D81B954158948E9AA2E705BBE82585BE /* CBMoreAppsBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsBadge.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsBadge.h; sourceTree = "<group>"; };
+		D92AE7088AC58ABE0DC7CFE106C9CA2F /* CBMoreAppsButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBMoreAppsButton.h; path = Chartboost.framework/Versions/A/Headers/CBMoreAppsButton.h; sourceTree = "<group>"; };
+		E597F50CA1E264D2D63ADBBFF2C35470 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
 		E7C8948A724351986743BD77F386CB3C /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		E9D21D06344C0E7F7C1D55D905100321 /* HZNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZNativeAd.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAd.h"; sourceTree = "<group>"; };
-		EA75388A071EC46968772D57C0D818C8 /* HZShowOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZShowOptions.h; path = "heyzap-ads-sdk-9.8.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZShowOptions.h"; sourceTree = "<group>"; };
-		ECCCA1B10DFADDF5C0D093A07474C1B5 /* IMStrandTableViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMStrandTableViewAdapter.h; path = Headers/IMStrandTableViewAdapter.h; sourceTree = "<group>"; };
-		F3B2191085B64369FD297E3B289A6691 /* IMCommonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMCommonConstants.h; path = Headers/IMCommonConstants.h; sourceTree = "<group>"; };
-		F61703B91F2BB06BEBB6CBB4BD790DA2 /* AdColonyUserMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyUserMetadata.h; path = AdColony.framework/Versions/A/Headers/AdColonyUserMetadata.h; sourceTree = "<group>"; };
-		F6D79FFA0A0071A13CCC2BAD7E800A03 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = AdColony.framework/Versions/A/Headers/AdColony.h; sourceTree = "<group>"; };
-		F80023569B7A0B1094F2854E11388E20 /* IMNativeStrands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeStrands.h; path = Headers/IMNativeStrands.h; sourceTree = "<group>"; };
-		FF6E07728E2FA8CBE9C14C425A2288B5 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		E9445D5F6224F26E71FC3C3489AA766E /* IMCommonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMCommonConstants.h; path = Headers/IMCommonConstants.h; sourceTree = "<group>"; };
+		E9E29A6E4E4EB3C763EC065D6A92C7AB /* HZFetchOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HZFetchOptions.h; path = "heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZFetchOptions.h"; sourceTree = "<group>"; };
+		EC4490072EDF1C94112453FC11A25D2F /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h; sourceTree = "<group>"; };
+		F2FB76EB848E11D394CB9FF10CCC6103 /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = FBAudienceNetwork.framework/Headers/FBMediaView.h; sourceTree = "<group>"; };
+		F69218F0ECDBE3DDDB9C4A11D98AAAA1 /* AdColonyInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyInterstitial.h; path = AdColony.framework/Versions/A/Headers/AdColonyInterstitial.h; sourceTree = "<group>"; };
+		FD14F1F3CE15D7070C1280FA1294BF38 /* IMNativeStrandsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMNativeStrandsDelegate.h; path = Headers/IMNativeStrandsDelegate.h; sourceTree = "<group>"; };
+		FF485A411E98C9984BE0F87DAA9A6D0E /* AdColonyUserMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyUserMetadata.h; path = AdColony.framework/Versions/A/Headers/AdColonyUserMetadata.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,75 +111,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627BC7990BE721A98A9C0833D725DF83 /* Foundation.framework in Frameworks */,
+				1FED03A3BC8264C10098ABFD40FBCAD8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0150034D2FBD187FA2F65AAAA3E3E8F0 /* Pods */ = {
+		0C92D7DE79B5F88AC60FB71028532214 /* UnityAds */ = {
 			isa = PBXGroup;
 			children = (
-				9D5F3E490F409FEE8AA71F21984A74AC /* AdColony */,
-				B5340FE28A18FA4557A2F2CE369845BF /* AppLovin */,
-				51684A11049214F6C7E7542E3EA9CB59 /* ChartboostSDK */,
-				11FCD9B1161ED3823FAD910993AC89A0 /* FBAudienceNetwork */,
-				D5A754FDAEED474C2AFF4FF12DD92628 /* Google-Mobile-Ads-SDK */,
-				B3D01917FCCC8FE34D9526D8DC115A7B /* Heyzap */,
-				2D62932317316D54FDE6EC7ABFAB3922 /* HyprMX */,
-				5AD513C606F3C50AE42E166BA9090442 /* HZInMobi */,
-				088846C67B692A89B2CDA2B2023860C6 /* Leadbolt */,
-				51A280CFAE9E8557B4B497F024CCFF95 /* UnityAds */,
-				3B16DFF35F0AD42BF13DBA06799B557F /* VungleSDK-iOS */,
+				8A2354E8507070F23A4319B40CE20E6A /* Frameworks */,
 			);
-			name = Pods;
+			name = UnityAds;
+			path = UnityAds;
 			sourceTree = "<group>";
 		};
-		088846C67B692A89B2CDA2B2023860C6 /* Leadbolt */ = {
+		12B78C46C1101E93502E1F5E838521F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F762AC0C3F5FBEB90D4C646BD88B78B /* Frameworks */,
-			);
-			name = Leadbolt;
-			path = Leadbolt;
-			sourceTree = "<group>";
-		};
-		11FCD9B1161ED3823FAD910993AC89A0 /* FBAudienceNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				16111C67B1E819C572D9F70CBA6B0D20 /* FBAdChoicesView.h */,
-				CD44375B1B1ADA6814D6DA89199CDC5E /* FBAdDefines.h */,
-				54AD814FB13BB8130B9476B0DD562C05 /* FBAdSettings.h */,
-				0D71B1AACC7E2C5962191929F29B64DB /* FBAdSize.h */,
-				D3AB43A357FDD675576F480B3B14EAE4 /* FBAdView.h */,
-				894767745BB1764B079001D747DA0587 /* FBAudienceNetwork.h */,
-				11D4F3AD44350A2ACAAE440C102B4A91 /* FBInterstitialAd.h */,
-				DFFC02AE8893E6A2C614F4AF29B14A6B /* FBMediaView.h */,
-				2C8212176F1306FD4E875428ED4FAF37 /* FBNativeAd.h */,
-				0D7F84B0C8F8E0457CDE2C1D2F9506B4 /* FBNativeAdScrollView.h */,
-				6EA3EDFB8F0ED82F8D24E3C1633CF727 /* FBNativeAdsManager.h */,
-				5D9F31E80637AF44A44A76422CB4CBD3 /* FBNativeAdTableViewAdProvider.h */,
-				0E5FDA2337F869FFBD291C4B0D4C22C0 /* FBNativeAdTableViewCellProvider.h */,
-				8C4CC1D5986678E9FC3E67353F2C7B75 /* FBNativeAdView.h */,
-				151A62511119BA8A0339B75564332FAE /* Frameworks */,
-			);
-			name = FBAudienceNetwork;
-			path = FBAudienceNetwork;
-			sourceTree = "<group>";
-		};
-		151A62511119BA8A0339B75564332FAE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				495640F23045D68762CDD05653043631 /* FBAudienceNetwork.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15D822BBD16984CC8572E4A82A498891 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E7BF26730A7F4F48B99795994CBFFEA5 /* AppLovinSDK.framework */,
+				8400BC4D81BC1639DFF3D1A1BF7F15C9 /* libInMobi-5.3.1.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,110 +150,104 @@
 			path = "Target Support Files/Pods-SampleApp";
 			sourceTree = "<group>";
 		};
-		22B17689CC0F6FC803BBBBE964E22222 /* Frameworks */ = {
+		1B0CF30BDEA00D0DAA4DB5C5A1D0DB77 /* FBAudienceNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				FF6E07728E2FA8CBE9C14C425A2288B5 /* AdColony.framework */,
+				9C83C1A621CD0C4DF66C8CECE23579D1 /* FBAdChoicesView.h */,
+				CA8076FA81E0A92D780C23701FC54C99 /* FBAdDefines.h */,
+				55D5642296EA4C080D920939159FABB5 /* FBAdSettings.h */,
+				D4F755A9ABC14412A2BECD34328388CF /* FBAdSize.h */,
+				71202021F24D6A1850126355A1E49C26 /* FBAdView.h */,
+				EC4490072EDF1C94112453FC11A25D2F /* FBAudienceNetwork.h */,
+				89088EA4112E8F2672896BA83E819159 /* FBInstreamAdView.h */,
+				2938363101FBEE47265FB1B47683BE7C /* FBInterstitialAd.h */,
+				F2FB76EB848E11D394CB9FF10CCC6103 /* FBMediaView.h */,
+				01171811A7249E83984F0A6FD4E8F607 /* FBNativeAd.h */,
+				2FD80ADC5D68C53C3FFD219F34A2CEE4 /* FBNativeAdCollectionViewAdProvider.h */,
+				49E25569680198A1ACBB79362E68516C /* FBNativeAdCollectionViewCellProvider.h */,
+				A54F7197184E2C76CDED2E65799779A6 /* FBNativeAdScrollView.h */,
+				B228D2EF8028D764FD7BD13FD089FFA4 /* FBNativeAdsManager.h */,
+				987B56FCF243975AD9611C1BD5C8020D /* FBNativeAdTableViewAdProvider.h */,
+				57468416A6095207925E5FA79B9F4D1E /* FBNativeAdTableViewCellProvider.h */,
+				0CA42DACDE4C76659C916E1777B1954C /* FBNativeAdView.h */,
+				11FF2FC9011BBF920280AF7F44B08C80 /* FBRewardedVideoAd.h */,
+				C43B4DDA33985123619620F52839EAE4 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = FBAudienceNetwork;
+			path = FBAudienceNetwork;
 			sourceTree = "<group>";
 		};
-		2D62932317316D54FDE6EC7ABFAB3922 /* HyprMX */ = {
+		28B295081481833E70CDA32234D0AA5E /* VungleSDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				505E869C4E1079F01C9A2BAA8B6F17E0 /* Frameworks */,
-			);
-			name = HyprMX;
-			path = HyprMX;
-			sourceTree = "<group>";
-		};
-		3B16DFF35F0AD42BF13DBA06799B557F /* VungleSDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9F3B0E04B1DBB880F69EF64BE4408EAE /* Frameworks */,
-				851B985B4C8DFF3C13B0FA51B378E4F5 /* Resources */,
+				2F8EC83EFE2A4427F045DD56F79D18DE /* Frameworks */,
+				4872C48B24A7908308DC8E1498DC402F /* Resources */,
 			);
 			name = "VungleSDK-iOS";
 			path = "VungleSDK-iOS";
 			sourceTree = "<group>";
 		};
-		505E869C4E1079F01C9A2BAA8B6F17E0 /* Frameworks */ = {
+		2A07EAF3817FC9EE85A73207A72A2D9B /* HZInMobi */ = {
 			isa = PBXGroup;
 			children = (
-				7DF862F951E6188D794A260702488E58 /* HyprMX.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		51684A11049214F6C7E7542E3EA9CB59 /* ChartboostSDK */ = {
-			isa = PBXGroup;
-			children = (
-				A2ADEFEC6BFE362D41FFA3D2050D78CA /* CBAnalytics.h */,
-				D602AB5652D3BD6C7F556127B11B0255 /* CBInPlay.h */,
-				38AA6DCD64F2694B21614A60DF98269D /* CBMoreAppsBadge.h */,
-				907D070A6F4A476764C0D2FD761C3A61 /* CBMoreAppsButton.h */,
-				AFEC9BE3FC6293DC63637EB512DC6A2D /* Chartboost.h */,
-				7BDAE6A6E0DBC805C63978628304BB79 /* Frameworks */,
-			);
-			name = ChartboostSDK;
-			path = ChartboostSDK;
-			sourceTree = "<group>";
-		};
-		51A280CFAE9E8557B4B497F024CCFF95 /* UnityAds */ = {
-			isa = PBXGroup;
-			children = (
-				8B9C068AC26CCC5EFD3CE3D1628FF6C9 /* Frameworks */,
-			);
-			name = UnityAds;
-			path = UnityAds;
-			sourceTree = "<group>";
-		};
-		5AD513C606F3C50AE42E166BA9090442 /* HZInMobi */ = {
-			isa = PBXGroup;
-			children = (
-				48D143BB68DC909E48581343CDFA0604 /* IMBanner.h */,
-				3BC36D331D4E17B6986FB54FE1B6444D /* IMBannerDelegate.h */,
-				F3B2191085B64369FD297E3B289A6691 /* IMCommonConstants.h */,
-				50E8AF30DAEAC514C6A409E2086EE649 /* IMCustomNative.h */,
-				6E08FAA475164572C1F45807C97394E3 /* IMInterstitial.h */,
-				88E0C05881DDEE3CF81221F5761BB5D0 /* IMInterstitialDelegate.h */,
-				412DC83C26F5F31D03968BB5446A03A6 /* IMNative.h */,
-				0ED36D4581807DF1435A464C37BD502A /* IMNativeDelegate.h */,
-				F80023569B7A0B1094F2854E11388E20 /* IMNativeStrands.h */,
-				A6C28AD716F75DA4F62D58F7A2B7FC60 /* IMNativeStrandsDelegate.h */,
-				E686EE81F7EF29FB958060E73C20919E /* IMRequestStatus.h */,
-				06AD2BABBBE4BBBBC695DF468BFBF0E2 /* IMSdk.h */,
-				38D975A2C475714135150C9E326F5AF7 /* IMStrandPosition.h */,
-				ECCCA1B10DFADDF5C0D093A07474C1B5 /* IMStrandTableViewAdapter.h */,
-				E79AED9FF586F784A5D1C985A58A5602 /* IMStrandTableViewAdapterDelegate.h */,
-				A1C1693058482C125D088BE3F4CC0281 /* Frameworks */,
+				7DF36439DE13478AF4BE92CE70F1E744 /* IMBanner.h */,
+				B78E1C2DBBE28A2B33309E2A1A5B7D62 /* IMBannerDelegate.h */,
+				E9445D5F6224F26E71FC3C3489AA766E /* IMCommonConstants.h */,
+				CE7FA97A4C8C2D23F8BDC45AA580717A /* IMCustomNative.h */,
+				06038EAE5B894FB8CFB2198E241497B0 /* IMInterstitial.h */,
+				5CE67795A58BD16CC8C2E00F82021E2A /* IMInterstitialDelegate.h */,
+				9CF096F611199555E70E730113D0D5B1 /* IMNative.h */,
+				B2BCE55327ECA2AD1FBD826B02C25191 /* IMNativeDelegate.h */,
+				65013ABCC141424EA6FAE87E2A5AF219 /* IMNativeStrands.h */,
+				FD14F1F3CE15D7070C1280FA1294BF38 /* IMNativeStrandsDelegate.h */,
+				3D4F5435B3226185362803D500810818 /* IMRequestStatus.h */,
+				3B17D2299778FD5FC1FFA8A795E9DB5A /* IMSdk.h */,
+				10ABB66F3EA4F88F6AA1EE1608A1CBB1 /* IMStrandPosition.h */,
+				1FEC25A44F163C598B887AA19ADFEF2A /* IMStrandTableViewAdapter.h */,
+				6246066CEE596CADD2FE4B10AC735379 /* IMStrandTableViewAdapterDelegate.h */,
+				12B78C46C1101E93502E1F5E838521F7 /* Frameworks */,
 			);
 			name = HZInMobi;
 			path = HZInMobi;
 			sourceTree = "<group>";
 		};
-		60E425E7A7AC7F5D2829BF4D12744002 /* Frameworks */ = {
+		2F8EC83EFE2A4427F045DD56F79D18DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D04B57C33C578E9D73780659D05DEE3D /* GoogleMobileAds.framework */,
+				B4FE61E483387B307B4EC7BA5EA2C543 /* VungleSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		36A8FB69CCF60EA32708189DED0379F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				F848137B89F349E9155F21DBDCCE6425 /* AdColony */,
+				8A68019F895B54CB75FEECAA48EF77E8 /* AppLovin */,
+				A785ECE421B38910F960F611038EFCDD /* ChartboostSDK */,
+				1B0CF30BDEA00D0DAA4DB5C5A1D0DB77 /* FBAudienceNetwork */,
+				AEDDE513CC7B8FF6EEF2B5A6291368A6 /* Google-Mobile-Ads-SDK */,
+				D2EC51171F9B3CC921CE52B3ABB4DD42 /* Heyzap */,
+				87171D94CB6218AA713395EB03330B6D /* HyprMX */,
+				2A07EAF3817FC9EE85A73207A72A2D9B /* HZInMobi */,
+				E501A03FAF915CA97D63E8AA6FF0D75E /* Leadbolt */,
+				0C92D7DE79B5F88AC60FB71028532214 /* UnityAds */,
+				28B295081481833E70CDA32234D0AA5E /* VungleSDK-iOS */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		7BDAE6A6E0DBC805C63978628304BB79 /* Frameworks */ = {
+		4872C48B24A7908308DC8E1498DC402F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AE32C4BFA56EA53F2C86205A494758A7 /* Chartboost.framework */,
+				962DA48BF6CE2BFD6AE3E0AF3094A5C9 /* __vungle.db */,
+				AD0DD817FA93CDEEFE8E44CB41C7CAC6 /* vg_close.png */,
+				48034F69118A7B7DEA992D14D98859F6 /* vg_cta.png */,
+				3E66B76A32CCF8FA1BB2B464F26F4566 /* vg_mute_off.png */,
+				A5FDDBFD72AF96BB98C8C58BEF1CC9D0 /* vg_mute_on.png */,
+				9974717C98AB790DCAD2A500DF1973BF /* vg_privacy.png */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -306,125 +255,165 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0150034D2FBD187FA2F65AAAA3E3E8F0 /* Pods */,
+				36A8FB69CCF60EA32708189DED0379F1 /* Pods */,
 				D52851A8AD7056A63AC7BBA59F533F37 /* Products */,
 				F513DAC2E2D9BC6FB7B592DC5F5A3956 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7F762AC0C3F5FBEB90D4C646BD88B78B /* Frameworks */ = {
+		869046178F0894A458EC0158D24928FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				732EE22BA44CA37DF0C86FE02C918DEB /* AppTracker.framework */,
+				095713AEF7A7A799C54C898258F30D3F /* AdColony.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		851B985B4C8DFF3C13B0FA51B378E4F5 /* Resources */ = {
+		87171D94CB6218AA713395EB03330B6D /* HyprMX */ = {
 			isa = PBXGroup;
 			children = (
-				0852A34AF3DDC4B575116596F7550BC1 /* __vungle.db */,
-				9EF63754F62B25417131382C83D663D1 /* vg_close.png */,
-				72B9C701F29C4B6D0DF2AEB3D3E49EED /* vg_cta.png */,
-				C1E21999A05FCE8771359E5EBDEDE57C /* vg_mute_off.png */,
-				30963F86601FD7DF5FA64FE11A5A5C88 /* vg_mute_on.png */,
-				9B1380E4240DF5EC41F2D34E84BEE7FA /* vg_privacy.png */,
+				A6D469516D8E2C062D9A8FF9A9D9E008 /* Frameworks */,
 			);
-			name = Resources;
+			name = HyprMX;
+			path = HyprMX;
 			sourceTree = "<group>";
 		};
-		8B9C068AC26CCC5EFD3CE3D1628FF6C9 /* Frameworks */ = {
+		8A2354E8507070F23A4319B40CE20E6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C6B645DA4A83E6BF2C6631CE7514D34 /* UnityAds.framework */,
+				E597F50CA1E264D2D63ADBBFF2C35470 /* UnityAds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9D5F3E490F409FEE8AA71F21984A74AC /* AdColony */ = {
+		8A68019F895B54CB75FEECAA48EF77E8 /* AppLovin */ = {
 			isa = PBXGroup;
 			children = (
-				F6D79FFA0A0071A13CCC2BAD7E800A03 /* AdColony.h */,
-				B64D057B20EB97786319F0C8D7A011BE /* AdColonyAdOptions.h */,
-				7975FDA95F7CAC928279BDFE96F1B9D0 /* AdColonyAdRequestError.h */,
-				882E53074731AA77EDDF1B63030F3525 /* AdColonyAppOptions.h */,
-				4BEBB4E358133EC6D40BD1BDC25A1930 /* AdColonyInterstitial.h */,
-				B387C03CDA4DAF240579A2057B441050 /* AdColonyNativeAdView.h */,
-				5C1AF81EB635FBAAD2C0333133D9F858 /* AdColonyOptions.h */,
-				7041F01E2235CEF76CC0AADE60029350 /* AdColonyTypes.h */,
-				F61703B91F2BB06BEBB6CBB4BD790DA2 /* AdColonyUserMetadata.h */,
-				93C28F835178BFA09F5054FC70257C29 /* AdColonyZone.h */,
-				22B17689CC0F6FC803BBBBE964E22222 /* Frameworks */,
-			);
-			name = AdColony;
-			path = AdColony;
-			sourceTree = "<group>";
-		};
-		9F3B0E04B1DBB880F69EF64BE4408EAE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1A7F31165C31DD43FA52EF5B69E146FE /* VungleSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1C1693058482C125D088BE3F4CC0281 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A7569FD7AA8FA4D1DBB8892D28CFD84 /* libInMobi-5.3.1.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B3D01917FCCC8FE34D9526D8DC115A7B /* Heyzap */ = {
-			isa = PBXGroup;
-			children = (
-				0F0C266B7AD051DB318C33EBB2A0D175 /* HeyzapAds.h */,
-				086E069433029C9ACD975638E0A38D2C /* HZBannerAd.h */,
-				2C27BD07260BF03BA2905BB0B62ED655 /* HZBannerAdOptions.h */,
-				19E87F37CCD10040AF9305A66E5E2CEB /* HZDemographics.h */,
-				D4313B4A65BF78BBC36009F1471389B3 /* HZFetchOptions.h */,
-				5B3CD3D9DC9B21D5928EADC4206768D6 /* HZIncentivizedAd.h */,
-				D72D71E7B71BD7D10EF5CEBAB24DF757 /* HZInterstitialAd.h */,
-				7A3753CF170C9BCCA6FCA7CC5915F6FA /* HZLog.h */,
-				0826904E732D74C22F8805B5870D702B /* HZMediatedNativeAd.h */,
-				9ABD074650DDE53C53E9DC94653A4ED0 /* HZMediatedNativeAdManager.h */,
-				B3D5EDC7A9500A6067C5A71B6A488530 /* HZMediatedNativeAdViewRegisterer.h */,
-				E9D21D06344C0E7F7C1D55D905100321 /* HZNativeAd.h */,
-				D6A9B7AE0A802702960D4953D36EA2B9 /* HZNativeAdCollection.h */,
-				3050F2422F27A509C8FEFAC7D41218F8 /* HZNativeAdController.h */,
-				47668CA0B1DADE9AD5BCFE43B935EF4C /* HZNativeAdImage.h */,
-				EA75388A071EC46968772D57C0D818C8 /* HZShowOptions.h */,
-				21D1208AC95CB5D40CC684AE595E6494 /* HZVideoAd.h */,
-				BE410F92757ADB848492E922D25A2768 /* Frameworks */,
-			);
-			name = Heyzap;
-			path = Heyzap;
-			sourceTree = "<group>";
-		};
-		B5340FE28A18FA4557A2F2CE369845BF /* AppLovin */ = {
-			isa = PBXGroup;
-			children = (
-				15D822BBD16984CC8572E4A82A498891 /* Frameworks */,
+				95AD4FA42038CEDAFFF3D1894EE739CD /* Frameworks */,
 			);
 			name = AppLovin;
 			path = AppLovin;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		914B74722D752E8C3DB108DCF64FA6A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				852621964F47374F7001C8DA506A4892 /* GoogleMobileAds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE410F92757ADB848492E922D25A2768 /* Frameworks */ = {
+		95AD4FA42038CEDAFFF3D1894EE739CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CE2C0F2682E4A7DF6E48E2C50E60506 /* HeyzapAds.framework */,
+				93BCA4768889A569D76A9D68232EBF82 /* AppLovinSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D915B5B852431C17AEC804A15B8F685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D275243A71EB3119C996998E64998F6E /* AppTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D469516D8E2C062D9A8FF9A9D9E008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				754395E46E347A131C8A85E6154F5738 /* HyprMX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A785ECE421B38910F960F611038EFCDD /* ChartboostSDK */ = {
+			isa = PBXGroup;
+			children = (
+				915BD5E4AD6D62BBF1C02B0DE0E7F558 /* CBAnalytics.h */,
+				4B6DD36545CBAFF44F56E2CD1F26FF7D /* CBInPlay.h */,
+				D81B954158948E9AA2E705BBE82585BE /* CBMoreAppsBadge.h */,
+				D92AE7088AC58ABE0DC7CFE106C9CA2F /* CBMoreAppsButton.h */,
+				9EF5B71081A51760793D1342CB88ACA4 /* Chartboost.h */,
+				A801C48ABE7B4EB2D56757D06061D9F9 /* Frameworks */,
+			);
+			name = ChartboostSDK;
+			path = ChartboostSDK;
+			sourceTree = "<group>";
+		};
+		A801C48ABE7B4EB2D56757D06061D9F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53BBF001232933E766F780683B5F0995 /* Chartboost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEDDE513CC7B8FF6EEF2B5A6291368A6 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				914B74722D752E8C3DB108DCF64FA6A3 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C43B4DDA33985123619620F52839EAE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9606E4EB8A57DE5E09591B096EF8A5D0 /* FBAudienceNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD9BC994198CA225433C49CF5BDC1238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6CFDDD8B69EAC2579936BF4261DB81 /* HeyzapAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2EC51171F9B3CC921CE52B3ABB4DD42 /* Heyzap */ = {
+			isa = PBXGroup;
+			children = (
+				77CCC4838A8D1FA4C9B9B77B5D462EF5 /* HeyzapAds.h */,
+				582ED7CE45FB53E42667C52DE7FA7259 /* HZBannerAd.h */,
+				164BFF74CD97830216B311567540130D /* HZBannerAdOptions.h */,
+				A973E63F9A31C45DA200B315A155836F /* HZDemographics.h */,
+				E9E29A6E4E4EB3C763EC065D6A92C7AB /* HZFetchOptions.h */,
+				A5DC3CE281DFF25729F111A90D4384C7 /* HZIncentivizedAd.h */,
+				C67F8E62A114EE7B24252E1DA8D7173A /* HZInterstitialAd.h */,
+				8022A3DBA9D6706F2FE5896449F491A1 /* HZLog.h */,
+				0F26A8464B043606A7BBB501BFFFE2F5 /* HZMediatedNativeAd.h */,
+				3BC0DADA2840CBF905A77B2914F8F0A0 /* HZMediatedNativeAdManager.h */,
+				50A065E4A3CB59911BFE285B84022731 /* HZMediatedNativeAdViewRegisterer.h */,
+				13020A50A95CAAD62A0229197A193BA7 /* HZNativeAd.h */,
+				A61F22A2120C265C3E239E70F6F4E1CA /* HZNativeAdCollection.h */,
+				9A7D221F490F23F687D9BDB872C36013 /* HZNativeAdController.h */,
+				C0927F6FD8F669AD952F82DB45A785F1 /* HZNativeAdImage.h */,
+				AFE73808BF77386A34A25B8B69848E5F /* HZShowOptions.h */,
+				006B2EFBC23C5C2AB4F18F5660C1C697 /* HZVideoAd.h */,
+				CD9BC994198CA225433C49CF5BDC1238 /* Frameworks */,
+			);
+			name = Heyzap;
+			path = Heyzap;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		D52851A8AD7056A63AC7BBA59F533F37 /* Products */ = {
@@ -435,13 +424,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5A754FDAEED474C2AFF4FF12DD92628 /* Google-Mobile-Ads-SDK */ = {
+		E501A03FAF915CA97D63E8AA6FF0D75E /* Leadbolt */ = {
 			isa = PBXGroup;
 			children = (
-				60E425E7A7AC7F5D2829BF4D12744002 /* Frameworks */,
+				9D915B5B852431C17AEC804A15B8F685 /* Frameworks */,
 			);
-			name = "Google-Mobile-Ads-SDK";
-			path = "Google-Mobile-Ads-SDK";
+			name = Leadbolt;
+			path = Leadbolt;
 			sourceTree = "<group>";
 		};
 		F513DAC2E2D9BC6FB7B592DC5F5A3956 /* Targets Support Files */ = {
@@ -450,6 +439,25 @@
 				17179C06DEF3735BD81DF192FA8ACBC9 /* Pods-SampleApp */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F848137B89F349E9155F21DBDCCE6425 /* AdColony */ = {
+			isa = PBXGroup;
+			children = (
+				B5489CFB458CDA22C080216FB1C45A93 /* AdColony.h */,
+				8557B64AD8B522A5D3CDC7F7C4B42AF3 /* AdColonyAdOptions.h */,
+				0365075F01B70612CB9E1FC9DD4D60F6 /* AdColonyAdRequestError.h */,
+				00B091490FBF993328ACCB28E309C0D6 /* AdColonyAppOptions.h */,
+				F69218F0ECDBE3DDDB9C4A11D98AAAA1 /* AdColonyInterstitial.h */,
+				8B4C51D8F3EEADE5FFDA80448893B5DE /* AdColonyNativeAdView.h */,
+				881FF947A5158B8902F52B7347750BD6 /* AdColonyOptions.h */,
+				B3E62730732AD608F79D63CAC0A7C5DD /* AdColonyTypes.h */,
+				FF485A411E98C9984BE0F87DAA9A6D0E /* AdColonyUserMetadata.h */,
+				BAA068220331D5553D7528DC9338C28F /* AdColonyZone.h */,
+				869046178F0894A458EC0158D24928FE /* Frameworks */,
+			);
+			name = AdColony;
+			path = AdColony;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,7 +485,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -509,34 +517,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		501D68CDD5801BB209825CCDAFF8AB83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7C8948A724351986743BD77F386CB3C /* Pods-SampleApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -544,10 +530,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -572,19 +561,19 @@
 			};
 			name = Release;
 		};
-		CE03817D451868E94E33D1513C788B3B /* Debug */ = {
+		501D68CDD5801BB209825CCDAFF8AB83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0982BC2411186BE56A6BE9F4B70BE642 /* Pods-SampleApp.debug.xcconfig */;
+			baseConfigurationReference = E7C8948A724351986743BD77F386CB3C /* Pods-SampleApp.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -593,13 +582,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -607,10 +597,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -639,14 +632,37 @@
 			};
 			name = Debug;
 		};
+		CE03817D451868E94E33D1513C788B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0982BC2411186BE56A6BE9F4B70BE642 /* Pods-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
-				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
