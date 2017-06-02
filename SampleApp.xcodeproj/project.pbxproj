@@ -15,8 +15,6 @@
 		993A82F51B61B4F9001B586C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F21B61B4F9001B586C /* Default.png */; };
 		993A82F61B61B4F9001B586C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F31B61B4F9001B586C /* Default@2x.png */; };
 		993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F41B61B4F9001B586C /* Default-568h@2x.png */; };
-		994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327151CF8C83F00F07E4A /* libxml2.dylib */; };
-		994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 994327171CF8C84500F07E4A /* libsqlite3.dylib */; };
 		99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CED3811BA0AA1700B43417 /* Media.xcassets */; };
 		CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */; };
 /* End PBXBuildFile section */
@@ -37,8 +35,6 @@
 		993A82F21B61B4F9001B586C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		993A82F31B61B4F9001B586C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		993A82F41B61B4F9001B586C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		994327151CF8C83F00F07E4A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		994327171CF8C84500F07E4A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		99CED3811BA0AA1700B43417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -50,8 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				994327181CF8C84500F07E4A /* libsqlite3.dylib in Frameworks */,
-				994327161CF8C83F00F07E4A /* libxml2.dylib in Frameworks */,
 				CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,8 +119,6 @@
 		993A82DD1B601F90001B586C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				994327171CF8C84500F07E4A /* libsqlite3.dylib */,
-				994327151CF8C83F00F07E4A /* libxml2.dylib */,
 				996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */,
 				991C4A881BC4783B006309A8 /* libxml2.tbd */,
 				7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */,

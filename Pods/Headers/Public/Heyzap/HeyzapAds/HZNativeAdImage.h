@@ -1,1 +1,1 @@
-../../../../Heyzap/heyzap-ads-sdk-9.10.0/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdImage.h
+../../../../Heyzap/heyzap-ads-sdk-9.10.2/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZNativeAdImage.h

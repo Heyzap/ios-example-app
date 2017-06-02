@@ -1,1 +1,1 @@
-../../../../HyprMX/HyprMX.framework/Versions/A/Headers/HYPRReward.h
+../../../../HyprMX/HyprMX-93/HyprMX.framework/Versions/A/Headers/HYPRReward.h
