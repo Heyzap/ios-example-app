@@ -4,6 +4,7 @@
 //  Created by Leadbolt
 //  Copyright © 2016 LeadBolt. All rights reserved.
 //
+#import "AppTracker.h"
 
 @interface ATNativeAdCollection : NSObject
 
@@ -11,6 +12,6 @@
 
 -(void) doAllImpressions;
 
--(void)setConfig:(NSDictionary *)json;
+-(void)setConfig:(NSDictionary *)json withDelegate:(id<ATNativeAdDelegate>)d;
 
 @end

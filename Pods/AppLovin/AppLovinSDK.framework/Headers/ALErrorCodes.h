@@ -20,6 +20,9 @@
 // Indicates that an unspecified network issue occured.
 #define kALErrorCodeAdRequestUnspecifiedError -1
 
+// Indicates that there has been a failure to render an ad on screen.
+#define kALErrorCodeUnableToRenderAd -6
+
 // Indicates that an attempt to cache a resource to the filesystem failed; the device may be out of space.
 #define kALErrorCodeUnableToPrecacheResources -200
 
@@ -29,11 +32,17 @@
 // Indicates that an attempt to cache a video resource to the filesystem failed; the device may be out of space.
 #define kALErrorCodeUnableToPrecacheVideoResources -202
 
+// Indicates that a AppLovin servers have returned an invalid response.
+#define kALErrorCodeInvalidResponse -800
+
 // Indicates that there was an error while attempting to render a native ad
 #define kALErrorCodeUnableToRenderNativeAd -700
 
 // Indicates that an unspecified network issue occurred.
 #define kALErrorCodeUnableToPreloadNativeAd -701
+
+// Indicates that the impression has already been tracked.
+#define kALErrorCodeNativeAdImpressionAlreadyTracked -702
 
 
 //

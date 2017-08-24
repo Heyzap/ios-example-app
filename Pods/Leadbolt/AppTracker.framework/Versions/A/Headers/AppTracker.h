@@ -1,8 +1,8 @@
 //
-//  AppTracker.h - v7.0
+//  AppTracker.h - v8.2
 //
 //  Created by Leadbolt.
-//  Copyright (c) 2016 Leadbolt. All rights reserved.
+//  Copyright (c) 2017 Leadbolt. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,19 +15,10 @@
 
 @optional
 -(void) onModuleLoaded:(NSString *)placement;
--(void) onModuleClosed:(NSString *)placement;
+-(void) onModuleClosed:(NSString *)placement reward:(BOOL)reward;
 -(void) onModuleClicked:(NSString *)placement;
 -(void) onModuleCached:(NSString *)placement;
 -(void) onModuleFailed:(NSString *)placement error:(NSString *)error cached:(BOOL)iscached;
--(void) onMediaFinished:(BOOL)viewCompleted;
-
-@end
-
-@protocol ATNativeAdDelegate <NSObject>
-
-@optional
--(void) onAdsLoaded:(ATNativeAdCollection *)collection;
--(void) onAdsFailed:(ATNativeAdError)error;
 
 @end
 
@@ -65,7 +56,7 @@ typedef enum {
 // force Ad Orientation
 +(void) fixAdOrientation:(AdOrientation)orientation;
 
-+(void)setAppModuleDelete:(id<AppModuleDelegate>)delegate;
++(void)setAppModuleDelegate:(id<AppModuleDelegate>)delegate;
 
 +(BOOL) isAdReady:(NSString *)placement;
 
@@ -73,12 +64,12 @@ typedef enum {
 +(void) setAgeRange:(NSString *)range; // accepted values "13-17", "18-25", "26-35", "36-45", "46+"
 +(void) setGender:(NSString *)gender; // accepted valued "Male", "Female"
 
-+(void) setFramework:(NSString *)framework;
-
 
 // Native Ad methods
 +(void) loadNativeAds:(ATNativeAdOptions *)options;
 +(void) setNativeAdDelegate:(id<ATNativeAdDelegate>)delegate;
+
++(void) setFramework:(NSString *)framework;
 
 
 @end

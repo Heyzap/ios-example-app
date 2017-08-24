@@ -9,35 +9,39 @@
 
 #import "HeyzapSampleAppViewController.h"
 #import <MessageUI/MessageUI.h>
-
+#import <HeyzapAds/HeyzapAds.h>
 typedef enum {
     kAdUnitSegmentInterstitial,
     kAdUnitSegmentVideo,
     kAdUnitSegmentIncentivized,
     kAdUnitSegmentBanner,
+    kAdUnitSegmentOfferWall,
 } kAdUnitSegment;
 
 
-@interface HeyzapSampleAppViewController ()<HZAdsDelegate,UITextFieldDelegate, HZIncentivizedAdDelegate, HZBannerAdDelegate>
+@interface HeyzapSampleAppViewController ()<HZAdsDelegate,UITextFieldDelegate, HZIncentivizedAdDelegate, HZBannerAdDelegate, HZFyberVirtualCurrencyClientDelegate>
 
 @property (nonatomic, strong) UISegmentedControl *adUnitSegmentedControl;
 @property (nonatomic, strong) UITextView *consoleTextView;
 
 @property (nonatomic) UIButton *fetchButton;
 @property (nonatomic) UIButton *showButton;
+
 @property (nonatomic) UITextField *adTagField;
+@property (nonatomic) UITextField *currencyIdField;
 
 @property (nonatomic) UIButton *showBannerButton;
 @property (nonatomic) UIButton *hideBannerButton;
 @property (nonatomic, strong) HZBannerAd *currentBannerAd;
 
 @property (nonatomic) NSArray *bannerControls;
-@property (nonatomic) NSArray *nonBannerControls;
+@property (nonatomic) NSArray *offerWallControls;
+@property (nonatomic) NSArray *standardControls;
 
 
 @end
 
-#define ButtonWidth 70
+#define ButtonWidth 80
 #define ButtonHeight 40
 #define ButtonXSpacing 15
 #define ButtonYSpacing 10
@@ -71,6 +75,9 @@ typedef enum {
     [HZInterstitialAd setDelegate:self];
     [HZVideoAd setDelegate:self];
     [HZIncentivizedAd setDelegate:self];
+    [HZOfferWallAd setDelegate:self];
+    [[HZFyberVirtualCurrencyClient sharedClient] setDelegate:self];
+    
     [HeyzapAds networkCallbackWithBlock:^(NSString *network, NSString *callback) {
         [self logToConsole:[NSString stringWithFormat:@"Network: %@ Callback: %@", network, callback]];
         [self changeColorOfShowButton];
@@ -80,7 +87,7 @@ typedef enum {
     // Setup buttons
     
     UIButton *testActivityButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    testActivityButton.frame = CGRectMake(ButtonXSpacing, 40.0, ButtonWidth*2.5, ButtonHeight);
+    testActivityButton.frame = CGRectMake(ButtonXSpacing, 40.0, ButtonWidth*2 + ButtonXSpacing, ButtonHeight);
     testActivityButton.layer.cornerRadius = 4.0;
     testActivityButton.backgroundColor = [UIColor lightTextColor];
     [testActivityButton setTitle:@"Mediation Test Suite" forState:UIControlStateNormal];
@@ -107,17 +114,18 @@ typedef enum {
     [self.showButton addTarget: self action: @selector(showAd:) forControlEvents: UIControlEventTouchUpInside];
     [self.scrollView addSubview: self.showButton];
     
-    self.adTagField = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.showButton.frame) + ButtonXSpacing, CGRectGetMinY(self.fetchButton.frame), 110.0, ButtonHeight)];
-    self.adTagField.delegate = self;
-    self.adTagField.borderStyle = UITextBorderStyleRoundedRect;
-    self.adTagField.keyboardType = UIKeyboardTypeDefault;
-    self.adTagField.placeholder = @"Ad Tag";
-    self.adTagField.textAlignment = NSTextAlignmentLeft;
-    self.adTagField.accessibilityLabel = @"ad tag";
-    [self.adTagField addTarget:self
-                        action:@selector(adTagEditingChanged:)
-              forControlEvents:UIControlEventEditingChanged];
-    
+    self.adTagField = ({
+        UITextField *text = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.showButton.frame) + ButtonXSpacing, CGRectGetMinY(self.fetchButton.frame), ButtonWidth*2, ButtonHeight)];
+        text.delegate = self;
+        text.borderStyle = UITextBorderStyleRoundedRect;
+        text.keyboardType = UIKeyboardTypeDefault;
+        text.placeholder = @"Ad Tag";
+        text.textAlignment = NSTextAlignmentLeft;
+        text.accessibilityLabel = @"ad tag";
+        text.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        [text addTarget:self action:@selector(adTagEditingChanged:) forControlEvents:UIControlEventEditingChanged];
+        text;
+    });
     [self.scrollView addSubview:self.adTagField];
     
     self.hideBannerButton = [UIButton buttonWithType: UIButtonTypeRoundedRect];
@@ -145,16 +153,55 @@ typedef enum {
     
     UIButton *availableButton = ({
         UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-        button.frame = CGRectMake(ButtonXSpacing, CGRectGetMaxY(self.fetchButton.frame) + ButtonYSpacing, ButtonWidth*2, ButtonHeight);
+        button.frame = CGRectMake(ButtonXSpacing, CGRectGetMaxY(self.fetchButton.frame) + ButtonYSpacing, ButtonWidth, ButtonHeight);
         button.backgroundColor = [UIColor lightTextColor];
         button.layer.cornerRadius = 4.0;
-        [button setTitle: @"isAvailable?" forState: UIControlStateNormal];
+        [button setTitle: @"Available?" forState: UIControlStateNormal];
         [button addTarget: self action: @selector(checkAvailability) forControlEvents: UIControlEventTouchUpInside];
         button;
     });
     [self.scrollView addSubview:availableButton];
     
-    self.adUnitSegmentedControl = [[UISegmentedControl alloc] initWithItems: @[@"Interstitial", @"Video", @"Incentivized", @"Banner"]];
+    UIButton *vcsRequestButton = ({
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        button.frame = CGRectMake(CGRectGetMaxX(availableButton.frame) + ButtonXSpacing, CGRectGetMaxY(self.fetchButton.frame) + ButtonYSpacing, ButtonWidth*1.5, ButtonHeight);
+        button.backgroundColor = [UIColor lightTextColor];
+        button.layer.cornerRadius = 4.0;
+        [button setTitle: @"VCS Request" forState: UIControlStateNormal];
+        [button addTarget: self action: @selector(vcsRequest) forControlEvents: UIControlEventTouchUpInside];
+        button;
+    });
+    [self.scrollView addSubview:vcsRequestButton];
+    
+    self.currencyIdField = ({
+        UITextField *text = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetMaxX(vcsRequestButton.frame) + ButtonXSpacing, CGRectGetMinY(vcsRequestButton.frame), ButtonWidth*1.5, ButtonHeight)];
+        text.delegate = self;
+        text.borderStyle = UITextBorderStyleRoundedRect;
+        text.keyboardType = UIKeyboardTypeDefault;
+        text.placeholder = @"Currency ID";
+        text.textAlignment = NSTextAlignmentLeft;
+        text.accessibilityLabel = @"currency ID";
+        text.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        text;
+    });
+    [self.scrollView addSubview:self.currencyIdField];
+    
+    self.adTagField = ({
+        UITextField *text = [[UITextField alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.showButton.frame) + ButtonXSpacing, CGRectGetMinY(self.fetchButton.frame), ButtonWidth*2, ButtonHeight)];
+        text.delegate = self;
+        text.borderStyle = UITextBorderStyleRoundedRect;
+        text.keyboardType = UIKeyboardTypeDefault;
+        text.placeholder = @"Ad Tag";
+        text.textAlignment = NSTextAlignmentLeft;
+        text.accessibilityLabel = @"ad tag";
+        [text addTarget:self
+                 action:@selector(adTagEditingChanged:)
+       forControlEvents:UIControlEventEditingChanged];
+        text;
+    });
+    [self.scrollView addSubview:self.adTagField];
+    
+    self.adUnitSegmentedControl = [[UISegmentedControl alloc] initWithItems: @[@"Interstitial", @"Video", @"Incentivized", @"Banner", @"OfferWall"]];
     self.adUnitSegmentedControl.frame = CGRectMake(ButtonXSpacing, CGRectGetMaxY(availableButton.frame)+ButtonYSpacing, self.view.frame.size.width - ButtonXSpacing*2, ButtonHeight);
     self.adUnitSegmentedControl.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [self.adUnitSegmentedControl setSelectedSegmentIndex: 0];
@@ -192,8 +239,10 @@ typedef enum {
 
     
     self.bannerControls = @[self.showBannerButton,self.hideBannerButton];
-    self.nonBannerControls = @[self.showButton, self.fetchButton, availableButton];
+    self.standardControls = @[self.showButton, self.fetchButton, availableButton];
+    self.offerWallControls = @[vcsRequestButton, self.currencyIdField];
     [self.bannerControls setValue:@YES forKey:@"hidden"];
+    [self.offerWallControls setValue:@YES forKey:@"hidden"];
     
     // This approach avoids constant manual adjustment
     CGRect subviewContainingRect = CGRectZero;
@@ -204,7 +253,7 @@ typedef enum {
     
 }
 
-- (UIButton *) buttonWithRect:(CGRect)rect text:(NSString *)text{
+- (UIButton *)buttonWithRect:(CGRect)rect text:(NSString *)text{
     UIButton * button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setTitle:text forState:UIControlStateNormal];
     button.frame = rect;
@@ -232,7 +281,7 @@ typedef enum {
     [self changeColorOfShowButton];
 }
 
-- (NSString *) adTagText {
+- (NSString *)adTagText {
     NSString *text = [[self.adTagField text] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     if ([text isEqualToString:@""]) {
         return nil;
@@ -241,9 +290,19 @@ typedef enum {
     return text;
 }
 
-- (void) changeColorOfShowButton {
+- (NSString *)currencyIdText {
+    NSString *text = [[self.currencyIdField text] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    if ([text isEqualToString:@""]) {
+        return nil;
+    }
+    
+    return text;
+}
+
+- (void)changeColorOfShowButton {
     [self.bannerControls setValue:@(self.adUnitSegmentedControl.selectedSegmentIndex != kAdUnitSegmentBanner) forKey:@"hidden"];
-    [self.nonBannerControls setValue:@(self.adUnitSegmentedControl.selectedSegmentIndex == kAdUnitSegmentBanner) forKey:@"hidden"];
+    [self.offerWallControls setValue:@(self.adUnitSegmentedControl.selectedSegmentIndex != kAdUnitSegmentOfferWall) forKey:@"hidden"];
+    [self.standardControls setValue:@(self.adUnitSegmentedControl.selectedSegmentIndex == kAdUnitSegmentBanner) forKey:@"hidden"];
     
     NSString * adTag = [self adTagText];
     
@@ -257,18 +316,20 @@ typedef enum {
         case kAdUnitSegmentIncentivized:
             [self setShowButtonOn:[HZIncentivizedAd isAvailableForTag:adTag]];
             break;
+        case kAdUnitSegmentOfferWall:
+            [self setShowButtonOn:[HZOfferWallAd isAvailableForTag:adTag]];
+            break;
     }
 }
 
-- (void)setShowButtonOn:(BOOL)on
-{
+- (void)setShowButtonOn:(BOOL)on {
     self.showButton.backgroundColor = (on ? [UIColor greenColor] : [UIColor redColor]);
 }
 
 
 #pragma mark - Button handlers
 
-- (void) fetchAd: (id) sender {
+- (void)fetchAd:(id)sender {
     NSString *adTag = [self adTagText];
     if (adTag) {
         [self logToConsole:[NSString stringWithFormat:@"Fetching for tag: %@", adTag]];
@@ -291,12 +352,14 @@ typedef enum {
         case kAdUnitSegmentIncentivized:
             [HZIncentivizedAd fetchForTag:adTag withCompletion:completionBlock];
             break;
+        case kAdUnitSegmentOfferWall:
+            [HZOfferWallAd fetchForTag:adTag withCompletion:completionBlock];
         default:
             break;
     }
 }
 
-- (void) showAd: (id) sender {
+- (void)showAd:(id)sender {
     [self.view endEditing:YES];
     NSString *adTag = [self adTagText];
     if (adTag) {
@@ -319,6 +382,9 @@ typedef enum {
             NSLog(@"Showing Incentivized");
             [HZIncentivizedAd showForTag:adTag];
             break;
+        case kAdUnitSegmentOfferWall:
+            NSLog(@"Showing OfferWall");
+            [HZOfferWallAd showForTag:adTag];
         default:
             break;
     }
@@ -359,20 +425,20 @@ typedef enum {
     self.showBannerButton.enabled = YES;
 }
 
-- (void) clearButton{
+- (void)clearButton{
     self.consoleTextView.text = @"";
 }
 
-- (void) topButton{
+- (void)topButton{
     [self.consoleTextView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
 }
 
-- (void) bottomButton{
+- (void)bottomButton{
     CGRect rect = CGRectMake(0, self.consoleTextView.contentSize.height -1, self.consoleTextView.frame.size.width, self.consoleTextView.contentSize.height);
     [self.consoleTextView scrollRectToVisible:rect animated:NO];
 }
 
-- (void) emailConsoleButton{
+- (void)emailConsoleButton{
     if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController *mail = [[MFMailComposeViewController alloc] init];
         [mail setSubject:@"Heyzap SDK Sample App log"];
@@ -391,7 +457,7 @@ typedef enum {
     }
 }
 
-- (void) showTestActivity {
+- (void)showTestActivity {
     [HeyzapAds presentMediationDebugViewController];
 }
 
@@ -413,12 +479,20 @@ typedef enum {
             available = [HZIncentivizedAd isAvailableForTag:adTag];
             adType = @"An incentivized";
             break;
+        case kAdUnitSegmentOfferWall:
+            available = [HZOfferWallAd isAvailableForTag:adTag];
+            adType = @"An offer wall";
+            break;
     }
     
     if (adType) {
         [self setShowButtonOn:available];
         [self logToConsole:[NSString stringWithFormat:@"%@ ad %@ available for tag: `%@`.", adType, (available ? @"is" : @"is not"), adTag]];
     }
+}
+
+- (void)vcsRequest {
+    [[HZFyberVirtualCurrencyClient sharedClient] requestDeltaOfCurrency:[self currencyIdText]];
 }
 
 #pragma mark - Callbacks
@@ -459,8 +533,16 @@ typedef enum {
     LOG_METHOD_NAME_TO_CONSOLE_WITH_STRING(tag);
 }
 
-- (void) didFailToCompleteAdWithTag:(NSString *)tag {
+- (void)didFailToCompleteAdWithTag:(NSString *)tag {
     LOG_METHOD_NAME_TO_CONSOLE_WITH_STRING(tag);
+}
+
+- (void)didReceiveVirtualCurrencyResponse:(HZFyberVirtualCurrencyResponse *)response {
+    [self logToConsole:[NSString stringWithFormat:@"VCS response: %@", response]];
+}
+
+- (void)didFailToReceiveVirtualCurrencyResponse:(NSError *)error {
+    [self logToConsole:[NSString stringWithFormat:@"VCS error: %@", error]];
 }
 
 #pragma mark - NSNotifications
@@ -476,8 +558,7 @@ typedef enum {
 
 #pragma mark - UI Management
 
-- (void)keyboardWillShow:(NSNotification *)notification
-{
+- (void)keyboardWillShow:(NSNotification *)notification {
     // If we're not onscreen, ignore this notification
     if (self.view.superview == nil) {
         return;
@@ -492,8 +573,7 @@ typedef enum {
         self.scrollView.frame = CGRectMake(self.scrollView.frame.origin.x, self.scrollView.frame.origin.y, self.scrollView.frame.size.width, CGRectGetMinY(keyboardFrameInLocalCoordinates));
     }completion:nil];
 }
-- (void)keyboardWillHide:(NSNotification *)notification
-{
+- (void)keyboardWillHide:(NSNotification *)notification {
     // If we're not onscreen, ignore this notification
     if (self.view.superview == nil) {
         return;
@@ -509,8 +589,7 @@ typedef enum {
     }completion:nil];
 }
 
-- (void)updateScrollViewContentSize
-{
+- (void)updateScrollViewContentSize {
     // This approach avoids constant manual adjustment
     CGRect subviewContainingRect = CGRectZero;
     for (UIView *view in self.scrollView.subviews) {

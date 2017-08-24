@@ -11,6 +11,8 @@
 #import "ALNativeAdLoadDelegate.h"
 #import "ALNativeAdPrecacheDelegate.h"
 
+AL_ASSUME_NONNULL_BEGIN
+
 @class ALSdk;
 @class ALNativeAd;
 
@@ -30,8 +32,10 @@
  *  @param  delegate    The delegate to be notified upon completion.
  */
 
-- (void)precacheResourcesForNativeAd:(alnonnull ALNativeAd *)ad andNotify:(alnullable id <ALNativeAdPrecacheDelegate>)delegate;
+- (void)precacheResourcesForNativeAd:(ALNativeAd *)ad andNotify:(alnullable id <ALNativeAdPrecacheDelegate>)delegate;
 
-- (alnullable id) init __attribute__((unavailable("Don't instantiate ALNativeAdService, access one via [sdk nativeAdService] instead.")));
+- (id)init __attribute__((unavailable("Don't instantiate ALNativeAdService, access one via [sdk nativeAdService] instead.")));
 
 @end
+
+AL_ASSUME_NONNULL_END

@@ -1,1 +1,0 @@
-../../../HZInMobi/Headers/IMStrandTableViewAdapterDelegate.h

@@ -26,7 +26,6 @@
 #import <AppLovinSDK/ALPostbackService.h>
 #import <AppLovinSDK/ALSdk.h>
 #import <AppLovinSDK/ALSdkSettings.h>
-#import <AppLovinSDK/ALTargetingData.h>
 #import <AppLovinSDK/ALNativeAd.h>
 #import <AppLovinSDK/ALNativeAdLoadDelegate.h>
 #import <AppLovinSDK/ALNativeAdPrecacheDelegate.h>

@@ -76,6 +76,18 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/StartedBundleIcon.png"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/StartedBundleIcon.png"
+  install_resource "FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

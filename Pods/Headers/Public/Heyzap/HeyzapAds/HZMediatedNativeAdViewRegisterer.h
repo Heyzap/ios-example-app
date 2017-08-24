@@ -1,1 +1,1 @@
-../../../../Heyzap/heyzap-ads-sdk-9.10.2/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdViewRegisterer.h
+../../../../Heyzap/heyzap-ads-sdk-9.12.5/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZMediatedNativeAdViewRegisterer.h
