@@ -12,7 +12,7 @@ target 'SampleApp' do
     pod 'AppLovin' # Vendored by Heyzap
     pod 'ChartboostSDK', :inhibit_warnings => true # Maintained by Chartboost
     pod 'FBAudienceNetwork' # Maintained by Facebook
-    pod 'FyberSDK', '8.15.0' # Maintained by Fyber
+    pod 'FyberSDK' # Maintained by Fyber
     pod 'Google-Mobile-Ads-SDK' # Maintained by Google
     pod 'HyprMX' # Vendored by Heyzap
     pod 'HZInMobi' # Vendored by Heyzap

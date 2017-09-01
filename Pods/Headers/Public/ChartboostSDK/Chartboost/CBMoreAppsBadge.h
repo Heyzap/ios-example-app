@@ -1,1 +1,0 @@
-../../../../ChartboostSDK/Chartboost.framework/Versions/A/Headers/CBMoreAppsBadge.h

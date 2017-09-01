@@ -1,1 +1,1 @@
-../../../FyberSDK/Fyber_iOS_SDK_v.8.15.0/fyber-sdk-lib/FYBMediationBundleInfo.h
+../../../FyberSDK/Fyber_iOS_SDK_v.8.16.0/fyber-sdk-lib/FYBMediationBundleInfo.h

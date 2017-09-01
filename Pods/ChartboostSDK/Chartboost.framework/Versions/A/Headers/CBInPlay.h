@@ -1,7 +1,7 @@
 /*
  * CBInPlay.h
  * Chartboost
- * 6.6.3
+ * 7.0.0
  *
  * Copyright 2011 Chartboost. All rights reserved.
  */
