@@ -10,6 +10,7 @@
 
 #import "ALSdk.h"
 #import "ALAdService.h"
+#import "ALAdViewEventDelegate.h"
 
 AL_ASSUME_NONNULL_BEGIN
 
@@ -30,14 +31,24 @@ AL_ASSUME_NONNULL_BEGIN
 
 /**
  *  An object conforming to the ALAdLoadDelegate protocol, which, if set, will be notified of ad load events.
+ *
+ *  Please note: This delegate is retained strongly and might lead to retain cycles if delegate holds strong reference to this ALAdView.
  */
 @property (strong, atomic, alnullable) id <ALAdLoadDelegate> adLoadDelegate;
 
 /**
  *  An object conforming to the ALAdDisplayDelegate protocol, which, if set, will be notified of ad show/hide events.
+ *
+ *  Please note: This delegate is retained strongly and might lead to retain cycles if delegate holds strong reference to this ALAdView.
  */
 @property (strong, atomic, alnullable) id <ALAdDisplayDelegate> adDisplayDelegate;
 
+/**
+ *  An object conforming to the ALAdViewEventDelegate protocol, which, if set, will be notified of ALAdView-specific events.
+ *
+ *  Please note: This delegate is retained strongly and might lead to retain cycles if delegate holds strong reference to this ALAdView.
+ */
+@property (strong, atomic, alnullable) id <ALAdViewEventDelegate> adEventDelegate;
 
 // Primarily for internal use; banners and mrecs cannot contain videos.
 @property (strong, atomic, alnullable) id <ALAdVideoPlaybackDelegate> adVideoPlaybackDelegate;
@@ -62,7 +73,7 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  The UIViewController in whose view this ALAdView is placed.
  */
-@property (strong, atomic, alnullable) UIViewController *parentController;
+@property (strong, atomic, alnullable) UIViewController *parentController __deprecated_msg("This property is deprecated and will be removed in a future SDK version.");
 
 /**
  * @name Loading and Rendering Ads
@@ -103,7 +114,7 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  Initialize the ad view with a given size.
  *
- *  @param aSize ALAdSize representing the size of this ad. For example, [ALAdSize sizeBanner].
+ *  @param size ALAdSize representing the size of this ad. For example, [ALAdSize sizeBanner].
  *
  *  @return A new instance of ALAdView.
  */
@@ -112,8 +123,8 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  Initialize the ad view with a given size.
  *
- *  @param anSdk Instance of ALSdk to use.
- *  @param aSize ALAdSize representing the size of this ad. For example, [ALAdSize sizeBanner].
+ *  @param sdk Instance of ALSdk to use.
+ *  @param size ALAdSize representing the size of this ad. For example, [ALAdSize sizeBanner].
  *
  *  @return A new instance of ALAdView.
  */
@@ -122,9 +133,9 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  * Initialize ad view with a given frame, ad size, and ALSdk instance.
  *
- * @param aFrame  Frame to use.
- * @param aSize   Ad size to use.
- * @param anSdk   Instace of ALSdk to use.
+ * @param frame  Frame to use.
+ * @param size   Ad size to use.
+ * @param sdk    Instace of ALSdk to use.
  *
  * @return A new instance of ALAdView.
  */

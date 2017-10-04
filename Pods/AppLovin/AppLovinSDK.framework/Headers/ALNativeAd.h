@@ -80,7 +80,7 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  The click URL the native ad redirects to.
  */
-@property (strong, nonatomic, readonly) NSURL *clickURL __deprecated_msg("Invoke method -launchClickTarget rather than opening this URL yourself.");
+@property (strong, nonatomic, readonly, alnullable) NSURL *clickURL __deprecated_msg("Invoke method -launchClickTarget rather than opening this URL yourself.");
 
 /**
  *  The video begin tracking URL of the native ad.

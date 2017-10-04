@@ -1,1 +1,1 @@
-../../../FyberSDK/Fyber_iOS_SDK_v.8.16.0/fyber-sdk-lib/FYB_SDK_versions.h
+../../../FyberSDK/Fyber_iOS_SDK_v.8.16.1/fyber-sdk-lib/FYB_SDK_versions.h

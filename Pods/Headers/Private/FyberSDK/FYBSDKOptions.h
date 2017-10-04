@@ -1,1 +1,1 @@
-../../../FyberSDK/Fyber_iOS_SDK_v.8.16.0/fyber-sdk-lib/FYBSDKOptions.h
+../../../FyberSDK/Fyber_iOS_SDK_v.8.16.1/fyber-sdk-lib/FYBSDKOptions.h

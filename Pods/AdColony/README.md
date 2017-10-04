@@ -1,6 +1,6 @@
 # AdColony iOS SDK
-* Modified: August 24th, 2017
-* SDK Version: 3.2.0
+* Modified: Sept 11th, 2017
+* SDK Version: 3.2.1
 
 
 ## Overview
@@ -16,7 +16,7 @@ AdColony delivers zero-buffering, [full-screen Instant-Play™ HD video](https:/
 * Post-install events APIs
 * Crash reporting and a new convenient test mode feature
 
-Here is the link to the [release notes](https://github.com/AdColony/AdColony-Android-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions.
+Here is the link to the [release notes](https://github.com/AdColony/AdColony-iOS-SDK-3/blob/master/CHANGELOG.md) for all the previous SDK versions.
 
 
 ## Getting Started
@@ -24,9 +24,9 @@ To get started, here is the link to [iOS SDK integration documentation](https://
 
 **Note:**
 
-* SDK 3.2 is tested and verified on iOS 11 beta 7 version
-* SDK 3.2 compiles on iOS 6; however, video ads will only show on iOS 7 and above.
-* SDK 3.2 is not backwards compatible with any AdColony 2.0 integrations due to major API changes.
+* SDK 3.2.1 is tested and verified on iOS 11 beta 10 version
+* SDK 3.2.1 compiles on iOS 6; however, video ads will only show on iOS 8 and above.
+* SDK 3.2.1 is not backwards compatible with any AdColony 2.0 integrations due to major API changes.
 
 ## Upgrade
 
@@ -36,7 +36,7 @@ Please note that updating from our 2.x SDK is not a drag and drop update, but ra
 For detailed information about the AdColony SDK, see our [iOS SDK documentation](https://github.com/AdColony/AdColony-iOS-SDK-3/wiki).
 
 #### SDK 3.X
-Updating from our previous SDK 3.x to SDK 3.2.0 requires no code changes. If you are not using CocoaPods, all you need to do is drag and drop the framework into your Xcode project. If you are using Cocoapods, however, all you need to do is sync with the latest by running `pod update`.
+Updating from our previous SDK 3.x to SDK 3.2 requires no code changes. If you are not using CocoaPods, all you need to do is drag and drop the framework into your Xcode project. If you are using Cocoapods, however, all you need to do is sync with the latest by running `pod update`.
 
 
 ## Legal Requirements

@@ -35,16 +35,10 @@
     #define AL_ASSUME_NONNULL_END
 #endif
 
-#if __has_feature(attribute_availability_tvos)
-    #define __AL_TVOS_PROHIBITED __OS_AVAILABILITY(tvos,unavailable)
-#else
-    #define __AL_TVOS_PROHIBITED
-#endif
-
 #if __has_feature(objc_generics)
-    #define al_of_type(...) __VA_ARGS__
+    #define AL_OF_TYPE(...) __VA_ARGS__
 #else
-    #define al_of_type(...)
+    #define AL_OF_TYPE(...)
 #endif
 
 #endif

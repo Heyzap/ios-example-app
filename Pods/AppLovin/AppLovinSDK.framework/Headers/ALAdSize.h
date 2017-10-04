@@ -37,7 +37,7 @@ AL_ASSUME_NONNULL_BEGIN
  *
  *  @return An instance of ALAdSize which represents the size <code>BANNER</code>.
  */
-+ (ALAdSize *)sizeBanner __AL_TVOS_PROHIBITED;
++ (ALAdSize *)sizeBanner;
 
 /**
  *  Retrieve a singleton instance of the <code>INTERSTITIAL</code> ad size object.
@@ -58,11 +58,11 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  *  Retrieve a singleton instance of the <code>MREC</code> ad size object.
  *
- *  MRECs are 320x250 (mostly square) advertisements.
+ *  MRECs are 300x250 (mostly square) advertisements.
  *
  *  @return An instance of ALAdSize which represents the size <code>MREC</code>.
  */
-+ (ALAdSize *)sizeMRec __AL_TVOS_PROHIBITED;
++ (ALAdSize *)sizeMRec;
 
 /**
  *  Retrieve a singleton instance of the <code>LEADER</code> ad size object.
@@ -71,7 +71,7 @@ AL_ASSUME_NONNULL_BEGIN
  *
  *  @return An instance of ALAdSize which represents the size <code>LEADER</code>.
  */
-+ (ALAdSize *)sizeLeader __AL_TVOS_PROHIBITED;
++ (ALAdSize *)sizeLeader;
 
 /**
  *  Retrieve an <code>NSArray</code> of all available ad size singleton instances.

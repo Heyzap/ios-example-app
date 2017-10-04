@@ -31,7 +31,6 @@ AL_ASSUME_NONNULL_BEGIN
  *  @param  ad          The native ad whose resources should be cached.
  *  @param  delegate    The delegate to be notified upon completion.
  */
-
 - (void)precacheResourcesForNativeAd:(ALNativeAd *)ad andNotify:(alnullable id <ALNativeAdPrecacheDelegate>)delegate;
 
 - (id)init __attribute__((unavailable("Don't instantiate ALNativeAdService, access one via [sdk nativeAdService] instead.")));

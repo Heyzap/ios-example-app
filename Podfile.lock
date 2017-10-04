@@ -1,15 +1,17 @@
 PODS:
-  - AdColony (3.2.0)
-  - AppLovin (4.2.1)
-  - ChartboostSDK (7.0.0)
-  - FBAudienceNetwork (4.25.0)
-  - FyberSDK (8.16.0)
-  - Google-Mobile-Ads-SDK (7.23.0)
-  - Heyzap (9.12.6)
+  - AdColony (3.2.1)
+  - AppLovin (4.3.1)
+  - ChartboostSDK (7.0.1)
+  - FBAudienceNetwork (4.26.0):
+    - KVOController
+  - FyberSDK (8.16.1)
+  - Google-Mobile-Ads-SDK (7.24.1)
+  - Heyzap (9.13.4)
   - HyprMX (93)
   - HZInMobi (6.2.1)
+  - KVOController (1.2.0)
   - Leadbolt (8.2)
-  - UnityAds (2.1.0)
+  - UnityAds (2.1.1)
   - VungleSDK-iOS (4.1.0)
 
 DEPENDENCIES:
@@ -24,22 +26,23 @@ DEPENDENCIES:
   - HZInMobi
   - Leadbolt
   - UnityAds (>= 2.1.0)
-  - VungleSDK-iOS
+  - VungleSDK-iOS (~> 4)
 
 SPEC CHECKSUMS:
-  AdColony: c470eed14e66670550c54de109d096040467a445
-  AppLovin: ad83e5b67621b69b5f9192d373f8ab78aa0d02f8
-  ChartboostSDK: cf11f22674ad4fd56572e92c4a4668031a8b9d68
-  FBAudienceNetwork: b0e2a46cca38ca0d17d8aebcc4765d628203ee9b
-  FyberSDK: af12ffad016f95630d66753ae96b75bd46cd4bae
-  Google-Mobile-Ads-SDK: a43dc8efdb566c74d00ac6934c781de969348d80
-  Heyzap: 0f8d78d9a607e4693557cb2823c09abfff1d0377
+  AdColony: e657145620acd54033e38cc18902eed01d3c456d
+  AppLovin: 28291f1feb29046fc2b37b79d4e0061f17894b65
+  ChartboostSDK: 952e9eeb3d50720c3a8153a6758263533120cc88
+  FBAudienceNetwork: c3488041a9aa3f716d2edb3ceec8929e54c8f95a
+  FyberSDK: c8b7fb8909db4595ac97ddb5f467b375b5a645f3
+  Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
+  Heyzap: 771b1fd35bcfd665b34a5a227df19f862def8fc1
   HyprMX: a5c6a14d1bb23706246f873e84e4021c9c94d6dd
   HZInMobi: dceef7c8ba5f23b7adf49215a08600d0e12d8126
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Leadbolt: 86fe9f281be367b9fed9c12ee1e700aa96ef29ac
-  UnityAds: 99645a5b7011c96d1e9204f8540ce66ea1b7dfb4
+  UnityAds: be7606ebc8e44a08d630ac10672b621b80119dbb
   VungleSDK-iOS: 0dac102fa56e0a6f24444b4f500d1ccf2e43ea79
 
-PODFILE CHECKSUM: ca3223600015c189133fb5e58406a9d85f863c1c
+PODFILE CHECKSUM: 0a8005dab2f0d1371956b1226d063435dafa1da6
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1

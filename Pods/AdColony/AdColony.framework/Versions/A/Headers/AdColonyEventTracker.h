@@ -121,13 +121,13 @@ FOUNDATION_EXPORT NSString *const ADCSocialSharingMethodCustom;
 /**
  @abstract Report a transaction/purchase event.
  @discussion Call this method to track any purchases made by the user.
- @param itemID      Identifier of item purchased
- @param quantity    Quantity of items purchased
- @param price       Total price of the items purchased
- @param code        The real-world three-letter ISO 4217 (e.g. USD) currency code of the transaction
- @param store       The store the purchase was made through
- @param receipt     The receipt number
- @param description Description of the purchased product. Max 512 characters.
+ @param itemID       Identifier of item purchased
+ @param quantity     Quantity of items purchased
+ @param price        Total price of the items purchased
+ @param currencyCode The real-world three-letter ISO 4217 (e.g. USD) currency code of the transaction
+ @param store        The store the purchase was made through
+ @param receipt      The receipt number
+ @param description  Description of the purchased product. Max 512 characters.
  */
 + (void)logTransactionWithID:(NSString *)itemID quantity:(NSInteger)quantity price:(NSNumber *)price currencyCode:(NSString *)code receipt:(NSString *)receipt store:(NSString *)store description:(NSString *)description;
 
@@ -135,10 +135,10 @@ FOUNDATION_EXPORT NSString *const ADCSocialSharingMethodCustom;
  @abstract Report a credits_spent event.
  @description Invoke, for example, when a user applies credits to purchase in app merchandise.
  You can also provide additional information about the transaction like the name, quantity, real-world value and currency code
- @param name     The type of credits the user has spent
- @param quantity The quantity of the credits spent
- @param value    The real-world value of the credits spent
- @param code     The real-world three-letter ISO 4217 (e.g. USD) currency code of the transaction.
+ @param name         The type of credits the user has spent
+ @param quantity     The quantity of the credits spent
+ @param value        The real-world value of the credits spent
+ @param currencyCode The real-world three-letter ISO 4217 (e.g. USD) currency code of the transaction.
  */
 + (void)logCreditsSpentWithName:(NSString *)name quantity:(NSInteger)quantity value:(NSNumber *)value currencyCode:(NSString *)code;
 
@@ -240,8 +240,8 @@ FOUNDATION_EXPORT NSString *const ADCSocialSharingMethodCustom;
 /**
   @abstract Report a content_view event.
   @discussion Invoke when the user viewed the contents of a purchasable product
-  @param contentID   Identifier of content viewed
-  @param type        Type of content viewed
+  @param contentId   Identifier of content viewed
+  @param contentType Type of content viewed
  */
 + (void)logContentViewWithID:(NSString *)contentID contentType:(NSString *)type;
 
@@ -273,7 +273,7 @@ FOUNDATION_EXPORT NSString *const ADCSocialSharingMethodCustom;
   @abstract Log an event.
   @discussion Provided to allow the construction and logging of events that do not have a predefined method within this class.
   @param name Name of the event
-  @param dict Event data, including both required and optional meta information.
+  @param payload Event data, including both required and optional meta information.
   */
 + (void)logEvent:(NSString *)name withDictionary:(NSDictionary *)dict;
 

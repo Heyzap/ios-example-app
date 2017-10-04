@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "ChartboostDelegate.h"
 @class CBInPlay;
 @interface Chartboost : NSObject

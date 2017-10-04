@@ -16,6 +16,7 @@
 #import <AppLovinSDK/ALAdUpdateDelegate.h>
 #import <AppLovinSDK/ALAdVideoPlaybackDelegate.h>
 #import <AppLovinSDK/ALAdView.h>
+#import <AppLovinSDK/ALAdViewEventDelegate.h>
 #import <AppLovinSDK/ALAnnotations.h>
 #import <AppLovinSDK/ALErrorCodes.h>
 #import <AppLovinSDK/ALEventTypes.h>

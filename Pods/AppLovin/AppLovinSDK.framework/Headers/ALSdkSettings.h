@@ -51,7 +51,7 @@ AL_ASSUME_NONNULL_BEGIN
 /**
  * Determines whether to begin video ads in a muted state or not. Defaults to YES unless changed in the dashboard.
  */
-@property (assign, atomic) BOOL muted __TVOS_PROHIBITED;
+@property (assign, atomic) BOOL muted;
 
 @end
 

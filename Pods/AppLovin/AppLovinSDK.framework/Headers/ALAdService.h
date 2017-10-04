@@ -36,14 +36,6 @@ AL_ASSUME_NONNULL_BEGIN
 - (void)loadNextAd:(ALAdSize *)adSize andNotify:(alnullable id <ALAdLoadDelegate>)delegate;
 
 /**
- * Fetch a new ad, of a given size, notifying a supplied delegate on completion.
- *
- * @param adSize   Size of an ad to load. Must not be nil.
- * @param delegate A callback to notify of the fact that the ad is loaded.
- */
-- (void)loadNextMediatedAd:(ALAdSize *)adSize andNotify:(alnullable id <ALAdLoadDelegate>)delegate;
-
-/**
  * Pre-load an ad of a given size in the background, if one is not already available.
  *
  * @param adSize Size of the ad to cache.
