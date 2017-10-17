@@ -6,7 +6,7 @@ PODS:
     - KVOController
   - FyberSDK (8.16.1)
   - Google-Mobile-Ads-SDK (7.24.1)
-  - Heyzap (9.13.4)
+  - Heyzap (9.14.1)
   - HyprMX (93)
   - HZInMobi (6.2.1)
   - KVOController (1.2.0)
@@ -35,7 +35,7 @@ SPEC CHECKSUMS:
   FBAudienceNetwork: c3488041a9aa3f716d2edb3ceec8929e54c8f95a
   FyberSDK: c8b7fb8909db4595ac97ddb5f467b375b5a645f3
   Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
-  Heyzap: 771b1fd35bcfd665b34a5a227df19f862def8fc1
+  Heyzap: 3acd64a26fee466728fb7d977f70e33b4de68254
   HyprMX: a5c6a14d1bb23706246f873e84e4021c9c94d6dd
   HZInMobi: dceef7c8ba5f23b7adf49215a08600d0e12d8126
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
