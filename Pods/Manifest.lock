@@ -1,18 +1,18 @@
 PODS:
   - AdColony (3.2.1)
-  - AppLovin (4.3.1)
-  - ChartboostSDK (7.0.1)
+  - AppLovin (4.4.1)
+  - ChartboostSDK (7.0.3)
   - FBAudienceNetwork (4.26.0):
     - KVOController
-  - FyberSDK (8.16.1)
-  - Google-Mobile-Ads-SDK (7.24.1)
-  - Heyzap (9.14.1)
+  - FyberSDK (8.17.1)
+  - Google-Mobile-Ads-SDK (7.25.0)
+  - Heyzap (9.15.2)
   - HyprMX (93)
   - HZInMobi (6.2.1)
   - KVOController (1.2.0)
   - Leadbolt (8.2)
   - UnityAds (2.1.1)
-  - VungleSDK-iOS (4.1.0)
+  - VungleSDK-iOS (5.3.0)
 
 DEPENDENCIES:
   - AdColony
@@ -26,23 +26,23 @@ DEPENDENCIES:
   - HZInMobi
   - Leadbolt
   - UnityAds (>= 2.1.0)
-  - VungleSDK-iOS (~> 4)
+  - VungleSDK-iOS (~> 5)
 
 SPEC CHECKSUMS:
   AdColony: e657145620acd54033e38cc18902eed01d3c456d
-  AppLovin: 28291f1feb29046fc2b37b79d4e0061f17894b65
-  ChartboostSDK: 952e9eeb3d50720c3a8153a6758263533120cc88
+  AppLovin: 2555ff26794746065714e9cd74d1a95638bf3cc6
+  ChartboostSDK: 1b56e5e3350323c3d6805536dcdd7d151de3f259
   FBAudienceNetwork: c3488041a9aa3f716d2edb3ceec8929e54c8f95a
-  FyberSDK: c8b7fb8909db4595ac97ddb5f467b375b5a645f3
-  Google-Mobile-Ads-SDK: ed8004a7265b424568dc84f3d2bbe3ea3fff958f
-  Heyzap: 3acd64a26fee466728fb7d977f70e33b4de68254
+  FyberSDK: 2de45dc1f39b3832e60f74f9235fec114bf18242
+  Google-Mobile-Ads-SDK: 113804f266381a30f982ad3c18063d4e0155414f
+  Heyzap: 4bc4c3f4729618f2e67f0337f41fee4c63e2e0d9
   HyprMX: a5c6a14d1bb23706246f873e84e4021c9c94d6dd
   HZInMobi: dceef7c8ba5f23b7adf49215a08600d0e12d8126
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Leadbolt: 86fe9f281be367b9fed9c12ee1e700aa96ef29ac
   UnityAds: be7606ebc8e44a08d630ac10672b621b80119dbb
-  VungleSDK-iOS: 0dac102fa56e0a6f24444b4f500d1ccf2e43ea79
+  VungleSDK-iOS: af3aa92d0f4a923505a9416646ffef5250592150
 
-PODFILE CHECKSUM: 0a8005dab2f0d1371956b1226d063435dafa1da6
+PODFILE CHECKSUM: f481dde4f3ab55fb109b867a8c447ba7c4062df1
 
 COCOAPODS: 1.3.1

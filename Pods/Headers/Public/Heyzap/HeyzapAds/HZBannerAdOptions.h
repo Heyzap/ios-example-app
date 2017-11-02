@@ -1,1 +1,1 @@
-../../../../Heyzap/heyzap-ads-sdk-9.14.1/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAdOptions.h
+../../../../Heyzap/heyzap-ads-sdk-9.15.2/ios-sdk/HeyzapAds.framework/Versions/A/Headers/HZBannerAdOptions.h

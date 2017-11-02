@@ -1,6 +1,6 @@
 # Chartboost for iOS
 
-*Version 7.0.1*
+*Version 7.0.3*
 
 The Chartboost iOS SDK is the cornerstone of the Chartboost network. It
 provides the functionality for showing interstitials, More-Apps pages, and
@@ -13,7 +13,7 @@ tracking in-app purchase revenue.
  - [Did you add an app to your dashboard?](https://answers.chartboost.com/hc/en-us/articles/200797729)
  - [Did you download the latest SDK?](https://answers.chartboost.com/hc/en-us/articles/201220095#top)
  - [Do you have an active publishing campaign?](https://answers.chartboost.com/hc/en-us/sections/201082359)
- - Apps must be compiled with iOS base SDK v7.0 or higher. iOS 6.0 Suport has been dropped as of Chartboost version 6.5.0
+ - Apps must be compiled with iOS base SDK v8.0 or higher. iOS 7.0 Suport has been dropped as of Chartboost version 7.0.0
  - As of June 1, 2016, Apple requires that all submitted apps support IPv6.
  - The Chartboost SDK runs only on devices with iOS version 7.0 or higher, iPhone 4 or later, iPod Touch 5th generation or later, and iPad 2nd generation or later.
  - `startWithAppId:appSignature:delegate:` must always be called during hard and soft bootups, no matter what other actions your app is taking.
@@ -22,7 +22,7 @@ tracking in-app purchase revenue.
 
 PRO TIP: Checkmark the Copy items if needed option. This creates a local copy of the framework for your project, which keeps your project organized.
 
-3. Link the `StoreKit`, `Foundation`, `CoreGraphic`s, and `UIKit` frameworks.
+3. Link the `StoreKit`, `Foundation`, `CoreGraphic`s, `WebKit`and `UIKit` frameworks.
 
 4. Add the import header `#import <Chartboost/Chartboost.h>` to your AppDelegate.m file.
 

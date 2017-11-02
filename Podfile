@@ -18,6 +18,6 @@ target 'SampleApp' do
     pod 'HZInMobi' # Vendored by Heyzap
     pod 'Leadbolt' # Vendored by Heyzap
     pod 'UnityAds', '>=2.1.0' # Vendored by Heyzap
-    pod 'VungleSDK-iOS', '~>4' # Maintained by Vungle
+    pod 'VungleSDK-iOS', '~>5' # Maintained by Vungle
 
 end

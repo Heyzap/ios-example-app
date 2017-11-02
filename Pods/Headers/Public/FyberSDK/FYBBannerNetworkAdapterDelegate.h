@@ -1,1 +1,1 @@
-../../../FyberSDK/Fyber_iOS_SDK_v.8.16.1/fyber-sdk-lib/FYBBannerNetworkAdapterDelegate.h
+../../../FyberSDK/Fyber_iOS_SDK_v.8.17.1/fyber-sdk-lib/FYBBannerNetworkAdapterDelegate.h
