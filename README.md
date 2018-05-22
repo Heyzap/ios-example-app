@@ -10,6 +10,15 @@ This sample app demonstrates the basic functionalities of the Heyzap SDK for iOS
 * A console view prints callbacks, NSNotifications, and more information from the Heyzap SDK.
 * As callbacks/notifications/etc come in, the show button will change colors to reflect ad availability. The availability can also be checked manually with the `isAvailable?` button, which will also change the color of the show button.
 
+## Installation
+
+The sample app relies on CocoaPods as the dependency manager. To install the dependencies, run the following command:
+
+```
+pod install --repo-update
+```
+
+After that, open the file SampleApp.xcworkspace on XCode.
 
 ### Setup
 
@@ -23,10 +32,8 @@ If you do not do these things, 3rd-party networks may not be available in the te
 
 ### Cocoapods
 
-*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove some/all Pods from the `podfile`, run `pod install` in this repo's top directory to remove the frameworks and libraries, and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
+*This project uses CocoaPods to add dependencies. If you'd rather add the frameworks and libraries yourself, you can remove some/all Pods from the `Podfile`, run `pod install` in this repo's top directory to remove the frameworks and libraries, and instead follow the instructions on adding SDKs [here](https://developers.heyzap.com/docs/ios_sdk_setup_and_requirements).*
 
-All the pods are included in this repo. You should not need Cocoapods installed on your machine, and the app should run from Xcode without any other configuration or downloads.
-
-The latest versions of each pod we've tested & included in this repo are shown in the `Podfile.lock` file.
+The latest versions of each pod we've tested are shown in the `Podfile.lock` file.
 
 The `podfile` is set up to use the latest versions of the 3rd-party networks' SDKs. Feel free to send an email to support@heyzap.com if you find that one of the updates to a third-party SDK seems to be incompatible with the latest Heyzap SDK.
