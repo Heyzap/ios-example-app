@@ -1,1 +1,0 @@
-../../../../AppLovin/AppLovinSDK.framework/Headers/ALInterstitialAd.h

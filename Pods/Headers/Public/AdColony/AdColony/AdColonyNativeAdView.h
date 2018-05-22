@@ -1,1 +1,0 @@
-../../../../AdColony/AdColony.framework/Versions/A/Headers/AdColonyNativeAdView.h
