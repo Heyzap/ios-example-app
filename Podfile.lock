@@ -5,7 +5,7 @@ PODS:
   - FBAudienceNetwork (4.28.1)
   - FyberSDK (8.21.0)
   - Google-Mobile-Ads-SDK (7.31.0)
-  - Heyzap (9.17.1)
+  - Heyzap (9.21.0)
   - HyprMX (93)
   - InMobiSDK (6.2.1)
   - Leadbolt (8.2)
@@ -49,13 +49,13 @@ SPEC CHECKSUMS:
   FBAudienceNetwork: c0cda151bb2f7b55d1e045e59ebc81f3153989b2
   FyberSDK: 84d27860ce04d27d7ae8286b2ed3ab494442d336
   Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
-  Heyzap: 1a9659e2ad563da584afad121208f9afb1fbe0cb
+  Heyzap: 1ceed6f75369eb49a0d5ce31a98b3ddd1d4043f4
   HyprMX: a5c6a14d1bb23706246f873e84e4021c9c94d6dd
   InMobiSDK: 76738ed1fe4462258778ef036b98ed761d881074
   Leadbolt: 86fe9f281be367b9fed9c12ee1e700aa96ef29ac
   UnityAds: 60dc4d370fcafbb31314f83c890c406821dc3dd6
   VungleSDK-iOS: a8665f4e826ad688135429f4618df4235f8738c7
 
-PODFILE CHECKSUM: 4f9117ab42f48ae5074beff283700f435e505d5e
+PODFILE CHECKSUM: 3a3cd7e955c51ae2e70a886128b30284d01982ec
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3
