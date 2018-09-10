@@ -59,7 +59,7 @@ typedef enum {
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor underPageBackgroundColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds]; // Set contentSize later dynamically
     self.scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
@@ -399,7 +399,7 @@ typedef enum {
     opts.presentingViewController = self;
     opts.tag = [self adTagText];
     
-    if (UIInterfaceOrientationIsLandscape(self.interfaceOrientation)) {
+    if (UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation)) {
         opts.admobBannerSize = HZAdMobBannerSizeFlexibleWidthLandscape;
     }
     

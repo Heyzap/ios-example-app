@@ -1,48 +1,61 @@
 PODS:
-  - AdColony (3.2.1)
-  - AppLovin (4.4.1)
-  - ChartboostSDK (7.0.3)
-  - FBAudienceNetwork (4.26.0):
-    - KVOController
-  - FyberSDK (8.17.1)
-  - Google-Mobile-Ads-SDK (7.25.0)
-  - Heyzap (9.15.2)
+  - AdColony (3.3.4)
+  - AppLovinSDK (5.0.1)
+  - ChartboostSDK (7.2.0)
+  - FBAudienceNetwork (4.28.1)
+  - FyberSDK (8.21.0)
+  - Google-Mobile-Ads-SDK (7.31.0)
+  - Heyzap (9.21.0)
   - HyprMX (93)
-  - HZInMobi (6.2.1)
-  - KVOController (1.2.0)
+  - InMobiSDK (6.2.1)
   - Leadbolt (8.2)
-  - UnityAds (2.1.1)
-  - VungleSDK-iOS (5.3.0)
+  - UnityAds (2.2.0)
+  - VungleSDK-iOS (6.2.0)
 
 DEPENDENCIES:
   - AdColony
-  - AppLovin
+  - AppLovinSDK
   - ChartboostSDK
   - FBAudienceNetwork
   - FyberSDK
   - Google-Mobile-Ads-SDK
   - Heyzap
   - HyprMX
-  - HZInMobi
+  - InMobiSDK (~> 6.2.1)
   - Leadbolt
-  - UnityAds (>= 2.1.0)
-  - VungleSDK-iOS (~> 5)
+  - UnityAds
+  - VungleSDK-iOS
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AdColony
+    - AppLovinSDK
+    - ChartboostSDK
+    - FBAudienceNetwork
+    - FyberSDK
+    - Google-Mobile-Ads-SDK
+    - Heyzap
+    - InMobiSDK
+    - UnityAds
+    - VungleSDK-iOS
+  https://github.com/Heyzap/CocoapodsSource.git:
+    - HyprMX
+    - Leadbolt
 
 SPEC CHECKSUMS:
-  AdColony: e657145620acd54033e38cc18902eed01d3c456d
-  AppLovin: 2555ff26794746065714e9cd74d1a95638bf3cc6
-  ChartboostSDK: 1b56e5e3350323c3d6805536dcdd7d151de3f259
-  FBAudienceNetwork: c3488041a9aa3f716d2edb3ceec8929e54c8f95a
-  FyberSDK: 2de45dc1f39b3832e60f74f9235fec114bf18242
-  Google-Mobile-Ads-SDK: 113804f266381a30f982ad3c18063d4e0155414f
-  Heyzap: 4bc4c3f4729618f2e67f0337f41fee4c63e2e0d9
+  AdColony: b4e4f36c665f2bb108f0e228c280fd4900025c9f
+  AppLovinSDK: 7876e331b1d29e82dcc1dd096fcf0a70bae3a431
+  ChartboostSDK: 15386cd16c8a5d07bb75432d0fafafd6134eedb1
+  FBAudienceNetwork: c0cda151bb2f7b55d1e045e59ebc81f3153989b2
+  FyberSDK: 84d27860ce04d27d7ae8286b2ed3ab494442d336
+  Google-Mobile-Ads-SDK: 6e529e748b45507a2ca904e0b5a52669ba3920c4
+  Heyzap: 1ceed6f75369eb49a0d5ce31a98b3ddd1d4043f4
   HyprMX: a5c6a14d1bb23706246f873e84e4021c9c94d6dd
-  HZInMobi: dceef7c8ba5f23b7adf49215a08600d0e12d8126
-  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  InMobiSDK: 76738ed1fe4462258778ef036b98ed761d881074
   Leadbolt: 86fe9f281be367b9fed9c12ee1e700aa96ef29ac
-  UnityAds: be7606ebc8e44a08d630ac10672b621b80119dbb
-  VungleSDK-iOS: af3aa92d0f4a923505a9416646ffef5250592150
+  UnityAds: 60dc4d370fcafbb31314f83c890c406821dc3dd6
+  VungleSDK-iOS: a8665f4e826ad688135429f4618df4235f8738c7
 
-PODFILE CHECKSUM: f481dde4f3ab55fb109b867a8c447ba7c4062df1
+PODFILE CHECKSUM: 3a3cd7e955c51ae2e70a886128b30284d01982ec
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

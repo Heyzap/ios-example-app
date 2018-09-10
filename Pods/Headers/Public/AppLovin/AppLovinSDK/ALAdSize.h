@@ -1,1 +1,0 @@
-../../../../AppLovin/AppLovinSDK.framework/Headers/ALAdSize.h
