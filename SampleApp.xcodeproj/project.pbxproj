@@ -206,10 +206,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/StartedBundleIcon.png",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/StartedBundleIcon.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
