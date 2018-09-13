@@ -206,10 +206,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/StartedBundleIcon.png",
-				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.21.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/FYBBackIcon@2x.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/StartedBundleIcon.png",
+				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png",
+				"${PODS_ROOT}/Heyzap/heyzap-ads-sdk-9.50.0/ios-sdk/IASDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -217,6 +218,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FYBIntegrationAnalyzerViewController.nib",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StartedBundleIcon.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnstartedBundleIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IASDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
