@@ -210,7 +210,7 @@
 				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/FYBIntegrationAnalyzerViewController.xib",
 				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/StartedBundleIcon.png",
 				"${PODS_ROOT}/FyberSDK/Fyber_iOS_SDK_v.8.22.0/fyber-sdk-lib/Resources/UnstartedBundleIcon.png",
-				"${PODS_ROOT}/Heyzap/heyzap-ads-sdk-9.50.0/ios-sdk/IASDKResources.bundle",
+				"${PODS_ROOT}/Heyzap/heyzap-ads-sdk-9.51.0/ios-sdk/IASDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
