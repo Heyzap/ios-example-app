@@ -77,11 +77,7 @@ typedef enum {
     [HZIncentivizedAd setDelegate:self];
     [HZOfferWallAd setDelegate:self];
     [[HZFyberVirtualCurrencyClient sharedClient] setDelegate:self];
-    
-    [HeyzapAds networkCallbackWithBlock:^(NSString *network, NSString *callback) {
-        [self logToConsole:[NSString stringWithFormat:@"Network: %@ Callback: %@", network, callback]];
-        [self changeColorOfShowButton];
-    }];
+
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(remoteDataRefreshed:) name:HZRemoteDataRefreshedNotification object:nil];
     
     // Setup buttons

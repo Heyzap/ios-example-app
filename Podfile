@@ -3,21 +3,21 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 inhibit_all_warnings!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'SampleApp' do
-    pod 'Heyzap' # Maintained by Heyzap
+  pod 'Heyzap', '9.55.1'
 
-    pod 'AdColony' # Maintained by AdColony
-    pod 'AppLovinSDK' # Vendored by AppLovin
-    pod 'ChartboostSDK' # Maintained by Chartboost
-    pod 'FBAudienceNetwork' # Maintained by Facebook
-    pod 'FyberSDK' # Maintained by Fyber
-    pod 'Google-Mobile-Ads-SDK' # Maintained by Google
-    pod 'HyprMX' # Vendored by Heyzap
-    pod 'InMobiSDK', '~> 6.2.1' # Vendored by InMobi
-    pod 'Leadbolt' # Vendored by Heyzap
-    pod 'UnityAds' # Vendored by UnityAds
-    pod 'VungleSDK-iOS' # Maintained by Vungle
-
+  pod 'AdColony', '3.3.6'
+  pod 'AppLovinSDK', '5.1.2'
+  pod 'ChartboostSDK', '7.3.0'
+  pod 'FBAudienceNetwork', '5.1.0'
+  pod 'FyberSDK', '8.22.0'
+  pod 'Google-Mobile-Ads-SDK', '7.37.0'
+  pod 'HyprMX', '5.0.0.0'
+  pod 'InMobiSDK', '7.2.0'
+  pod 'IronSourceSDK', '6.8.0'
+  pod 'Leadbolt', '8.2'
+  pod 'UnityAds', '3.0.0'
+  pod 'VungleSDK-iOS', '6.3.2'
 end
