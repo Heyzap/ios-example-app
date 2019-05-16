@@ -11,10 +11,6 @@
 		993A82BA1B5F1534001B586C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A82B91B5F1534001B586C /* AppDelegate.m */; };
 		993A82BD1B5F1534001B586C /* HeyzapSampleAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993A82BC1B5F1534001B586C /* HeyzapSampleAppViewController.m */; };
 		993A82C01B5F1534001B586C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993A82BE1B5F1534001B586C /* Main.storyboard */; };
-		993A82C51B5F1534001B586C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993A82C31B5F1534001B586C /* LaunchScreen.xib */; };
-		993A82F51B61B4F9001B586C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F21B61B4F9001B586C /* Default.png */; };
-		993A82F61B61B4F9001B586C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F31B61B4F9001B586C /* Default@2x.png */; };
-		993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993A82F41B61B4F9001B586C /* Default-568h@2x.png */; };
 		99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CED3811BA0AA1700B43417 /* Media.xcassets */; };
 		CF25A39DB05B713492F073F6 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB1DD1BAC0AA07FD9B5A33B /* libPods-SampleApp.a */; };
 /* End PBXBuildFile section */
@@ -31,10 +27,6 @@
 		993A82BB1B5F1534001B586C /* HeyzapSampleAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeyzapSampleAppViewController.h; sourceTree = "<group>"; };
 		993A82BC1B5F1534001B586C /* HeyzapSampleAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeyzapSampleAppViewController.m; sourceTree = "<group>"; };
 		993A82BF1B5F1534001B586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		993A82C41B5F1534001B586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		993A82F21B61B4F9001B586C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		993A82F31B61B4F9001B586C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		993A82F41B61B4F9001B586C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		996E96BE1BDFEC30009E3151 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		99CED3811BA0AA1700B43417 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -87,7 +79,6 @@
 				993A82B81B5F1534001B586C /* AppDelegate.h */,
 				993A82B91B5F1534001B586C /* AppDelegate.m */,
 				993A82BE1B5F1534001B586C /* Main.storyboard */,
-				993A82C31B5F1534001B586C /* LaunchScreen.xib */,
 				993A82B41B5F1534001B586C /* Supporting Files */,
 				99816B991B97BC1F00A178A2 /* SampleApp-Bridging-Header.h */,
 			);
@@ -98,9 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				99CED3811BA0AA1700B43417 /* Media.xcassets */,
-				993A82F21B61B4F9001B586C /* Default.png */,
-				993A82F31B61B4F9001B586C /* Default@2x.png */,
-				993A82F41B61B4F9001B586C /* Default-568h@2x.png */,
 				993A82B51B5F1534001B586C /* Info.plist */,
 				993A82B61B5F1534001B586C /* main.m */,
 			);
@@ -188,11 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				993A82C01B5F1534001B586C /* Main.storyboard in Resources */,
-				993A82C51B5F1534001B586C /* LaunchScreen.xib in Resources */,
 				99CED3821BA0AA1700B43417 /* Media.xcassets in Resources */,
-				993A82F61B61B4F9001B586C /* Default@2x.png in Resources */,
-				993A82F51B61B4F9001B586C /* Default.png in Resources */,
-				993A82F71B61B4F9001B586C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +249,6 @@
 				993A82BF1B5F1534001B586C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		993A82C31B5F1534001B586C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				993A82C41B5F1534001B586C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +366,7 @@
 			baseConfigurationReference = 96C9A57F59AB51C0CE8F6DE0 /* Pods-SampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
@@ -453,6 +430,7 @@
 			baseConfigurationReference = DC1AC2F609D2D9D94A039FC7 /* Pods-SampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
